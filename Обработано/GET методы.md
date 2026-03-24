@@ -1,0 +1,42 @@
+﻿
+1   -----------
+2   Связи: [[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]]  
+[[Репозиторий repository java]]  [[GET методы]]  [[POST методы]]  [[PUT методы]] [[DELIT методы]] 
+3   Теги: аннотаци  # 
+
+ ## GET методы
+ 
+
+для запуска приложения APP нужно сделать класс контроллера
+он помечается аннотаци  @GetMappin("/адрес браузера)
+
+@GetMapping("/all/{category}")  
+public List<Book> getAllByCategory(@PathVariable String category) {  
+    return library.stream()  
+            .filter(book -> book.getCategory().equals(category))  
+            .toList();
+            
+где @PathVariable путь к категории в данном случае книг, и categorie передается в аргументы.
+
+
+чтобы передать URL в виде [[запрос]]  нужно после знака вопроса **?** ввести [[запрос]] в паре **ключ:значение** например [[HTTP]]://127.0.0.1:8080/searchByTitle?title=Desing&amount=2
+
+и в коде метода  указать аннотацию @RequestParam
+
+--если в аноотации @RequestParam задать (параметр)required = false 
+то параметр станет не обязательным, например @RequestParam(required = false)Integer amount- уже необязательный параметр 
+
+@GetMapping("/searchByTitle")  
+public List<Book> getAllByTitle(@RequestParam String title, @RequestParam int amount) {  **поиск по названию и количеству книг**
+  
+}
+
+метод выглядит так:
+@GetMapping("/searchByTitle")  
+public List<Book> getAllByTitle(@RequestParam String title, @RequestParam int amount) {  
+  
+    return  library.stream()  
+            .filter(book -> book.getTitle().startsWith(title))  
+            .filter(book -> book.getAvailableAmount() >= amount)  
+            .toList();  
+}
