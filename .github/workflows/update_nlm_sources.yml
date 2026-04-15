@@ -1,0 +1,38 @@
+name: Update NLM Sources
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'nlm-sources/**'
+      - '.github/**'
+      - 'scripts/**'
+      - 'README.md'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate topic files
+        run: python3 scripts/generate_nlm_sources.py
+
+      - name: Commit updated sources
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add nlm-sources/
+          git diff --cached --quiet || git commit -m "auto: regenerate nlm-sources [skip ci]"
+          git push
