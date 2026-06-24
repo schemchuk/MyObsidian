@@ -1,3 +1,16 @@
+---
+title: "Команда `jpackage` для створення Windows `.exe` (з Kali)"
+category: "java_spring"
+tags: ['input', 'snapshot', 'теги', 'main', 'type']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1   -----------
 2   Связи: [[Команда x00T0x00 для створення Windows x00T1x00 (з Kali)]]
 3   Теги

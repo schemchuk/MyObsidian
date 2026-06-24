@@ -1,3 +1,16 @@
+---
+title: "віддалене використання  компютера з windows10 віндовс10"
+category: "pentesting"
+tags: ['ціль', 'машині', 'використання', 'віддалений', 'цільвій']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 
 1  ----------
 2 Звязки :[[вразливості Windows]], [[віддалений збій компютера з windows10 віндовс10]]

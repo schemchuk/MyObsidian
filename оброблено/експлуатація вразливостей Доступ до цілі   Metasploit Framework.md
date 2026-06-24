@@ -1,3 +1,16 @@
+---
+title: "експлуатація вразливостей Доступ до цілі   Metasploit Framework"
+category: "pentesting"
+tags: ['вразливостей', 'експлуатація', 'пошуку', 'nessus', 'framework']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1  ----------
 2 Звязки : [[сканування]] , [[пошук уязвимостей вразливостей , скрипти nmap]]

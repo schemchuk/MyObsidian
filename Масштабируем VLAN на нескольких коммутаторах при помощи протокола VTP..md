@@ -1,3 +1,16 @@
+---
+title: "Масштабируем VLAN на нескольких коммутаторах при помощи протокола VTP."
+category: "networking"
+tags: ['маршрутизации', 'основы', 'youtube', 'watch', 'помощи']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1   -----------
 2   Связи:[[Основы конфигурации VLAN. Основы маршрутизации VLAN.]], [[ Масштабируем VLAN на нескольких коммутаторах при помощи протокола VTP.]] , 
 3 [[VLAN]]

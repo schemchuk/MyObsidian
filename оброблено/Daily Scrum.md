@@ -1,3 +1,16 @@
+---
+title: "Daily Scrum"
+category: "java_spring"
+tags: ['управление', 'waterfol', 'management', 'планирование', 'agail']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 
 2   Связи: [[управление проэктами PM BOK]]   [[IT management]]  [[Agile планирование Scrum Plaining]] agail  [[Daily Scrum]]

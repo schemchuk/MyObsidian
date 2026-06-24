@@ -1,3 +1,16 @@
+---
+title: "POST методы"
+category: "java_spring"
+tags: ['repository', 'клиент', 'ответ', 'delit', 'теги']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1   -----------
 2   Связи: [[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]]  

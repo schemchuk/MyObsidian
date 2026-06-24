@@ -1,3 +1,16 @@
+---
+title: "Строим сеть с DHCP, DNS и Web серверами."
+category: "networking"
+tags: ['мають', 'порівняння', 'моделі', 'youtube', 'watch']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1   -----------
 2   Связи:[[порівняння моделі OSI (7 рівнів) та TCP IP (4 рівні)]]
 3   Теги:[[VLAN]]

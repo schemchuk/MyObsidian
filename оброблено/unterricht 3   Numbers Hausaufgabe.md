@@ -1,3 +1,16 @@
+---
+title: "unterricht 3   Numbers Hausaufgabe"
+category: "other"
+tags: ['erganzen', 'mein', 'sein', 'hier', 'hast']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1   -----------
 2   Связи:

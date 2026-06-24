@@ -1,3 +1,16 @@
+---
+title: "Testing"
+category: "java_spring"
+tags: ['пирамида', 'mockito', 'junit', 'crud', 'user']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿ 1   -----------
 2   Связи: базы данных CRUD [[OOP ООП]]  [[mockito]]
 3   Теги: #junit_Testing [[integration tests]] user interface junit  test [[mocito]

@@ -1,3 +1,16 @@
+---
+title: "создание образа building и запуск контейнеров"
+category: "linux"
+tags: ['учителем', 'докер', 'компе', 'контейнер', 'создание']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 2
+related-files: []
+---
+
 ﻿
 
 1   -----------

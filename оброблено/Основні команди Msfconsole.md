@@ -1,3 +1,16 @@
+---
+title: "Основні команди Msfconsole"
+category: "pentesting"
+tags: ['вразливостей', 'експлуатація', 'framework', 'сканування', 'уязвимостей']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1  ----------
 2 Звязки : [[сканування]] , [[пошук уязвимостей вразливостей , скрипти nmap]]
 [[експлуатація вразливостей Доступ до цілі   Metasploit Framework]]

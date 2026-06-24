@@ -1,3 +1,16 @@
+---
+title: "Генерація корисної нагрузки PowerShell  з допомогою Veil"
+category: "networking"
+tags: ['навантаження', 'використання', 'створення', 'теги', 'powershell']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 
 1  ----------
 2 Звязки : [[попереднє використання msfvenom . генерація корисної нагрузки]] ,[[створення корисного навантаження (корисної нагрузки) з допомогою Msvenom]]

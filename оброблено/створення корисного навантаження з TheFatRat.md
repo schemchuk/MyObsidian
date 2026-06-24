@@ -1,3 +1,16 @@
+---
+title: "створення корисного навантаження з TheFatRat"
+category: "pentesting"
+tags: ['навантаження', 'використання', 'створення', 'powershell', 'нагрузки']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ## З допомогою інструменту робимо бекдори
 
 1  ----------

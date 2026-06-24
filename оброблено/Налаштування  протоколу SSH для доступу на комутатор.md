@@ -1,3 +1,16 @@
+---
+title: "Налаштування  протоколу SSH для доступу на комутатор"
+category: "networking"
+tags: ['режим', 'глобальної', 'конфігурації', 'необхідні', 'статичного']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1   -----------Cisko
 
 2   Связи:  [[налаштування статичного маршруту]]

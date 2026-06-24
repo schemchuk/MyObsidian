@@ -1,3 +1,16 @@
+---
+title: "Підключення сервера до домашньої мережі через VPN"
+category: "networking"
+tags: ['create', 'докера', 'gateway', 'sudo', 'network']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1   -----------
 2   Связи: [[docker докер]] [[Встановлення Docker установка докера]] 

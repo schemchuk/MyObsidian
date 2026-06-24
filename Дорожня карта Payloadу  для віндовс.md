@@ -1,3 +1,16 @@
+---
+title: "📌 Дорожня карта розвитку проєкту PayloadWin"
+category: "pentesting"
+tags: ['проєкт', 'теги', 'створити', 'повнофункціональний', 'kali']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1   -----------
 2   Связи: [[Команда x00T3x00 для створення Windows x00T4x00 (з Kali)]]

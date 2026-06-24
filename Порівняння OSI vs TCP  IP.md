@@ -1,3 +1,16 @@
+---
+title: "**OSI**"
+category: "networking"
+tags: ['організація', 'маршрутизація', 'статичного', 'налаштування', 'ospf']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿## 📊 Порівняння OSI vs TCP/IP
 
 

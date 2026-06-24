@@ -1,3 +1,16 @@
+---
+title: "Dependensy ingecten внедрение зависимости"
+category: "java_spring"
+tags: ['которая', 'объектов', 'внедрение', 'техника', 'передавать']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1   -----------
 2   Связи: [[Spring]]  SOLID 

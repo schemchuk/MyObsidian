@@ -1,3 +1,16 @@
+---
+title: "Аналіз [[nmap]] OS Detection для Windows-хоста"
+category: "pentesting"
+tags: ['хоста', 'аналіз', 'states', 'localdomain', 'detection']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1   -----------
 2   Связи: [[Повний план пентест-сканування Windows-хоста з Nmap]]
 3   Теги: [[Аналіз Nmap OS Detection для Windows-хоста]]

@@ -1,3 +1,16 @@
+---
+title: "основні команди метерспретер meterspreter"
+category: "pentesting"
+tags: ['навантаження', 'команди', 'сканування', 'основні', 'powershell']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1  ----------
 2 Звязки : [[Основні команди Msfconsole]] , [[сканування]], постексплуатація, [[Генерація корисної нагрузки PowerShell  з допомогою Veil]] , [[створення корисного навантаження (корисної нагрузки) з допомогою Msvenom]]
 3 Теги : [[основні команди метерспретер meterspreter]]

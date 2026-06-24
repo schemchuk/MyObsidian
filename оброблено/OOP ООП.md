@@ -1,3 +1,16 @@
+---
+title: "OOP ООП"
+category: "java_spring"
+tags: ['приложений', 'приложение', 'приложения', 'основные', 'слоя']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿[[OOP ООП]] 
 основные принципы:
 - приложение имеет три(четыре ) слоя:

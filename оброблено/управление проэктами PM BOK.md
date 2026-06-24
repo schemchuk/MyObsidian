@@ -1,3 +1,16 @@
+---
+title: "управление проэктами PM BOK"
+category: "java_spring"
+tags: ['управление', 'management', 'планирование', 'проект', 'группы']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 
 1   -----------
 2   Связи :  [[IT management]]  [[проэкт группы]]  [[Daily Scrum]] [[Agile планирование Scrum Plaining]]  [[Мой проект индивидуальный]] [[многомодульный проэкт]]

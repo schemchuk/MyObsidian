@@ -1,3 +1,16 @@
+---
+title: "Команда systemctl"
+category: "networking"
+tags: ['dhcp', 'сервера', 'сеpвер', 'linux', 'systemctl']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1   -----------
 2   Связи: linux линукс    , linux , [[Підняти сервер DHCP]] , [[Підняти сеpвер ssh]]
 3   Теги: , [[Команда systemctl]]

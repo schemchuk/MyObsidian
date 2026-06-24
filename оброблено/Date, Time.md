@@ -1,3 +1,16 @@
+---
+title: "Date, Time"
+category: "java_spring"
+tags: ['lokaltime', 'синхронизация', 'synchroniz', 'джава', 'date']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1   -----------
 2   Связи: [[java  джава]]  [[синхронизация  Synchroniz]] коллекции 
 3   Теги: #Date #LocalDate #LocalDateTime #ZonedDateTime #Instant #LokalTime

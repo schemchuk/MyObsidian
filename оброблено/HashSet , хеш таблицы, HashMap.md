@@ -1,3 +1,16 @@
+---
+title: "HashSet , хеш таблицы, HashMap"
+category: "java_spring"
+tags: ['таблицы', 'синхронизация', 'synchroniz', 'джава', 'парралельные']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿[[HashSet , хеш таблицы, HashMap]]
 
 

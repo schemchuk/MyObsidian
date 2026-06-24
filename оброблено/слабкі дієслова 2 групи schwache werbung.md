@@ -1,3 +1,16 @@
+---
+title: "Слабкі дієслова в німецькій мові 2 група"
+category: "other"
+tags: ['слабкі', 'дієслово', 'starke', 'werbung', 'verben']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1   -----------
 2   Связи: [[Verben дієслово]]  
 3   Теги: [[сильні дієслова starke werbung]]  , [[слабкі дієслова 1 групи schwache werbung]], [[слабкі дієслова 2 групи schwache werbung]], слабкі дієслова 3 групи schwache werbung

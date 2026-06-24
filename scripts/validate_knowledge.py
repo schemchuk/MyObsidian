@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Валідує структуру знань: дублювання, метаданні, посилання
+Validates knowledge base structure: duplicates, metadata, broken links
 """
 
 import re
@@ -15,7 +15,7 @@ VALID_CATEGORIES = ["networking", "pentesting", "java_spring", "linux", "other"]
 
 
 def parse_frontmatter(content):
-    """Витяг YAML front matter"""
+    """Extract YAML frontmatter"""
     if not content.startswith('---'):
         return None, content
 
@@ -32,12 +32,12 @@ def parse_frontmatter(content):
 
 
 def calculate_similarity(text1, text2):
-    """Обчисли подібність двох текстів (0-1)"""
+    """Calculate text similarity (0-1)"""
     return SequenceMatcher(None, text1, text2).ratio()
 
 
 def get_wikilinks(content):
-    """Витяг всіх wikilinks [[...]]"""
+    """Extract all wikilinks [[...]]"""
     return re.findall(r'\[\[([^\]]+)\]\]', content)
 
 
@@ -49,7 +49,7 @@ class KnowledgeValidator:
         self.stats = {}
 
     def load_files(self):
-        """Завантаж всі MD файли"""
+        """Load all MD files"""
         all_files = [
             p for p in VAULT.rglob("*.md")
             if ".obsidian" not in str(p) and "nlm-sources" not in str(p)
@@ -71,49 +71,49 @@ class KnowledgeValidator:
             except Exception as e:
                 self.errors.append(f"[LOAD] {file_path.name}: {str(e)[:50]}")
 
-        print(f"📁 Завантажено {len(self.files)} файлів")
+        print(f"Loaded {len(self.files)} files")
 
     def check_frontmatter(self):
-        """Перевір наявність і коректність front matter"""
+        """Check presence and validity of frontmatter"""
         for f in self.files:
             if f['frontmatter'] is None:
-                self.errors.append(f"[FM] {f['name']}: Немає YAML front matter")
+                self.errors.append(f"[FM] {f['name']}: No YAML frontmatter")
                 continue
 
             fm = f['frontmatter']
 
-            # Перевір обов'язкові поля
+            # Check required fields
             required = ['title', 'category', 'tags', 'status']
             for field in required:
                 if field not in fm:
-                    self.errors.append(f"[FM] {f['name']}: Відсутнє поле '{field}'")
+                    self.errors.append(f"[FM] {f['name']}: Missing field '{field}'")
 
-            # Перевір категорію
+            # Check category
             if fm.get('category') not in VALID_CATEGORIES:
                 self.warnings.append(
-                    f"[FM] {f['name']}: Невідома категорія '{fm.get('category')}'"
+                    f"[FM] {f['name']}: Unknown category '{fm.get('category')}'"
                 )
 
-            # Перевір теги
+            # Check tags
             tags = fm.get('tags', [])
             if not tags or (isinstance(tags, list) and len(tags) == 0):
-                self.warnings.append(f"[FM] {f['name']}: Теги порожні")
+                self.warnings.append(f"[FM] {f['name']}: Empty tags")
 
-            # Перевій статус
+            # Check status
             valid_statuses = ['draft', 'published', 'archived', 'needs-review']
             if fm.get('status') not in valid_statuses:
                 self.warnings.append(
-                    f"[FM] {f['name']}: Невідомий статус '{fm.get('status')}'"
+                    f"[FM] {f['name']}: Unknown status '{fm.get('status')}'"
                 )
 
     def check_duplicates(self):
-        """Знайди дублювання контенту (>70% подібність)"""
+        """Find duplicate content (>70% similarity)"""
         duplicates = []
 
         for i, f1 in enumerate(self.files):
             for f2 in self.files[i + 1:]:
                 similarity = calculate_similarity(
-                    f1['body'][:500],  # Перші 500 символів
+                    f1['body'][:500],
                     f2['body'][:500]
                 )
 
@@ -131,7 +131,7 @@ class KnowledgeValidator:
         return duplicates
 
     def check_links(self):
-        """Перевір broken wikilinks"""
+        """Check for broken wikilinks"""
         all_titles = {
             f['frontmatter'].get('title', f['name'].replace('.md', '')): f['name']
             for f in self.files if f['frontmatter']
@@ -141,7 +141,6 @@ class KnowledgeValidator:
             wikilinks = get_wikilinks(f['body'])
 
             for link in wikilinks:
-                # Очисти пошук
                 search_title = link.split('|')[0].strip()
 
                 if search_title not in all_titles:
@@ -150,7 +149,7 @@ class KnowledgeValidator:
                     )
 
     def generate_stats(self):
-        """Збери статистику"""
+        """Collect statistics"""
         categories = {}
         statuses = {}
 
@@ -172,9 +171,9 @@ class KnowledgeValidator:
         }
 
     def generate_report(self):
-        """Генеруй HTML звіт"""
+        """Generate HTML report"""
         html = f"""<!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Knowledge Validation Report</title>
@@ -191,11 +190,11 @@ class KnowledgeValidator:
     </style>
 </head>
 <body>
-    <h1>📊 Knowledge Base Validation Report</h1>
+    <h1>Knowledge Base Validation Report</h1>
     <p>Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
 
     <div class="stats">
-        <h2>📈 Statistics</h2>
+        <h2>Statistics</h2>
         <table>
             <tr><td>Total Files</td><td>{self.stats['total_files']}</td></tr>
             <tr><td>Total Size</td><td>{self.stats['total_size_mb']:.2f} MB</td></tr>
@@ -219,35 +218,35 @@ class KnowledgeValidator:
         for status, count in sorted(self.stats['statuses'].items()):
             html += f"            <tr><td>{status}</td><td>{count}</td></tr>\n"
 
-        html += """        </table>
+        html += f"""        </table>
     </div>
 
-    <h2>❌ Errors ({} total)</h2>
-""".format(len(self.errors))
+    <h2>Errors ({len(self.errors)} total)</h2>
+"""
 
         if self.errors:
-            for error in self.errors[:50]:  # Показуй перші 50
+            for error in self.errors[:50]:
                 html += f'    <div class="error">• {error}</div>\n'
         else:
-            html += '    <div class="success">✅ No errors found!</div>\n'
+            html += '    <div class="success">OK - No errors!</div>\n'
 
         html += f"""
-    <h2>⚠️ Warnings ({len(self.warnings)} total)</h2>
+    <h2>Warnings ({len(self.warnings)} total)</h2>
 """
 
         if self.warnings:
             for warning in self.warnings[:50]:
                 html += f'    <div class="warning">• {warning}</div>\n'
         else:
-            html += '    <div class="success">✅ No warnings!</div>\n'
+            html += '    <div class="success">OK - No warnings!</div>\n'
 
         html += """
-    <h2>✅ Validation Complete</h2>
+    <h2>Validation Complete</h2>
     <p>Next steps:</p>
     <ol>
-        <li>Fix all errors listed above</li>
-        <li>Review warnings and decide on actions</li>
-        <li>Run: <code>python3 scripts/multi_format_export.py</code></li>
+        <li>Fix all errors</li>
+        <li>Review warnings</li>
+        <li>Run export: python3 scripts/multi_format_export.py</li>
     </ol>
 </body>
 </html>
@@ -260,51 +259,48 @@ class KnowledgeValidator:
         return report_path
 
     def run(self):
-        """Запусти всю валідацію"""
-        print("\n🔍 Валідація структури знань...\n")
+        """Run full validation"""
+        print("\nValidating knowledge base...\n")
 
         self.load_files()
-        print("✓ Завантажено файли\n")
+        print("OK - Files loaded\n")
 
         self.check_frontmatter()
-        print("✓ Перевірено front matter\n")
+        print("OK - Frontmatter checked\n")
 
         duplicates = self.check_duplicates()
-        print(f"✓ Шукано дублювання ({len(duplicates)} знайдено)\n")
+        print(f"OK - Duplicates checked ({len(duplicates)} found)\n")
 
         self.check_links()
-        print("✓ Перевірено посилання\n")
+        print("OK - Links checked\n")
 
         self.generate_stats()
-        print("✓ Зібрана статистика\n")
+        print("OK - Stats generated\n")
 
         report_path = self.generate_report()
 
-        # Виведи сумарі
+        # Summary
         print("=" * 60)
-        print(f"❌ ПОМИЛОК: {len(self.errors)}")
-        print(f"⚠️  ПОПЕРЕДЖЕНЬ: {len(self.warnings)}")
-        print(f"📊 ВСЬОГО ФАЙЛІВ: {self.stats['total_files']}")
-        print(f"📁 РОЗМІР БД: {self.stats['total_size_mb']:.2f} MB")
+        print(f"ERRORS: {len(self.errors)}")
+        print(f"WARNINGS: {len(self.warnings)}")
+        print(f"FILES: {self.stats['total_files']}")
+        print(f"SIZE: {self.stats['total_size_mb']:.2f} MB")
         print("=" * 60)
-
-        print(f"\n📄 Звіт збережено: {report_path}")
 
         if self.errors:
-            print(f"\n❌ Перші 10 помилок:")
+            print(f"\nFirst 10 errors:")
             for error in self.errors[:10]:
                 print(f"  • {error}")
 
         if self.warnings:
-            print(f"\n⚠️  Перші 10 попереджень:")
+            print(f"\nFirst 10 warnings:")
             for warning in self.warnings[:10]:
                 print(f"  • {warning}")
 
-        print("\n✨ Валідація завершена!")
-        print("Далі: python3 scripts/multi_format_export.py")
+        print(f"\nReport saved: {report_path}")
+        print("\nValidation complete!")
 
 
 if __name__ == "__main__":
     validator = KnowledgeValidator()
     validator.run()
-                  

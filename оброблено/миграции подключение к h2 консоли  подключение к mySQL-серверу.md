@@ -1,3 +1,16 @@
+---
+title: "миграции подключение к h2 консоли  подключение к mySQL-серверу"
+category: "java_spring"
+tags: ['mysql', 'databasechangeloglock', 'удаление', 'серверу', 'введите']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 
 Введите команду для подключения к MySQL серверу. Используйте ваш логин и пароль MySQL:
 

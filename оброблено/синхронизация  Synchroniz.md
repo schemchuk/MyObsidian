@@ -1,3 +1,16 @@
+---
+title: "синхронизация  Synchroniz"
+category: "java_spring"
+tags: ['пулы', 'синхронизация', 'synchroniz', 'джава', 'парралельные']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1   -----------
 2   Связи: [[поток]]  [[многопоточность]] [[Collection коллекции]] [[java  джава]]  [[пулы потоков]]  [[парралельные коллекции]]

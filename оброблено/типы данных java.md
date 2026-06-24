@@ -1,3 +1,16 @@
+---
+title: "типы данных java"
+category: "java_spring"
+tags: ['джава', 'true', 'false', 'типы', 'short']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1   -----------
 2   Связи:[[java  джава]] 

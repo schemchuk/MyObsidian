@@ -1,3 +1,16 @@
+---
+title: "JPA"
+category: "networking"
+tags: ['связывания', 'непосредственно', 'mongodb', 'управления', 'сохранением']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1   -----------
 2   Связи: [[Spring]] [[java  джава]]  SQL [[Hymbernate]]  [[DB]] [[заначка]] [[DB]]  [[команди поиска]]
 3   Теги:  SQL  [[Hymbernate]] MongoDB [[JPA]] 

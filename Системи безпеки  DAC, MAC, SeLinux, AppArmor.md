@@ -1,3 +1,16 @@
+---
+title: "AppArmor — короткий конспект"
+category: "linux"
+tags: ['доступу', 'lлинукс', 'sudo', 'групам', 'linux']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1   -----------
 2   Связи: linux линукс    , lлинукс l ,[[Розмежування SU i SUDO]]  [[Системи безпеки  DAC, MAC, SeLinux, AppArmor]]
 3   Теги: , [[Системи безпеки  DAC, MAC, SeLinux, AppArmor]]

@@ -1,3 +1,16 @@
+---
+title: "--- Liquibase ------"
+category: "networking"
+tags: ['projects', 'boot', 'aharmaz', 'проэкт', 'группы']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1   -----------
 2   Связи:[[Проэкт группы]] [[проэкт на spring bot]] 

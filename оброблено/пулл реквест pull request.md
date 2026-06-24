@@ -1,3 +1,16 @@
+---
+title: "пулл реквест pull request"
+category: "networking"
+tags: ['mongodb', 'есть', 'веткой', 'идее', 'request']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿gitgin1   -----------
 2   Связи: [[Spring]] [[java  джава]]  SQL [[Hymbernate]]  [[DB]] [[заначка]]  [[пулл реквест pull request]]
 3   Теги:  SQL  [[Hymbernate]] MongoDB [[JPA]] 

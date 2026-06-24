@@ -1,3 +1,16 @@
+---
+title: "Spring"
+category: "java_spring"
+tags: ['библиотека', 'джава', 'нашего', 'внедрение', 'фреймворк']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1   -----------
 2   Связи: [[Spring]]   SOLID [[java  джава]]  [[Dependensy ingecten внедрение зависимости]] 

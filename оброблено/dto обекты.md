@@ -1,3 +1,16 @@
+---
+title: "dto обекты"
+category: "java_spring"
+tags: ['обекты', 'mabstracn', 'baeldung', 'фреймморк', 'мабстракта']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1   -----------
 2   Связи: [[проэкт на spring bot]] [[Spring]]

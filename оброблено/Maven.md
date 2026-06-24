@@ -1,3 +1,16 @@
+---
+title: "Maven"
+category: "java_spring"
+tags: ['сборщик', 'класс', 'нужно', 'писали', 'архива']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 
 

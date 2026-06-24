@@ -1,3 +1,16 @@
+---
+title: "STP (Spanning Tree Protocol) для нескольких VLAN, Rapid PVST Часть 2"
+category: "networking"
+tags: ['порівняння', 'моделі', 'youtube', 'watch', 'подивитися']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1   -----------
 2   Связи:[[порівняння моделі OSI (7 рівнів) та TCP IP (4 рівні)]]

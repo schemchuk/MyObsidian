@@ -1,3 +1,16 @@
+---
+title: "генерация ключей SSH"
+category: "linux"
+tags: ['права', 'linux', 'раздел', 'репозитори', 'линукс']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 1   -----------
 2   Связи: [[линукс linux]]  [[контрольная сумма  хеш сумма]] [[Права на файл]]
 3   Теги:  [[git hub repositoru гит хаб репозитори]]  [[генерация ключей SSH]]

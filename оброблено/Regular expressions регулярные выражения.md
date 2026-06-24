@@ -1,3 +1,16 @@
+---
+title: "Regular expressions регулярные выражения"
+category: "networking"
+tags: ['сайт', 'джава', 'проверки', 'регулярных', 'регулярные']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1   -----------
 2   Связи: [[java  джава]][[Testing]]  [[Паттерны проэктирования]] 

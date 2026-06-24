@@ -1,3 +1,16 @@
+---
+title: "IPROUTE2 — повний швидкий довідник (cheatsheet)"
+category: "networking"
+tags: ['мережею', 'sudo', 'linux', 'линукс', 'утиліта']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿root1   -----------
 2   Связи: linux линукс    , linux ,[[Розмежування SU i SUDO]]  [[Системи безпеки  DAC, MAC, SeLinux, AppArmor]]
 3   Теги: , [[IPROUTE2- параметры и базовая маршрутизация]]

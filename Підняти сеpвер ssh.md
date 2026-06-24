@@ -1,3 +1,16 @@
+---
+title: "Підняти сеpвер ssh"
+category: "networking"
+tags: ['машині', 'dhcp', 'сеpвер', 'linux', 'ставлю']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1   -----------
 2   Связи: linux линукс    , linux , [[Підняти сервер DHCP]]
 3   Теги: , [[Підняти сеpвер ssh]]

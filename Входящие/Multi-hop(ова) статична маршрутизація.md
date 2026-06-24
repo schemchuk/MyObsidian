@@ -1,3 +1,16 @@
+---
+title: "Multi-hop(ова) статична маршрутизація"
+category: "networking"
+tags: ['доступу', 'статична', 'дивитись', 'youtube', 'watch']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿1   -----------Cisko
 
 2   Связи:  [[Налаштування  протоколу SSH для доступу на комутатор]] , [[налаштування статичного маршруту]] , 

@@ -1,3 +1,16 @@
+---
+title: "Personalpronomen Особові займенники"
+category: "networking"
+tags: ['deutsch', 'dativ', 'personalpronomen', 'nominaniw', 'endlich']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 1
 1   -----------
 2   Связи:[[deutsch]] [[thema 9 Endlich Freizeit!]] 

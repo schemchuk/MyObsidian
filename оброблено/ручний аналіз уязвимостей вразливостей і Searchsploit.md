@@ -1,3 +1,16 @@
+---
+title: "ручний аналіз уязвимостей вразливостей і Searchsploit"
+category: "pentesting"
+tags: ['вразливостей', 'аналіз', 'searchsploit', 'пошуку', 'уязвимостей']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿
 1  ----------
 2 Звязки : [[пошук уязвимостей вразливостей , скрипти nmap]], [[сканування]], [[інструмент NMAP]]

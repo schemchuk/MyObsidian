@@ -1,3 +1,16 @@
+---
+title: "DDoS 2 VPN (Kali Linux)"
+category: "linux"
+tags: ['virtuaka', 'github', 'linux', 'chak', 'this']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 
 1   -----------
 2   Связи: [[хак chak]]

@@ -1,3 +1,16 @@
+---
+title: "збір електронних листів для домену чи визначеної компанії  theHarvester  і веб сайт hunter.io"
+category: "pentesting"
+tags: ['назву', 'шукати', 'інформації', 'компанії', 'методи']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 sh
 1  ----------
 2 Звязки : [[методи збору інформації]]

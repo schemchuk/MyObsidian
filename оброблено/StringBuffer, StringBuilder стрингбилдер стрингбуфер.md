@@ -1,3 +1,16 @@
+---
+title: "StringBuffer, StringBuilder стрингбилдер стрингбуфер"
+category: "java_spring"
+tags: ['переменная', 'создаем', 'стринга', 'изменяем', 'изменяемые']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 ﻿  Это изменяемые классы для стринга
 1   -----------
 2   Связи:[[java  джава]]

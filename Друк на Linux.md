@@ -1,3 +1,16 @@
+---
+title: "Друк на Linux"
+category: "linux"
+tags: ['ссылки', 'каталоги', 'ссілки', 'забезпечення', 'ключі']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 1   -----------
 2   Связи: [[команди лінукс, ключі лінукс]] [[Символические ссылки Жесткие ссілки]] [[Каталоги в системе Linux]]
 3   Теги: [[Друк на Linux]]

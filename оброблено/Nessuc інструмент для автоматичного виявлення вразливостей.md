@@ -1,3 +1,16 @@
+---
+title: "Nessuc інструмент для автоматичного виявлення вразливостей"
+category: "pentesting"
+tags: ['вразливостей', 'аналіз', 'searchsploit', 'уязвимостей', 'сканування']
+status: "published"
+created: "2026-03-24"
+updated: "2026-03-24"
+ai-processed: false
+source: "manual"
+quality: 1
+related-files: []
+---
+
 
 1  ----------
 2 Звязки :[[пошук уязвимостей вразливостей , скрипти nmap]], [[сканування]], [[інструмент NMAP]]
