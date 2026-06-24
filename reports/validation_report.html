@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Knowledge Validation Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        .stats { background: #f0f0f0; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        .error { color: #d32f2f; margin: 5px 0; }
+        .warning { color: #f57c00; margin: 5px 0; }
+        .success { color: #388e3c; margin: 5px 0; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background: #4CAF50; color: white; }
+    </style>
+</head>
+<body>
+    <h1>📊 Knowledge Base Validation Report</h1>
+    <p>Generated: 2026-06-24 09:05:30</p>
+
+    <div class="stats">
+        <h2>📈 Statistics</h2>
+        <table>
+            <tr><td>Total Files</td><td>294</td></tr>
+            <tr><td>Total Size</td><td>0.84 MB</td></tr>
+        </table>
+
+        <h3>By Category</h3>
+        <table>
+            <tr><th>Category</th><th>Count</th></tr>
+            <tr><td>java_spring</td><td>84</td></tr>
+            <tr><td>linux</td><td>45</td></tr>
+            <tr><td>networking</td><td>97</td></tr>
+            <tr><td>other</td><td>34</td></tr>
+            <tr><td>pentesting</td><td>30</td></tr>
+        </table>
+
+        <h3>By Status</h3>
+        <table>
+            <tr><th>Status</th><th>Count</th></tr>
+            <tr><td>published</td><td>290</td></tr>
+        </table>
+    </div>
+
+    <h2>❌ Errors (4 total)</h2>
+    <div class="error">• [FM] Liquibase  Ликибейс.md: Немає YAML front matter</div>
+    <div class="error">• [FM] Xexeditor і антивіруси.md: Немає YAML front matter</div>
+    <div class="error">• [FM] вразливість Windows--- Bluekeep and EnternalBlue.md: Немає YAML front matter</div>
+    <div class="error">• [FM] подключение баз данных.md: Немає YAML front matter</div>
+
+    <h2>⚠️ Warnings (234 total)</h2>
+    <div class="warning">• [DUP] Організація маршруту за замовчуванням.md ~ Протокол OSPF настройка метрики каналов между маршрутизаторами.md (84.6%)</div>
+    <div class="warning">• [DUP] Організація маршруту за замовчуванням.md ~ Протокол OSPF. Запуск на маршрутизаторах. Настройка passive interface.md (84.4%)</div>
+    <div class="warning">• [DUP] Організація маршруту за замовчуванням.md ~ Протокол RIP. Запуск на маршрутизаторах. Очистка файлу конфігурації.md (88.6%)</div>
+    <div class="warning">• [DUP] Організація маршруту за замовчуванням.md ~ Протокол RIP. Не пускаємо трафік в клієнтські мережі.md (99.4%)</div>
+    <div class="warning">• [DUP] Організація маршруту за замовчуванням.md ~ Порівняння OSI vs TCP  IP.md (76.0%)</div>
+    <div class="warning">• [DUP] Організація маршруту за замовчуванням.md ~ Протокол OSPF Аутентификация пакетов с использованием алгоритма md5.md (80.0%)</div>
+    <div class="warning">• [DUP] Організація маршруту за замовчуванням.md ~ Протокол OSPF. Маршрутизация между разными зонами (area).md (84.6%)</div>
+    <div class="warning">• [DUP] Організація маршруту за замовчуванням.md ~ Протокол OSPF. Объединяем магистрали (Area 0) при помощи virtual-link.md (84.6%)</div>
+    <div class="warning">• [DUP] Організація маршруту за замовчуванням.md ~ Протокол OSPF. Объединяем области, не подключеные физически к Area 0.md (84.6%)</div>
+    <div class="warning">• [DUP] Організація маршруту за замовчуванням.md ~ Протокол OSPF. Последовательное использование виртуальных каналов.md (84.6%)</div>
+    <div class="warning">• [DUP] Організація маршруту за замовчуванням.md ~ Протокол OSPF. Простая аутентификация пакетов на основе пароля.md (80.0%)</div>
+    <div class="warning">• [DUP] Протокол OSPF настройка метрики каналов между маршрутизаторами.md ~ Протокол OSPF. Запуск на маршрутизаторах. Настройка passive interface.md (98.0%)</div>
+    <div class="warning">• [DUP] Протокол OSPF настройка метрики каналов между маршрутизаторами.md ~ Протокол RIP. Запуск на маршрутизаторах. Очистка файлу конфігурації.md (82.0%)</div>
+    <div class="warning">• [DUP] Протокол OSPF настройка метрики каналов между маршрутизаторами.md ~ Протокол RIP. Не пускаємо трафік в клієнтські мережі.md (85.0%)</div>
+    <div class="warning">• [DUP] Протокол OSPF настройка метрики каналов между маршрутизаторами.md ~ Порівняння OSI vs TCP  IP.md (93.6%)</div>
+    <div class="warning">• [DUP] Протокол OSPF настройка метрики каналов между маршрутизаторами.md ~ Протокол OSPF Аутентификация пакетов с использованием алгоритма md5.md (95.8%)</div>
+    <div class="warning">• [DUP] Протокол OSPF настройка метрики каналов между маршрутизаторами.md ~ Протокол OSPF. Маршрутизация между разными зонами (area).md (100.0%)</div>
+    <div class="warning">• [DUP] Протокол OSPF настройка метрики каналов между маршрутизаторами.md ~ Протокол OSPF. Объединяем магистрали (Area 0) при помощи virtual-link.md (100.0%)</div>
+    <div class="warning">• [DUP] Протокол OSPF настройка метрики каналов между маршрутизаторами.md ~ Протокол OSPF. Объединяем области, не подключеные физически к Area 0.md (100.0%)</div>
+    <div class="warning">• [DUP] Протокол OSPF настройка метрики каналов между маршрутизаторами.md ~ Протокол OSPF. Последовательное использование виртуальных каналов.md (100.0%)</div>
+    <div class="warning">• [DUP] Протокол OSPF настройка метрики каналов между маршрутизаторами.md ~ Протокол OSPF. Простая аутентификация пакетов на основе пароля.md (95.8%)</div>
+    <div class="warning">• [DUP] Протокол OSPF. Запуск на маршрутизаторах. Настройка passive interface.md ~ Протокол RIP. Запуск на маршрутизаторах. Очистка файлу конфігурації.md (81.8%)</div>
+    <div class="warning">• [DUP] Протокол OSPF. Запуск на маршрутизаторах. Настройка passive interface.md ~ Протокол RIP. Не пускаємо трафік в клієнтські мережі.md (85.0%)</div>
+    <div class="warning">• [DUP] Протокол OSPF. Запуск на маршрутизаторах. Настройка passive interface.md ~ Порівняння OSI vs TCP  IP.md (93.6%)</div>
+    <div class="warning">• [DUP] Протокол OSPF. Запуск на маршрутизаторах. Настройка passive interface.md ~ Протокол OSPF Аутентификация пакетов с использованием алгоритма md5.md (93.8%)</div>
+    <div class="warning">• [DUP] Протокол OSPF. Запуск на маршрутизаторах. Настройка passive interface.md ~ Протокол OSPF. Маршрутизация между разными зонами (area).md (98.0%)</div>
+    <div class="warning">• [DUP] Протокол OSPF. Запуск на маршрутизаторах. Настройка passive interface.md ~ Протокол OSPF. Объединяем магистрали (Area 0) при помощи virtual-link.md (98.0%)</div>
+    <div class="warning">• [DUP] Протокол OSPF. Запуск на маршрутизаторах. Настройка passive interface.md ~ Протокол OSPF. Объединяем области, не подключеные физически к Area 0.md (98.0%)</div>
+    <div class="warning">• [DUP] Протокол OSPF. Запуск на маршрутизаторах. Настройка passive interface.md ~ Протокол OSPF. Последовательное использование виртуальных каналов.md (98.0%)</div>
+    <div class="warning">• [DUP] Протокол OSPF. Запуск на маршрутизаторах. Настройка passive interface.md ~ Протокол OSPF. Простая аутентификация пакетов на основе пароля.md (93.8%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Запуск на маршрутизаторах. Очистка файлу конфігурації.md ~ Протокол RIP. Не пускаємо трафік в клієнтські мережі.md (89.0%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Запуск на маршрутизаторах. Очистка файлу конфігурації.md ~ Порівняння OSI vs TCP  IP.md (81.2%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Запуск на маршрутизаторах. Очистка файлу конфігурації.md ~ Протокол OSPF Аутентификация пакетов с использованием алгоритма md5.md (77.6%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Запуск на маршрутизаторах. Очистка файлу конфігурації.md ~ Протокол OSPF. Маршрутизация между разными зонами (area).md (81.8%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Запуск на маршрутизаторах. Очистка файлу конфігурації.md ~ Протокол OSPF. Объединяем магистрали (Area 0) при помощи virtual-link.md (81.8%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Запуск на маршрутизаторах. Очистка файлу конфігурації.md ~ Протокол OSPF. Объединяем области, не подключеные физически к Area 0.md (81.8%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Запуск на маршрутизаторах. Очистка файлу конфігурації.md ~ Протокол OSPF. Последовательное использование виртуальных каналов.md (81.8%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Запуск на маршрутизаторах. Очистка файлу конфігурації.md ~ Протокол OSPF. Простая аутентификация пакетов на основе пароля.md (77.6%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Не пускаємо трафік в клієнтські мережі.md ~ Порівняння OSI vs TCP  IP.md (84.6%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Не пускаємо трафік в клієнтські мережі.md ~ Протокол OSPF Аутентификация пакетов с использованием алгоритма md5.md (80.2%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Не пускаємо трафік в клієнтські мережі.md ~ Протокол OSPF. Маршрутизация между разными зонами (area).md (84.8%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Не пускаємо трафік в клієнтські мережі.md ~ Протокол OSPF. Объединяем магистрали (Area 0) при помощи virtual-link.md (84.8%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Не пускаємо трафік в клієнтські мережі.md ~ Протокол OSPF. Объединяем области, не подключеные физически к Area 0.md (84.8%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Не пускаємо трафік в клієнтські мережі.md ~ Протокол OSPF. Последовательное использование виртуальных каналов.md (84.8%)</div>
+    <div class="warning">• [DUP] Протокол RIP. Не пускаємо трафік в клієнтські мережі.md ~ Протокол OSPF. Простая аутентификация пакетов на основе пароля.md (80.2%)</div>
+    <div class="warning">• [DUP] аліаси, псевдоніми.md ~ аліаси, псевдоніми.md (100.0%)</div>
+    <div class="warning">• [DUP] змінна середовища.md ~ змінна середовища.md (100.0%)</div>
+    <div class="warning">• [DUP] створення користувача і групи.md ~ створення користувача і групи.md (100.0%)</div>
+    <div class="warning">• [DUP] Друк на Linux.md ~ Друк на Linux.md (100.0%)</div>
+    <div class="warning">• [DUP] Монтирование раздела под БД (blkid, df-h, lsblk)    Netbox.md ~ Переносим базу PostgreSQL на новый раздел (rsync).md (73.8%)</div>
+
+    <h2>✅ Validation Complete</h2>
+    <p>Next steps:</p>
+    <ol>
+        <li>Fix all errors listed above</li>
+        <li>Review warnings and decide on actions</li>
+        <li>Run: <code>python3 scripts/multi_format_export.py</code></li>
+    </ol>
+</body>
+</html>

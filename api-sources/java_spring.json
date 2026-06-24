@@ -1,0 +1,1431 @@
+{
+  "category": "java_spring",
+  "count": 84,
+  "items": [
+    {
+      "id": "Команда `jpackage` для створення Windows `.exe` (з Kali)",
+      "title": "Команда `jpackage` для створення Windows `.exe` (з Kali)",
+      "category": "java_spring",
+      "tags": [
+        "input",
+        "snapshot",
+        "теги",
+        "main",
+        "type"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи: [[Команда x00T0x00 для створення Windows x00T1x00 (з Kali)]]\n3   Теги\n\n## Виконай з кореня проєкту (~/IdeaProjects/PostExAgent/):jpackage \\\n  --type app-image \\\n  --input t...",
+      "url": "/api/knowledge/java_spring/Команда `jpackage` для створення Windows `.exe` (з Kali)"
+    },
+    {
+      "id": "Agile планирование Scrum Plaining",
+      "title": "Agile планирование Scrum Plaining",
+      "category": "java_spring",
+      "tags": [
+        "управление",
+        "waterfol",
+        "management",
+        "планирование",
+        "agail"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[управление проэктами PM BOK]]   [[IT management]]  [[Agile планирование Scrum Plaining]] agail  [[Daily Scrum]]  [[Daily Scrum]]\n3   Теги: [[Waterfol]]  [[Kanban ]]  [[S...",
+      "url": "/api/knowledge/java_spring/Agile планирование Scrum Plaining"
+    },
+    {
+      "id": "Collection коллекции",
+      "title": "Collection коллекции",
+      "category": "java_spring",
+      "tags": [
+        "таблицы",
+        "синхронизация",
+        "synchroniz",
+        "джава",
+        "парралельные"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿!collections.png\n\n1   -----------\n2   Связи: [[java  джава]]  [[синхронизация  Synchroniz]]  [[парралельные коллекции]]\n 3   Теги: List  LinkeldList  Set  TreeSet   Map  TreeMap  [[HashSet , хеш табл...",
+      "url": "/api/knowledge/java_spring/Collection коллекции"
+    },
+    {
+      "id": "Contekst контекст нашего приложения",
+      "title": "Contekst контекст нашего приложения",
+      "category": "java_spring",
+      "tags": [
+        "джава",
+        "внедрение",
+        "зависимости",
+        "dependensy",
+        "java"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:  [[Spring]]   SOLID [[java  джава]]  [[Dependensy ingecten внедрение зависимости]]  \n3   Теги:...",
+      "url": "/api/knowledge/java_spring/Contekst контекст нашего приложения"
+    },
+    {
+      "id": "CopyOnWriteArrayList , ArrayList",
+      "title": "CopyOnWriteArrayList , ArrayList",
+      "category": "java_spring",
+      "tags": [
+        "синхронизация",
+        "synchroniz",
+        "джава",
+        "парралельные",
+        "многопоточности"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿ArrauList в многопоточности CopyOnWriteArrayList\n\n|     |     |     |     |\n| --- | --- | --- | --- |\n|     |     |     |     |\n|     |     |     |     |\n\n\n\n1   -----------\n2   Связи:  [[java  джава]...",
+      "url": "/api/knowledge/java_spring/CopyOnWriteArrayList , ArrayList"
+    },
+    {
+      "id": "Daily Scrum",
+      "title": "Daily Scrum",
+      "category": "java_spring",
+      "tags": [
+        "управление",
+        "waterfol",
+        "management",
+        "планирование",
+        "agail"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n\n2   Связи: [[управление проэктами PM BOK]]   [[IT management]]  [[Agile планирование Scrum Plaining]] agail  [[Daily Scrum]]\n3   Теги: [[Waterfol]]  [[Kanban ]]  [[Scrum]]   agail  [[Scrum]] Plaini...",
+      "url": "/api/knowledge/java_spring/Daily Scrum"
+    },
+    {
+      "id": "Date, Time",
+      "title": "Date, Time",
+      "category": "java_spring",
+      "tags": [
+        "lokaltime",
+        "синхронизация",
+        "synchroniz",
+        "джава",
+        "date"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи: [[java  джава]]  [[синхронизация  Synchroniz]] коллекции \n3   Теги: #Date #LocalDate #LocalDateTime #ZonedDateTime #Instant #LokalTime\n\nСуществует два типы дат\n- устаревшие...",
+      "url": "/api/knowledge/java_spring/Date, Time"
+    },
+    {
+      "id": "Dependensy ingecten внедрение зависимости",
+      "title": "Dependensy ingecten внедрение зависимости",
+      "category": "java_spring",
+      "tags": [
+        "которая",
+        "объектов",
+        "внедрение",
+        "техника",
+        "передавать"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[Spring]]  SOLID \n3   Теги: [[Dependensy ingecten внедрение зависимости]] \n\nDependensy ingecten внедрение зависимости это техника которая позволяет передавать зависимости...",
+      "url": "/api/knowledge/java_spring/Dependensy ingecten внедрение зависимости"
+    },
+    {
+      "id": "Exsceptions",
+      "title": "Exsceptions",
+      "category": "java_spring",
+      "tags": [
+        "джава",
+        "exception",
+        "diagram",
+        "связи",
+        "java"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿!Exception-Diagram.webp\n!exceptionsInJavaHierarchy.png\n!Exception-Types.jpeg\n\n\n\n\n\n\n\n\n1   -----------\n2   Связи: [[OOP ООП]] [[java  джава]] \n3   Теги:...",
+      "url": "/api/knowledge/java_spring/Exsceptions"
+    },
+    {
+      "id": "Gradle",
+      "title": "Gradle",
+      "category": "java_spring",
+      "tags": [
+        "джава",
+        "сборщик",
+        "проекта",
+        "install",
+        "releases"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:[[ gradle]]   [[maven]]  [[java  джава]]    [[json]]  \n3   Теги:[[ gradle]]  [[сборщик проекта]]  [[maven]]\n\n[https://gradle.org/releases/](https://gradle.org/releases/)\n[htt...",
+      "url": "/api/knowledge/java_spring/Gradle"
+    },
+    {
+      "id": "HTTP",
+      "title": "HTTP",
+      "category": "java_spring",
+      "tags": [
+        "серверу",
+        "клиент",
+        "клиента",
+        "ответ",
+        "проэкт"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]]\n3   Теги: [[HTTP]] сервер  клиент [[запрос]] [[ответ]]\n[[HTTP]] протокол базируется на запросеот клие...",
+      "url": "/api/knowledge/java_spring/HTTP"
+    },
+    {
+      "id": "HashSet , хеш таблицы, HashMap",
+      "title": "HashSet , хеш таблицы, HashMap",
+      "category": "java_spring",
+      "tags": [
+        "таблицы",
+        "синхронизация",
+        "synchroniz",
+        "джава",
+        "парралельные"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿[[HashSet , хеш таблицы, HashMap]]\n\n\n1   -----------\n2   Связи: [[java  джава]]  [[синхронизация  Synchroniz]]  [[парралельные коллекции]]\n List  LinkeldList  Set  TreeSet   Map  TreeMap   HashMap  [...",
+      "url": "/api/knowledge/java_spring/HashSet , хеш таблицы, HashMap"
+    },
+    {
+      "id": "IT management",
+      "title": "IT management",
+      "category": "java_spring",
+      "tags": [
+        "waterfol",
+        "управление",
+        "выбор",
+        "производит",
+        "управления"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:   PM BOK  [[Проэкт группы]] \n3   Теги: [[Waterfol]]  [[Kanban ]]  [[Scrum]]   agail  [[управление проэктами PM BOK]]  [[Проэкт группы]] \n\n[[Waterfol]]  [[Kanban ]]  [[Scru...",
+      "url": "/api/knowledge/java_spring/IT management"
+    },
+    {
+      "id": "JDK, JRE, JVM, JIT, JAR",
+      "title": "JDK, JRE, JVM, JIT, JAR",
+      "category": "java_spring",
+      "tags": [
+        "джава",
+        "разработки",
+        "включая",
+        "виртуальную",
+        "программ"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:[[java  джава]]\n3   Теги:[[JDK, JRE, JVM, JIT, JAR]]\n\n **JDK** - Набор инструментов для разработки Java-программ, включая компилятор\n\n**JRE** - Набор инструментов для запуска...",
+      "url": "/api/knowledge/java_spring/JDK, JRE, JVM, JIT, JAR"
+    },
+    {
+      "id": "Kanban",
+      "title": "Kanban",
+      "category": "java_spring",
+      "tags": [
+        "задач",
+        "сильная",
+        "возможность",
+        "выполнения",
+        "management"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[IT management]] \n3   Теги:\n\nфреймворк основаный на визуализации процесса выполнения задач командой\n\nглавнаяя сущность **задача** сильная сторона возможность управлять зада...",
+      "url": "/api/knowledge/java_spring/Kanban"
+    },
+    {
+      "id": "Maven",
+      "title": "Maven",
+      "category": "java_spring",
+      "tags": [
+        "сборщик",
+        "класс",
+        "нужно",
+        "писали",
+        "архива"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n\n\n\n1   -----------\n2   Связи: [[json]]  [[артефакт]]  [[сборщик проекта]] \n\n3   Теги:  \n\n\nДиплоймен   \n\nраньше код писали в текстовых файлах которые имели расширение .**java**  \nклассы нужно было ко...",
+      "url": "/api/knowledge/java_spring/Maven"
+    },
+    {
+      "id": "OOP ООП",
+      "title": "OOP ООП",
+      "category": "java_spring",
+      "tags": [
+        "приложений",
+        "приложение",
+        "приложения",
+        "основные",
+        "слоя"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿[[OOP ООП]] \nосновные принципы:\n- приложение имеет три(четыре ) слоя:\n\t\t-Entity или domen- структура базы данных или структура приложений ,информация для работы приложения\n\t\t-  дополнительный функцио...",
+      "url": "/api/knowledge/java_spring/OOP ООП"
+    },
+    {
+      "id": "PATCH методы",
+      "title": "PATCH методы",
+      "category": "java_spring",
+      "tags": [
+        "repository",
+        "клиент",
+        "ответ",
+        "delit",
+        "проэкт"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи: [[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]]  \n[[Репозиторий repository java]]  [[GET методы]]  [[POST методы]]  [[PUT методы]] [[PATCH методы]] [[...",
+      "url": "/api/knowledge/java_spring/PATCH методы"
+    },
+    {
+      "id": "POST методы",
+      "title": "POST методы",
+      "category": "java_spring",
+      "tags": [
+        "repository",
+        "клиент",
+        "ответ",
+        "delit",
+        "теги"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]]  \n[[Репозиторий repository java]]  [[GET методы]]  [[POST методы]]  [[PUT методы]] [[DELIT методы]] \n...",
+      "url": "/api/knowledge/java_spring/POST методы"
+    },
+    {
+      "id": "PUT методы",
+      "title": "PUT методы",
+      "category": "java_spring",
+      "tags": [
+        "repository",
+        "клиент",
+        "ответ",
+        "delit",
+        "проэкт"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи: [[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]]  \n[[Репозиторий repository java]]  [[GET методы]]  [[POST методы]]  [[PUT методы]] [[PATCH методы]] [[...",
+      "url": "/api/knowledge/java_spring/PUT методы"
+    },
+    {
+      "id": "Scrum",
+      "title": "Scrum",
+      "category": "java_spring",
+      "tags": [
+        "работает",
+        "применения",
+        "management",
+        "правильного",
+        "фреймворк"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:[[IT management]]\n3   Теги:\n\nфреймворк требует правильного применения иначе он не работает\n## роли в skrum\n\n\n- skrum  команда\n\n-  skrum  мастер\n\n- skrum владелец продукта\n\n\n#...",
+      "url": "/api/knowledge/java_spring/Scrum"
+    },
+    {
+      "id": "Serelisation",
+      "title": "Serelisation",
+      "category": "java_spring",
+      "tags": [
+        "данные",
+        "сети",
+        "jacson",
+        "проэкта",
+        "структура"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи:  [[работа с файлами]] [[Maven]] [[Структура проэкта]]\n3   Теги: #kotlin [[json]]  XML [[jacson]]\n \n protobaf протокол передачи данных\n\nДанные для передачи по сети сереализа...",
+      "url": "/api/knowledge/java_spring/Serelisation"
+    },
+    {
+      "id": "Spring",
+      "title": "Spring",
+      "category": "java_spring",
+      "tags": [
+        "библиотека",
+        "джава",
+        "нашего",
+        "внедрение",
+        "фреймворк"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[Spring]]   SOLID [[java  джава]]  [[Dependensy ingecten внедрение зависимости]] \n3   Теги:библиотека    фреймворк [[Contekst контекст нашего приложения]]  [[БИН компонен...",
+      "url": "/api/knowledge/java_spring/Spring"
+    },
+    {
+      "id": "StringBuffer, StringBuilder стрингбилдер стрингбуфер",
+      "title": "StringBuffer, StringBuilder стрингбилдер стрингбуфер",
+      "category": "java_spring",
+      "tags": [
+        "переменная",
+        "создаем",
+        "стринга",
+        "изменяем",
+        "изменяемые"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿  Это изменяемые классы для стринга\n1   -----------\n2   Связи:[[java  джава]]\n3   Теги:  imutable StringBuffer,  StringBuilder \nпеременная стринг является imutable неизменяемой\n\nпри конкатенации мы к...",
+      "url": "/api/knowledge/java_spring/StringBuffer, StringBuilder стрингбилдер стрингбуфер"
+    },
+    {
+      "id": "Testing",
+      "title": "Testing",
+      "category": "java_spring",
+      "tags": [
+        "пирамида",
+        "mockito",
+        "junit",
+        "crud",
+        "user"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿ 1   -----------\n2   Связи: базы данных CRUD [[OOP ООП]]  [[mockito]]\n3   Теги: #junit_Testing [[integration tests]] user interface junit  test [[mocito]\n \n \n \n пирамида тестирования Майкла Кона\n!tes...",
+      "url": "/api/knowledge/java_spring/Testing"
+    },
+    {
+      "id": "Unit тесты Junit тесты",
+      "title": "Unit тесты Junit тесты",
+      "category": "java_spring",
+      "tags": [
+        "черного",
+        "тесты",
+        "mockito",
+        "хорошее",
+        "junit"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:[[Testing]] [[mockito]]\n3   Теги: [[Unit тесты Junit тесты]]\nхорошее покрытие около 70 процентов\n\n1 Тестирование белого ящика\n2 Тестирование черного ящика\n3 Тестирование серо...",
+      "url": "/api/knowledge/java_spring/Unit тесты Junit тесты"
+    },
+    {
+      "id": "Waterfol",
+      "title": "Waterfol",
+      "category": "java_spring",
+      "tags": [
+        "управление",
+        "практически",
+        "management",
+        "этой",
+        "нуля"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[IT management]]\n3   Теги:\n\n\nтребования со временем падают и превращаются в продукт\n\n**рефакторинг**  в этой модели практически означает начинать проэкт с нуля\n\n[[управле...",
+      "url": "/api/knowledge/java_spring/Waterfol"
+    },
+    {
+      "id": "dto обекты",
+      "title": "dto обекты",
+      "category": "java_spring",
+      "tags": [
+        "обекты",
+        "mabstracn",
+        "baeldung",
+        "фреймморк",
+        "мабстракта"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[проэкт на spring bot]] [[Spring]]\n3   Теги:[[dto обекты]]\n\nфреймморк mabstracn\n\nhttps://www.baeldung.com/mapstruct\n\nдля работы мабстракта с ломбоком нужны зависимости\n\n<...",
+      "url": "/api/knowledge/java_spring/dto обекты"
+    },
+    {
+      "id": "git hub repositoru гит хаб репозитори",
+      "title": "git hub repositoru гит хаб репозитори",
+      "category": "java_spring",
+      "tags": [
+        "проверки",
+        "ключей",
+        "папки",
+        "репозитори",
+        "линукс"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[линукс linux]] [[генерация ключей SSH]]\n3   Теги:  [[git hub repositoru гит хаб репозитори]]\n\n#### создание репозитория \n[[git hub repositoru гит хаб репозитори]] \n\nдля пр...",
+      "url": "/api/knowledge/java_spring/git hub repositoru гит хаб репозитори"
+    },
+    {
+      "id": "mockito",
+      "title": "mockito",
+      "category": "java_spring",
+      "tags": [
+        "mockito",
+        "посмотреть",
+        "соединения",
+        "внешними",
+        "подключится"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[Testing]]\n\n3   Теги: [[mockito]]   \nМоки \n\nдля тестирования методов которые имеют связь с внешними блоками\n\n- подключится к базе данных \n- посмотреть работу [[интернет]]...",
+      "url": "/api/knowledge/java_spring/mockito"
+    },
+    {
+      "id": "proksy прокси",
+      "title": "proksy прокси",
+      "category": "java_spring",
+      "tags": [
+        "proksy",
+        "each",
+        "lessons",
+        "pointcut",
+        "трансакции"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи:[[проэкт на spring bot]] [[Spring]] [[трансакции transaktion]]\n3   Теги:   [[proksy прокси]]\n\n\n**Аспекты** \nстатьи по аспектах\nhttps://habr.com/ru/articles/428548/\n\nhttps://...",
+      "url": "/api/knowledge/java_spring/proksy прокси"
+    },
+    {
+      "id": "repository Alexs",
+      "title": "repository Alexs",
+      "category": "java_spring",
+      "tags": [
+        "github",
+        "sharing",
+        "folders",
+        "алгоритми",
+        "java"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: #java #Git_hub\n 3   Теги:\nhttps://github.com/alex2808pl/pract-211123\n\nhttps://github.com/alex2808pl/pract-211123\n\n\n на алгоритми \nhttps://drive.google.com/drive/folders/1G9q...",
+      "url": "/api/knowledge/java_spring/repository Alexs"
+    },
+    {
+      "id": "volatile",
+      "title": "volatile",
+      "category": "java_spring",
+      "tags": [
+        "поток",
+        "collection",
+        "synchroniz",
+        "если",
+        "объектом"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[поток]]  [[многопоточность]] [[Collection коллекции]] [[java  джава]]\n3   Теги: [[синхронизация  Synchroniz]]  [[Collection коллекции]] [[volatile]]\n\nесли два потока работ...",
+      "url": "/api/knowledge/java_spring/volatile"
+    },
+    {
+      "id": "БИН компоненты bean",
+      "title": "БИН компоненты bean",
+      "category": "java_spring",
+      "tags": [
+        "файлы",
+        "джава",
+        "нашего",
+        "внедрение",
+        "бины"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[Spring]]   SOLID [[java  джава]]  [[Dependensy ingecten внедрение зависимости]] [[Contekst контекст нашего приложения]] [[конфигурационные файлы бины]] \n3   Теги: [[проэ...",
+      "url": "/api/knowledge/java_spring/БИН компоненты bean"
+    },
+    {
+      "id": "Интерфейсы Collable",
+      "title": "Интерфейсы Collable",
+      "category": "java_spring",
+      "tags": [
+        "runnable",
+        "появился",
+        "поток",
+        "появлением",
+        "conkurent"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n\n\n1   -----------\n2   Связи: [[многопоточность]]  [[поток]]\n 3   Теги: Colable  `Runnable` Collable  \nдва способы создания потоков \n1. Runnable\n2. Thread \n\nс появлением адаптированных Conkurent колл...",
+      "url": "/api/knowledge/java_spring/Интерфейсы Collable"
+    },
+    {
+      "id": "Мои промпты",
+      "title": "Мои промпты",
+      "category": "java_spring",
+      "tags": [
+        "пока",
+        "идеи",
+        "идея",
+        "сборщик",
+        "итак"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[Промт инженеринг]] [[GPT]]  сборщик проэкта [[Промпт для игры]] [[промпт для курсового проекта]] \n3   Теги:\n\n1. давай пока будем устанавливать рабочую среду обойдемся бе...",
+      "url": "/api/knowledge/java_spring/Мои промпты"
+    },
+    {
+      "id": "Мой проект индивидуальный",
+      "title": "Мой проект индивидуальный",
+      "category": "java_spring",
+      "tags": [
+        "sharing",
+        "задание",
+        "входа",
+        "folders",
+        "проект"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n\n1   -----------\n2   Связи:[[ логирование]] [[информация для входа]] [[промпт для курсового проекта]]   [[техническое задание ]] \n3   Теги: [[Мой проект индивидуальный]]\n\n[https://drive.google.com/d...",
+      "url": "/api/knowledge/java_spring/Мой проект индивидуальный"
+    },
+    {
+      "id": "Настройка сети",
+      "title": "Настройка сети",
+      "category": "java_spring",
+      "tags": [
+        "аналіз",
+        "мереж",
+        "сервера",
+        "планирование",
+        "linux"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи: Обработано/[[робота з процесами]] [[Планирование задач]] [[линукс linux]]  [[Регистрация в системе]] [[хак chak]]\n3   Теги: [[хак chak]], [[Аналіз мереж і управління ними]]...",
+      "url": "/api/knowledge/java_spring/Настройка сети"
+    },
+    {
+      "id": "Паттерны проэктирования",
+      "title": "Паттерны проэктирования",
+      "category": "java_spring",
+      "tags": [
+        "guru",
+        "expressions",
+        "patterns",
+        "design",
+        "инкапсуляция"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "https://refactoring.guru/ru/design-patterns/java\n1   -----------\n2   Связи:2   Связи:[[OOP ООП]] [[инкапсуляция ]]  [[Структура проэкта]]   [[Паттерны проэктирования]] [[Regular expressions регулярные...",
+      "url": "/api/knowledge/java_spring/Паттерны проэктирования"
+    },
+    {
+      "id": "Програмирование",
+      "title": "Програмирование",
+      "category": "java_spring",
+      "tags": [
+        "java",
+        "джава",
+        "linux"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿[[java  джава]]\nlinux...",
+      "url": "/api/knowledge/java_spring/Програмирование"
+    },
+    {
+      "id": "Промпт для игры",
+      "title": "Промпт для игры",
+      "category": "java_spring",
+      "tags": [
+        "сначала",
+        "правильный",
+        "написать",
+        "кода",
+        "писать"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[Мои промпты]] \n3   Теги:\n\n\n  **написать промпт** \nЯ начинающий програмист на Javaи я хочу напписать правильный промпт для создания игры. никакого кода. будем писать лишь...",
+      "url": "/api/knowledge/java_spring/Промпт для игры"
+    },
+    {
+      "id": "Промпти для візуалізації",
+      "title": "Промпти для візуалізації",
+      "category": "java_spring",
+      "tags": [
+        "departure",
+        "dreams",
+        "prince",
+        "part",
+        "full"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи:[[створення героя]], [[створення контенту]] ,  [[створення пісні]] , [[Промпти для візуалізації]]\n3   Теги: \n\n1. \"The Little Prince and the Train of Dreams\"\nFantasy illustra...",
+      "url": "/api/knowledge/java_spring/Промпти для візуалізації"
+    },
+    {
+      "id": "Рефлексия",
+      "title": "Рефлексия",
+      "category": "java_spring",
+      "tags": [
+        "нарушает",
+        "джава",
+        "инкапсуляция",
+        "аннотация",
+        "джавы"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[java  джава]] [[инкапсуляция]] [[аннотация]]  [[работа с файлами]]\n3   Теги:темная сторона джавы [[рефлексия]]\n[[аннотация]] \n(темная сторона джавы)\nнапрямую нарушает пр...",
+      "url": "/api/knowledge/java_spring/Рефлексия"
+    },
+    {
+      "id": "Создание нового проэкта с нуля",
+      "title": "Создание нового проэкта с нуля",
+      "category": "java_spring",
+      "tags": [
+        "сборщик",
+        "аннотация",
+        "нового",
+        "проэкт",
+        "проэкта"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[json]]  [[артефакт]]  [[сборщик проекта]] [[аннотация]] [[многомодульный проэкт]] [[Создание нового проэкта с нуля]]\n3   Теги:   [[многомодульный проэкт]] [[Создание нов...",
+      "url": "/api/knowledge/java_spring/Создание нового проэкта с нуля"
+    },
+    {
+      "id": "Структура проэкта",
+      "title": "Структура проэкта",
+      "category": "java_spring",
+      "tags": [
+        "джава",
+        "компоненты",
+        "внедрение",
+        "наследование",
+        "serelisation"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[java  джава]] [[OOP ООП]]  [[наследование]] [[Serelisation]] [[модули приложения]]   [[Dependensy ingecten внедрение зависимости]] [[БИН компоненты bean]] [[Dependensy i...",
+      "url": "/api/knowledge/java_spring/Структура проэкта"
+    },
+    {
+      "id": "абстрактные_классы",
+      "title": "абстрактные_классы",
+      "category": "java_spring",
+      "tags": [
+        "тесты",
+        "джава",
+        "наследование",
+        "инкапсуляция",
+        "агрегация"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[java  джава]]  [[инкапсуляция ]]\n\n[[наследование]]\n\n[[полиморфизм]] [[агрегация]] \n[[композиция]]\n#абстрактные_классы \n#[[интерфейсы]]\n3   Теги:[[tdd]] UI user interface...",
+      "url": "/api/knowledge/java_spring/абстрактные_классы"
+    },
+    {
+      "id": "агрегация",
+      "title": "агрегация",
+      "category": "java_spring",
+      "tags": [
+        "класс",
+        "независимый",
+        "какой",
+        "себе",
+        "когда"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[инкапсуляция ]]\n\n[[наследование]]\n\n[[полиморфизм]] [[агрегация]] \n[[композиция]]\n#[[абстрактные_классы]] \n#[[интерфейсы]]\n[[агрегация]] \n[[композиция]]\n3   Теги: [[OOP О...",
+      "url": "/api/knowledge/java_spring/агрегация"
+    },
+    {
+      "id": "аннотация",
+      "title": "аннотация",
+      "category": "java_spring",
+      "tags": [
+        "метаданных",
+        "этом",
+        "рефлексия",
+        "программы",
+        "джавы"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи: [[java  джава]] [[инкапсуляция]]  [[Структура проэкта  ]] \n3   Теги:темная сторона джавы [[рефлексия]]\n[[аннотация]] **метаданные**\n\n**аннотация** -Форма метаданных. Они пр...",
+      "url": "/api/knowledge/java_spring/аннотация"
+    },
+    {
+      "id": "блокирующая_очередь",
+      "title": "блокирующая_очередь",
+      "category": "java_spring",
+      "tags": [
+        "синхронизация",
+        "synchroniz",
+        "джава",
+        "поток",
+        "java"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿2   Связи: [[поток]]  [[многопоточность]] [[Collection коллекции]] [[java  джава]] [[блокирующая_очередь]] коллекции \n3   Теги: [[синхронизация  Synchroniz]]  [[Collection коллекции]] [[volatile]]  #...",
+      "url": "/api/knowledge/java_spring/блокирующая_очередь"
+    },
+    {
+      "id": "гит git hub",
+      "title": "гит git hub",
+      "category": "java_spring",
+      "tags": [
+        "repository",
+        "презентация",
+        "джава",
+        "linux",
+        "докер"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[линукс linux]]  [[git hub repositoru гит хаб репозитори]]\n3   Теги: [[java  джава]] [[docker докер]] [[гит git hub]] \n [[Репозиторий repository java]] \n\n\n\nРабота в команде...",
+      "url": "/api/knowledge/java_spring/гит git hub"
+    },
+    {
+      "id": "запрос",
+      "title": "запрос",
+      "category": "java_spring",
+      "tags": [
+        "может",
+        "например",
+        "клиент",
+        "качестве",
+        "ответ"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[HTTP]] сервер  клиент [[запрос]] [[ответ]]\n3   Теги:\n\n**клиент**  тот кто может выполнить [[HTTP]] **запрос**  // В качестве **клиента** выступает **браузер**  например ...",
+      "url": "/api/knowledge/java_spring/запрос"
+    },
+    {
+      "id": "инкапсуляция",
+      "title": "инкапсуляция",
+      "category": "java_spring",
+      "tags": [
+        "методов",
+        "сохранения",
+        "наследование",
+        "инкапсуляция",
+        "агрегация"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:[[OOP ООП]] [[инкапсуляция ]]\n\n[[наследование]]\n\n[[полиморфизм]] \n[[полиморфизм]] [[агрегация]] \n[[композиция]]\n#[[абстрактные_классы]] \n#[[интерфейсы]]\n3   Теги: [[инкапсу...",
+      "url": "/api/knowledge/java_spring/инкапсуляция"
+    },
+    {
+      "id": "интерфейса",
+      "title": "интерфейса",
+      "category": "java_spring",
+      "tags": [
+        "runnable",
+        "поток",
+        "future",
+        "callable",
+        "теги"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: потоков  [[поток]]\n3   Теги:  ExecutorService   Callable` и `Future` `Runnable`...",
+      "url": "/api/knowledge/java_spring/интерфейса"
+    },
+    {
+      "id": "интерфейсы",
+      "title": "интерфейсы",
+      "category": "java_spring",
+      "tags": [
+        "тесты",
+        "джава",
+        "наследование",
+        "инкапсуляция",
+        "агрегация"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи: [[java  джава]] [[инкапсуляция ]]\n\n[[наследование]]\n\n[[полиморфизм]] [[агрегация]] \n[[композиция]]\n#[[абстрактные_классы]] \n#интерфейсы\n3   Теги:[[tdd]] UI user interface [...",
+      "url": "/api/knowledge/java_spring/интерфейсы"
+    },
+    {
+      "id": "команди поиска",
+      "title": "команди поиска",
+      "category": "java_spring",
+      "tags": [
+        "пошуку",
+        "type",
+        "include",
+        "устройства",
+        "блочні"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:[[JPA]], [[линукс linux]] \n3   Теги:[[команди поиска]]\n**find -name \"*.jpg\"** але краще вказати шлях для пошуку \nfind /usr/include -name \"*.c\"  \nfind /dev -type b знайде вс...",
+      "url": "/api/knowledge/java_spring/команди поиска"
+    },
+    {
+      "id": "композиция",
+      "title": "композиция",
+      "category": "java_spring",
+      "tags": [
+        "обекты",
+        "него",
+        "себе",
+        "когда",
+        "агрегация"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[инкапсуляция ]] \n\n[[наследование]]\n\n[[полиморфизм]]\n[[агрегация]] \n[[композиция]] [[агрегация]] \n[[композиция]]\n#[[абстрактные_классы]] \n#[[интерфейсы]]\n3   Теги:\n\n**ком...",
+      "url": "/api/knowledge/java_spring/композиция"
+    },
+    {
+      "id": "конфигурационные файлы бины",
+      "title": "конфигурационные файлы бины",
+      "category": "java_spring",
+      "tags": [
+        "аннотацией",
+        "файлы",
+        "компоненты",
+        "сборщик",
+        "помечаются"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[Проэкт группы]] [[сборщик проекта]] [[аннотация]]   [[БИН компоненты bean]]\n3   Теги: [[конфигурационные файлы бины]]  [[БИН компоненты bean]]\n\n[[конфигурационные файлы ...",
+      "url": "/api/knowledge/java_spring/конфигурационные файлы бины"
+    },
+    {
+      "id": "линукс linux",
+      "title": "линукс linux",
+      "category": "java_spring",
+      "tags": [
+        "докер",
+        "процессы",
+        "джентельментські",
+        "ключі",
+        "сервер"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[java  джава]] [[docker докер]] [[гит git hub]] [[работа с гитом]]  [[заначка]], [[проект на докере]] [[виндовс сервер]]  [[ОС реального часу]] [[джентельментські угоди]]  ...",
+      "url": "/api/knowledge/java_spring/линукс linux"
+    },
+    {
+      "id": "логирование",
+      "title": "логирование",
+      "category": "java_spring",
+      "tags": [
+        "proksy",
+        "щелкнуть",
+        "надо",
+        "трансакции",
+        "проэкт"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи:[[проэкт на spring bot]] [[Spring]] [[трансакции transaktion]]  [[proksy прокси]]\n3   Теги:  [[логирование]]\n\nзависимости надо щелкнуть мышкой по ним чтоб появились\n<depende...",
+      "url": "/api/knowledge/java_spring/логирование"
+    },
+    {
+      "id": "миграции подключение к h2 консоли  подключение к mySQL-серверу",
+      "title": "миграции подключение к h2 консоли  подключение к mySQL-серверу",
+      "category": "java_spring",
+      "tags": [
+        "mysql",
+        "databasechangeloglock",
+        "удаление",
+        "серверу",
+        "введите"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "Введите команду для подключения к MySQL серверу. Используйте ваш логин и пароль MySQL:\n\nmysql -u root -p\n\nUSE url_shortener_db;\nЗатем выполните удаление таблиц:\nDROP TABLE IF EXISTS DATABASECHANGELOG;...",
+      "url": "/api/knowledge/java_spring/миграции подключение к h2 консоли  подключение к mySQL-серверу"
+    },
+    {
+      "id": "многомодульный проэкт",
+      "title": "XML-[[json]] format for REST config [[HTTP]]://web.app?format=json",
+      "category": "java_spring",
+      "tags": [
+        "сборщик",
+        "аннотация",
+        "нового",
+        "проэкт",
+        "проэкта"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[json]]  [[артефакт]]  [[сборщик проекта]] [[аннотация]] [[многомодульный проэкт]] [[Создание нового проэкта с нуля]]\n3   Теги:   [[многомодульный проэкт]] [[Создание нов...",
+      "url": "/api/knowledge/java_spring/многомодульный проэкт"
+    },
+    {
+      "id": "многопоточность",
+      "title": "многопоточность",
+      "category": "java_spring",
+      "tags": [
+        "greenbeanbookspdx",
+        "originalurl",
+        "isinsertlink",
+        "indielite",
+        "originaltext"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n[](https://www.notion.so/zoom_custom_url=1&zoom_im_wrapper_url=1&originalUrl=https://greenbeanbookspdx.indielite.org/book/9781492025795&isInsertLink=0&originalText=https://greenbeanbookspdx.indielit...",
+      "url": "/api/knowledge/java_spring/многопоточность"
+    },
+    {
+      "id": "модули приложения",
+      "title": "модули приложения",
+      "category": "java_spring",
+      "tags": [
+        "джава",
+        "интерфейсы",
+        "парралельные",
+        "наследование",
+        "агрегация"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[java  джава]] [[OOP ООП]]  [[наследование]] [[Serelisation]] [[модули приложения]]\n\n[[полиморфизм]] [[агрегация]] \n[[композиция]]\n[[абстрактные_классы ]]\n[[интерфейсы]]  [...",
+      "url": "/api/knowledge/java_spring/модули приложения"
+    },
+    {
+      "id": "модульные тесты",
+      "title": "модульные тесты",
+      "category": "java_spring",
+      "tags": [
+        "тесты",
+        "mockito",
+        "junit",
+        "test",
+        "testing"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: :[[Testing]] [[Unit тесты Junit тесты]]  junit  test [[mockito]]\n3   Теги:...",
+      "url": "/api/knowledge/java_spring/модульные тесты"
+    },
+    {
+      "id": "мой докер проект на локальном компе",
+      "title": "работа с имиджами",
+      "category": "java_spring",
+      "tags": [
+        "проверить",
+        "контейнеры",
+        "докере",
+        "локальном",
+        "докер"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:[[docker докер]] [[мой докер проект на локальном компе]], [[проект на докере]] , [[проэкт на spring bot]] \n3   Теги: [[мой докер проект на локальном компе]]\n\nпроверить конт...",
+      "url": "/api/knowledge/java_spring/мой докер проект на локальном компе"
+    },
+    {
+      "id": "наследование",
+      "title": "наследование",
+      "category": "java_spring",
+      "tags": [
+        "наследование",
+        "инкапсуляция",
+        "агрегация",
+        "теги",
+        "проэкта"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:[[OOP ООП]] [[инкапсуляция ]]  [[Структура проэкта]]   [[Паттерны проэктирования]]\n\n[[наследование\n\n[[полиморфизм]] [[агрегация]] \n[[композиция]]\n#[[абстрактные_классы]] \n#...",
+      "url": "/api/knowledge/java_spring/наследование"
+    },
+    {
+      "id": "парралельные коллекции",
+      "title": "парралельные коллекции",
+      "category": "java_spring",
+      "tags": [
+        "синхронизация",
+        "synchroniz",
+        "джава",
+        "парралельные",
+        "copyonwritearraylist"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: коллекции  [[java  джава]]   [[синхронизация  Synchroniz]] [[CopyOnWriteArrayList , ArrayList]] \n3   Теги: [[синхронизация  Synchroniz]]  [[пулы потоков]]  [[парралельные ...",
+      "url": "/api/knowledge/java_spring/парралельные коллекции"
+    },
+    {
+      "id": "подключение к уч. серверу",
+      "title": "подключение к уч. серверу",
+      "category": "java_spring",
+      "tags": [
+        "подключение",
+        "процессы",
+        "ключей",
+        "приватний",
+        "ключі"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[команди лінукс, ключі лінукс]] [[процессы]] [[генерация ключей SSH]] [[вход на учебный сервер]]\n3   Теги: [[подключение к уч. серверу]] [[процессы]] \n### [[генерация клю...",
+      "url": "/api/knowledge/java_spring/подключение к уч. серверу"
+    },
+    {
+      "id": "полиморфизм",
+      "title": "полиморфизм",
+      "category": "java_spring",
+      "tags": [
+        "типами",
+        "кода",
+        "агрегация",
+        "структура",
+        "паттерны"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:[[OOP ООП]] [[инкапсуляция ]]  [[Структура проэкта]]   [[Паттерны проэктирования]]\n\n[[наследование\n\n[[полиморфизм]] [[агрегация]] \n[[композиция]]\n#[[абстрактные_классы]] \n#...",
+      "url": "/api/knowledge/java_spring/полиморфизм"
+    },
+    {
+      "id": "поток",
+      "title": "поток",
+      "category": "java_spring",
+      "tags": [
+        "синхронизация",
+        "synchroniz",
+        "runnable",
+        "date",
+        "классы"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿#способы_создания_потоков \n#способы_создания_потоков \n1   -----------\n Связи:[[многопоточность]] лямбда-выражений  [[многопоточность]] #Date #java  [[синхронизация  Synchroniz]] [[Phaser]] коллекции\n...",
+      "url": "/api/knowledge/java_spring/поток"
+    },
+    {
+      "id": "проект на докере",
+      "title": "работа с имиджами",
+      "category": "java_spring",
+      "tags": [
+        "учителем",
+        "запуск",
+        "образа",
+        "проверить",
+        "linux"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:[[линукс linux]] [[докер с другим учителем]], [[создание образа building и запуск контейнеров]] ,  [[мой докер проект на локальном компе]],\n3   Теги: [[проект на докере]]\n\n...",
+      "url": "/api/knowledge/java_spring/проект на докере"
+    },
+    {
+      "id": "проэкт на spring bot",
+      "title": "проэкт на spring bot",
+      "category": "java_spring",
+      "tags": [
+        "клиент",
+        "подключение",
+        "проэкт",
+        "репозиторий",
+        "сервер"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:[[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]] \n[[Репозиторий repository java]] [[подключение баз данных]]  [[конфигурационные файлы бины]] [[тестиро...",
+      "url": "/api/knowledge/java_spring/проэкт на spring bot"
+    },
+    {
+      "id": "работа с гитом",
+      "title": "работа с гитом",
+      "category": "java_spring",
+      "tags": [
+        "ветки",
+        "основная",
+        "джава",
+        "linux",
+        "тестовая"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[java  джава]] [[docker докер]] [[гит git hub]] [[заначка]]\n3   Теги: [[линукс linux]]   [[работа с гитом]] \n\n##  Eсть два подхода к разработке :\n### Git test floy\nв разраб...",
+      "url": "/api/knowledge/java_spring/работа с гитом"
+    },
+    {
+      "id": "работа с файлами",
+      "title": "работа с файлами",
+      "category": "java_spring",
+      "tags": [
+        "java",
+        "джава",
+        "связи",
+        "теги"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[java  джава]]\n3   Теги:...",
+      "url": "/api/knowledge/java_spring/работа с файлами"
+    },
+    {
+      "id": "рекомендованная литература от Ильи",
+      "title": "рекомендованная литература от Ильи",
+      "category": "java_spring",
+      "tags": [
+        "джава",
+        "проект",
+        "индивидуальный",
+        "java",
+        "https"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[java  джава]] [[Мой проект индивидуальный]]\n3   Теги:\n\n\nhttps://www.watsons.ua/\n\nhttps://www.watsons.ua/...",
+      "url": "/api/knowledge/java_spring/рекомендованная литература от Ильи"
+    },
+    {
+      "id": "сборщик проекта",
+      "title": "сборщик проекта",
+      "category": "java_spring",
+      "tags": [
+        "сборщик",
+        "пробовать",
+        "проекта",
+        "конфигурационные",
+        "https"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:[[ gradle]]   [[maven]]  [[java  джава]]    [[json]]  [[конфигурационные файлы бины]]\n3   Теги:[[ gradle]]  [[сборщик проекта]]  [[maven]]\n\n\nнадо пробовать\nвроде только зайти...",
+      "url": "/api/knowledge/java_spring/сборщик проекта"
+    },
+    {
+      "id": "сильні дієслова starke werbung",
+      "title": "Сильні дієслова в німецькій мові",
+      "category": "java_spring",
+      "tags": [
+        "наприклад",
+        "претериті",
+        "starke",
+        "вони",
+        "прикладів"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[Verben дієслово]]\n3   Теги: сильні дієслова starke werbung\n\nСильні дієслова в німецькій мові – це ті, що змінюють кореневу голосну при відмінюванні (наприклад, у претери...",
+      "url": "/api/knowledge/java_spring/сильні дієслова starke werbung"
+    },
+    {
+      "id": "синхронизация  Synchroniz",
+      "title": "синхронизация  Synchroniz",
+      "category": "java_spring",
+      "tags": [
+        "пулы",
+        "синхронизация",
+        "synchroniz",
+        "джава",
+        "парралельные"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[поток]]  [[многопоточность]] [[Collection коллекции]] [[java  джава]]  [[пулы потоков]]  [[парралельные коллекции]]\n3   Теги: [[синхронизация  Synchroniz]]  [[Collection...",
+      "url": "/api/knowledge/java_spring/синхронизация  Synchroniz"
+    },
+    {
+      "id": "создание телеграмм бота",
+      "title": "создание телеграмм бота",
+      "category": "java_spring",
+      "tags": [
+        "public",
+        "класс",
+        "проэкт",
+        "насдледудуется",
+        "бота"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[OOP ООП]] \n3   Теги:[[проэкт на spring bot]] \n\n\n\nкласс этого бота насдледудуется от **TelegramLongPollingBot** :\npublic class MyFirstTelegramBot extends TelegramLongPoll...",
+      "url": "/api/knowledge/java_spring/создание телеграмм бота"
+    },
+    {
+      "id": "тестирование проэкта",
+      "title": "тестирование проэкта",
+      "category": "java_spring",
+      "tags": [
+        "repository",
+        "файлы",
+        "тесты",
+        "подключение",
+        "junit"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:[[Репозиторий repository java]] [[подключение баз данных]]  [[конфигурационные файлы бины]] [[тестирование проэкта]] \n[[проэкт на spring bot]]  [[Unit тесты Junit тесты]]\n3...",
+      "url": "/api/knowledge/java_spring/тестирование проэкта"
+    },
+    {
+      "id": "типы данных java",
+      "title": "типы данных java",
+      "category": "java_spring",
+      "tags": [
+        "джава",
+        "true",
+        "false",
+        "типы",
+        "short"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:[[java  джава]] \n3   Теги: типы данных \n#### примитивные\n1. boolean  - true/false\n2. byte числа от  **- 128 до 127**\n3. short  числа от  **-32_768 до 32_767** \n4. int  числ...",
+      "url": "/api/knowledge/java_spring/типы данных java"
+    },
+    {
+      "id": "трансакции transaktion",
+      "title": "трансакции transaktion",
+      "category": "java_spring",
+      "tags": [
+        "patterns",
+        "проэкт",
+        "статьи",
+        "proxy",
+        "tree"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:[[проэкт на spring bot]] [[Spring]] [[proksy прокси]] \n3   Теги:  [[трансакции transaktion]] \n\nстатьи о трансакциях\n\nhttps://github.com/iluwatar/java-design-patterns/tree/m...",
+      "url": "/api/knowledge/java_spring/трансакции transaktion"
+    },
+    {
+      "id": "управление проэктами PM BOK",
+      "title": "управление проэктами PM BOK",
+      "category": "java_spring",
+      "tags": [
+        "управление",
+        "management",
+        "планирование",
+        "проект",
+        "группы"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи :  [[IT management]]  [[проэкт группы]]  [[Daily Scrum]] [[Agile планирование Scrum Plaining]]  [[Мой проект индивидуальный]] [[многомодульный проэкт]]\n\n3   Теги:  [[управлен...",
+      "url": "/api/knowledge/java_spring/управление проэктами PM BOK"
+    },
+    {
+      "id": "фул стек разработка",
+      "title": "Live reload settings",
+      "category": "java_spring",
+      "tags": [
+        "repository",
+        "клиент",
+        "ответ",
+        "delit",
+        "проэкт"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n\n1   -----------\n2   Связи:[[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]]  \n[[Репозиторий repository java]]  [[GET методы]]  [[POST методы]]  [[PUT методы]]  [[PATCH методы]] ...",
+      "url": "/api/knowledge/java_spring/фул стек разработка"
+    }
+  ]
+}

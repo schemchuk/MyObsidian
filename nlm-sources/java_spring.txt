@@ -1,0 +1,2944 @@
+# Команда `jpackage` для створення Windows `.exe` (з Kali)
+
+﻿1   -----------
+2   Связи: [[Команда x00T0x00 для створення Windows x00T1x00 (з Kali)]]
+3   Теги
+
+## Виконай з кореня проєкту (~/IdeaProjects/PostExAgent/):jpackage \
+  --type app-image \
+  --input target \
+  --name PostExAgent \
+  --main-jar PostExAgent-1.0-SNAPSHOT.jar \
+  --main-class com.agent.postexagent.Main \
+  --runtime-image ~/tools/win-jre/jdk-17.0.11+9-jre \
+  --dest dist/windows
+  
+  🧪 Результат
+буде створено: dist/windows/PostExAgent/PostExAgent.exe
+
+він запуститься на Windows без JDK/JRE
+
+у вікні cmd.exe або в фоновому режимі (пізніше можемо прибрати консоль)
+
+---
+
+# Agile планирование Scrum Plaining
+
+﻿
+1   -----------
+2   Связи: [[управление проэктами PM BOK]]   [[IT management]]  [[Agile планирование Scrum Plaining]] agail  [[Daily Scrum]]  [[Daily Scrum]]
+3   Теги: [[Waterfol]]  [[Kanban ]]  [[Scrum]]   agail  [[Scrum]] Plaining    [[Agile планирование Scrum Plaining]] 
+
+это планирование подстраивается под желание клиента
+
+процесс планирования перетворюэться в циклический.
+
+планирование производится небольшими отрезками
+
+планирование делится на уровни - горизонты планирования
+
+**планирование зависит от требований рынка** 
+
+практическая работа   https://docs.google.com/spreadsheets/d/1pQjCU--VOZCU__wpt7-hh4z34Lv9EByoLZ8Uj9qO1ys/edit?usp=sharing
+
+---
+
+# Collection коллекции
+
+﻿!collections.png
+
+1   -----------
+2   Связи: [[java  джава]]  [[синхронизация  Synchroniz]]  [[парралельные коллекции]]
+ 3   Теги: List  LinkeldList  Set  TreeSet   Map  TreeMap  [[HashSet , хеш таблицы, HashMap]]   коллекции
+коллекции
+
+---
+
+# Contekst контекст нашего приложения
+
+﻿
+1   -----------
+2   Связи:  [[Spring]]   SOLID [[java  джава]]  [[Dependensy ingecten внедрение зависимости]]  
+3   Теги:
+
+---
+
+# CopyOnWriteArrayList , ArrayList
+
+﻿ArrauList в многопоточности CopyOnWriteArrayList
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+|     |     |     |     |
+|     |     |     |     |
+
+
+
+1   -----------
+2   Связи:  [[java  джава]]  [[синхронизация  Synchroniz]]  [[парралельные коллекции]]
+ List  LinkeldList  Set  TreeSet   Map  TreeMap   HashMap  [[HashSet , хеш таблицы, HashMap]]   [[CopyOnWriteArrayList , ArrayList]]  коллекции  [[многопоточность]]  [[парралельные коллекции]]
+3   Теги: [[CopyOnWriteArrayList , ArrayList]]
+
+При попытке изменения информации в CopyOnWriteArrayList создается копия ArrauList 
+каждый [[поток]] работает с копией и имеет механизм внутренней синхронизации данных после его завершения
+используетсядля чтения несколькими потоками и **вожможностью** *иногда* что-то записывать.
+
+---
+
+# Daily Scrum
+
+﻿
+
+2   Связи: [[управление проэктами PM BOK]]   [[IT management]]  [[Agile планирование Scrum Plaining]] agail  [[Daily Scrum]]
+3   Теги: [[Waterfol]]  [[Kanban ]]  [[Scrum]]   agail  [[Scrum]] Plaining    [[Agile планирование Scrum Plaining]]
+
+ежедневно мероприятие для актуализации текущего состояния проэкта и выработки правильных решений
+задаются вопросы каждый раз одни и те же в течении 15 минут
+- что я буду делать
+- что я вчера делал
+- вижу я какие то проблемы по достижению цели спринта
+
+ответы дают только члены команды, присутствовать может кто-либо
+
+проэкты с доской самые эффективные
+
+---
+
+# Date, Time
+
+﻿1   -----------
+2   Связи: [[java  джава]]  [[синхронизация  Synchroniz]] коллекции 
+3   Теги: #Date #LocalDate #LocalDateTime #ZonedDateTime #Instant #LokalTime
+
+Существует два типы дат
+- устаревшие  Date    01.01.1970, ms 
+- теперь предпочитают Gregoriancalendar
+
+
+
+
+LocalDate - класс из пакета java.time
+
+Методы:
+
+LocalDate now() - возвращает объект, который представляет текущую дату
+LocalDate.of(int year, int month, int day) -возвращает объект, который представляет дату c определенным годом, месяцем и днем
+
+getYear() - возвращает год
+getMonthValue() - возвращает месяц
+getDayOfMonth() - возвращает день месяца - 1 - 31
+getDayOfYear() - возвращает день месяца - 1 - 365
+
+plusDays(int n) - добавляет к дате количество дней
+plusWeeks(int n) - добавляет к дате количество недель
+
+minusDays(int n) - отнимает от даты некоторое количество дней
+
+
+LocalDateTime - класс из пакета java.time
+
+локальный объект даты и времени без информации о часовом поясе
+
+LocalDataTime - неизменяемый объект даты и времени представляющий дату в формате
+yyyy-MM-dd-HH-mm-ss.zzz
+
+методы:
+
+format() - используется для форматирования даты
+get() - получить значение из указанного поля в виде int
+now() - для получения текущей даты и времени
+
+plusHours()
+plusDays()
+plusYears()
+
+
+
+
+
+
+
+классы Date and Callendar изменяемые, что нехорошо
+
+ class Instant это временная метка
+ Для замера времени между инстантами используем класс Duration или использовать метод  System.currentTimeMilis, или System.nanoTime
+В методах #LocalDate #LocalDateTime #ZonedDateTime #LokalTime  не используется конструктор,  время задается просто через точку после класса, т.е. вызываем метод напрямую.
+
+---
+
+# Dependensy ingecten внедрение зависимости
+
+﻿
+1   -----------
+2   Связи: [[Spring]]  SOLID 
+3   Теги: [[Dependensy ingecten внедрение зависимости]] 
+
+Dependensy ingecten внедрение зависимости это техника которая позволяет передавать зависимости в объект из вне.через конструкторы, методы или свойства объектов
+
+**Dependensy ingecten DI** это конкретный способ  передавать зависимости объекту из вне через конструктор.
+
+**Dependensy inversion DI** 
+зависимости высокоуровневых модулей не должны зависеть от низкоуровневых модулей то есть классы должны зависеть от интерфейсов или абстрактных классов а абстракции не зависят от их реализаций.
+это реализация **D** принципа solid
+(**dependency inversion principle** *Принцип инверсии зависимостей* - Если в приложении несколько уровней модулей, то верхние модули не должны зависеть от нижних)
+ 
+**Dependensy inversion DI**  ***принцип*** как организовывать зависимости нашей системы
+**Dependensy ingecten DI** ***конкретный способ*** реализации этого принципа
+
+---
+
+# Exsceptions
+
+﻿!Exception-Diagram.webp
+!exceptionsInJavaHierarchy.png
+!Exception-Types.jpeg
+
+
+
+
+
+
+
+
+1   -----------
+2   Связи: [[OOP ООП]] [[java  джава]] 
+3   Теги:
+
+---
+
+# Gradle
+
+1   -----------
+2   Связи:[[ gradle]]   [[maven]]  [[java  джава]]    [[json]]  
+3   Теги:[[ gradle]]  [[сборщик проекта]]  [[maven]]
+
+[https://gradle.org/releases/](https://gradle.org/releases/)
+[https://gradle.org/install/](https://gradle.org/install/)
+
+
+для большей свободы модификаций проэкта был создан [[ gradle]] 
+
+Это предметно- ориентированный язык на основе *груля* 
+за работу отвечают **плагины**
+для мобильной андроид разработки
+
+---
+
+# HTTP
+
+﻿
+1   -----------
+2   Связи: [[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]]
+3   Теги: [[HTTP]] сервер  клиент [[запрос]] [[ответ]]
+[[HTTP]] протокол базируется на запросеот клиента серверу
+
+**клиент**  тот кто может выполнить [[HTTP]] **[[запрос]]**  // В качестве **клиента** выступает **браузер** 
+сервер программа которая может получить запрос и отправить **[[ответ]]** // В качестве **сервера** выступает некий  **веб-сервер** который умеет отвечать на запросы
+в проэкте сервером выступает **джарник** который умеет отвечать на запросы со стороны браузера 
+в этом случае на моем компютере поднимается **томкат** сервис и мой комп становится сервером
+## запрос
+первый рядок - информация о методе, адресе и версии [[HTTP]] протокола
+{**метод**} {**адрес** } {  **НТТР и версия**}
+
+после этого идет **заголовок** в формате:
+**ключ** : **значение** 
+если есть **тело** то оно печатается после **заголовков** и отделяется от них пустым рядком
+GET /wiki/Main_Page HTTP
+Host : en.wikipendia.org
+
+POST /pages HTTP/1.1
+Host : exsample.com
+User-Agent : firefox/5.0( Linux; Debian 5.0.8)
+
+## ответ
+в первом рядке ответа идет информация об версии НТТР , код состояния и опись состояния
+{версии НТТР } {код состояния } {опись состояния } 
+HTTP/1.1 200 OK
+Server : Apache
+Content-Type : text/html; .................
+Content- Length : 1234
+body answer.(тело ответа)
+
+http://127.0.0.1:8080/library
+
+http://127.0.0.1:8080/home
+
+---
+
+# HashSet , хеш таблицы, HashMap
+
+﻿[[HashSet , хеш таблицы, HashMap]]
+
+
+1   -----------
+2   Связи: [[java  джава]]  [[синхронизация  Synchroniz]]  [[парралельные коллекции]]
+ List  LinkeldList  Set  TreeSet   Map  TreeMap   HashMap  [[HashSet , хеш таблицы, HashMap]]   [[CopyOnWriteArrayList , ArrayList]]  коллекции  [[парралельные коллекции]] 
+коллекции 
+3   Теги: [[HashSet , хеш таблицы, HashMap]] 
+
+значения хранятся в виде 
+###  ключ - значение 
+
+**бакет** это элемент хеш таблицы хранящий ключ - значение 
+это основа хеш таблицы.
+
+для создания коллекции в работе в многопоточной среде нужно обеспечить синхронизацию.
+## ConkurentHeshMap , ConkurentHeshSet
+
+### синхронизация  установлена на уровне блокировки сегментов(бакетов).
+
+---
+
+# IT management
+
+﻿
+1   -----------
+2   Связи:   PM BOK  [[Проэкт группы]] 
+3   Теги: [[Waterfol]]  [[Kanban ]]  [[Scrum]]   agail  [[управление проэктами PM BOK]]  [[Проэкт группы]] 
+
+[[Waterfol]]  [[Kanban ]]  [[Scrum]]   agail  методы управления проэктами их намного больше. выбор методологии производит ИТ менеджер
+
+проэкт это **проэктирование** , **написание**  , **Тестирование** , т и **поддержка** 
+
+модели управления 
+- каскадная  [[Waterfol]] 
+- итеративная
+
+[[управление проэктами PM BOK]]
+
+---
+
+# JDK, JRE, JVM, JIT, JAR
+
+1   -----------
+2   Связи:[[java  джава]]
+3   Теги:[[JDK, JRE, JVM, JIT, JAR]]
+
+ **JDK** - Набор инструментов для разработки Java-программ, включая компилятор
+
+**JRE** - Набор инструментов для запуска Java-программ, включая виртуальную машину
+
+**JVM** - Виртуальная машина Java
+
+**JIT** - Подход к реализации виртуальной машины, при котором байткод не интерпретируется, а компилируется в машинный код для исполнения аппаратным процессором
+
+**JAR** - Формат архива, в который обычно упаковывают Java-программы и библиотеки
+
+---
+
+# Maven
+
+﻿
+
+
+
+1   -----------
+2   Связи: [[json]]  [[артефакт]]  [[сборщик проекта]] 
+
+3   Теги:  
+
+
+Диплоймен   
+
+раньше код писали в текстовых файлах которые имели расширение .**java**  
+классы нужно было компилировать вручную с расширением .**class**  и только класс с методом **мейн** можно было специальным образом запуститьВ данное время два архива
+1. .jar для упаковки и распостранения всех ресурсов , библиотеки, классы, метаданные и т. д.
+2. .war предназначены для выполнения в ВЕБ контейнере  
+**Сборщик проэкта** это некий скриптовый код 
+**Скрипт** это последовательность команд
+
+### выполняемый файл
+<!-- выполняемый JAR в maven проекте -->
+<build>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-jar-plugin</artifactId>
+			<version>3.3.0</version>
+			<configuration>
+				<archive>
+					<manifest>
+						<addClasspath>true</addClasspath>
+						<classpathPrefix>lib/</classpathPrefix>
+						<mainClass>com.telran.Main</mainClass>
+					</manifest>
+				</archive>
+			</configuration>
+		</plugin>
+	</plugins>
+</build>
+
+
+mvn help: effective-pom
+
+
+
+От Александра для спринг бута депенденси
+
+<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>[[Spring]]-core</artifactId>
+            <version>6.1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.1.4</version>
+        </dependency>
+
+
+<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>6.1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.1.4</version>
+        </dependency>
+
+---
+
+# OOP ООП
+
+﻿[[OOP ООП]] 
+основные принципы:
+- приложение имеет три(четыре ) слоя:
+		-Entity или domen- структура базы данных или структура приложений ,информация для работы приложения
+		-  дополнительный функционал который обрабатывает информацию (репозитории и методы которые с ним работают) добавлять ,читать , работать с файлами
+		- service (база) основная бизнес логика( это больше всего должно тестироваться)
+		- user interface (внешний)
+варианты разработок 
+	-1[[tdd]] test_driving_developing сначала пишутся тесты
+процесс тестирования начинается с user interface модульных тестов 
+1   -----------
+2   Связи: [[java  джава]] [[инкапсуляция ]] [[Структура проэкта]]
+
+[[наследование]]
+
+[[полиморфизм]] [[агрегация]] 
+[[композиция]]
+[[абстрактные_классы ]]
+[[интерфейсы]]  [[парралельные коллекции]]
+3   Теги:[[tdd]] UI user interface [[модульные тесты]] SOLID
+
+
+[[инкапсуляция ]]
+
+[[наследование]]
+
+[[полиморфизм]]
+[[агрегация]] 
+[[композиция]]
+[[абстрактные_классы ]]
+Обработано/[[интерфейсы]]  
+
+SOLID
+
+---
+
+# PATCH методы
+
+﻿1   -----------
+2   Связи: [[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]]  
+[[Репозиторий repository java]]  [[GET методы]]  [[POST методы]]  [[PUT методы]] [[PATCH методы]] [[DELIT методы]] 
+3   Теги: аннотаци  # 
+
+## PATCH методы
+
+обновляют часть информации, то есть передаем не весь объект а только часть информации
+
+для запуска приложения APP нужно сделать класс контроллера
+он помечается аннотаци
+
+---
+
+# POST методы
+
+﻿
+1   -----------
+2   Связи: [[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]]  
+[[Репозиторий repository java]]  [[GET методы]]  [[POST методы]]  [[PUT методы]] [[DELIT методы]] 
+3   Теги: аннотаци  # 
+
+## POSTметоды
+
+для запуска приложения APP нужно сделать класс контроллера
+он помечается аннотаци  @**PostMapping** , для передачи **тела  запроса** - - -----аргументов(книга ) по сети надо использовать @**RequestBody**   ,   например 
+ @PostMapping("/all") void addBook(@RequestBody Book book) {  
+    library.add(book);  
+} метод ничего не возвращает потому **void**
+
+Здесь я задаю чтобы **возвращало** добавленную книгу и **показывало** дополнительные параметры ответа, которые будут приходить от сервера  *HttpStatus.CREATED*: 
+
+@PostMapping("/all")  
+public ResponseEntity<Book> addBook(@RequestBody Book book) {  
+    library.add(book);  
+   return new ResponseEntity<>(book, HttpStatus.CREATED);  
+}
+
+POST [[запрос]] можно передать из командной строки а можно пользоваться программами **Postmann**
+
+---
+
+# PUT методы
+
+﻿1   -----------
+2   Связи: [[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]]  
+[[Репозиторий repository java]]  [[GET методы]]  [[POST методы]]  [[PUT методы]] [[PATCH методы]] [[DELIT методы]] 
+3   Теги: аннотаци  # 
+
+## PUT методы
+
+обновляют всю информацию
+
+для запуска приложения APP нужно сделать класс контроллера
+он помечается аннотаци  @**PutMapping** 
+
+если обекта нет, он **создастся**, а если есть то **перезапишется**
+
+@PutMapping("/all")  
+public ResponseEntity<Book> updateBook(@RequestBody Book book) {  
+  
+    if (library.contains(book)) {  
+  
+        int index = library.indexOf(book);  
+        library.set(index, book);  
+        return new ResponseEntity<>(book, HttpStatus.OK);  
+    } else {  
+        library.add(book);  
+        return new ResponseEntity<>(book, HttpStatus.CREATED);  
+    }
+
+---
+
+# Scrum
+
+1   -----------
+2   Связи:[[IT management]]
+3   Теги:
+
+фреймворк требует правильного применения иначе он не работает
+## роли в skrum
+
+
+- skrum  команда
+
+-  skrum  мастер
+
+- skrum владелец продукта
+
+
+## skrum события
+
+
+## skrum артефакты
+
+
+## Sprint retrospektiva
+
+---
+
+# Serelisation
+
+﻿1   -----------
+2   Связи:  [[работа с файлами]] [[Maven]] [[Структура проэкта]]
+3   Теги: #kotlin [[json]]  XML [[jacson]]
+ 
+ protobaf протокол передачи данных
+
+Данные для передачи по сети сереализацизируют
+
+ОбектЫ серелиализации [[json]], XML, передача информации
+
+библиотека [[jacson]]
+подключаемся через dependeciens  k [[Maven]]
+[[ObjectMapper]] подключает [[jacson]]
+
+---
+
+# Spring
+
+﻿
+1   -----------
+2   Связи: [[Spring]]   SOLID [[java  джава]]  [[Dependensy ingecten внедрение зависимости]] 
+3   Теги:библиотека    фреймворк [[Contekst контекст нашего приложения]]  [[БИН компоненты bean]] 
+
+**библиотека** это наличие определенных классов которые можно подключать и данные использовать **инструмент** для повторного использования одной и той же функциональности
+
+ фреймворк это возможность использования его **принципов** для разработки всего приложения
+  фреймворк  эток каркас, шаблон 
+  фреймворк это не просто набор библиотек а по сути предоставляет использование определенных правил(каркаса) для создания приложения
+  *он определяет правила , структуру и взаимоотношения* между различными слоями и модулями приложения.
+  это целая экосистема включающая в себя более 20 модулей
+  **спринг Бут** это один из них. он являет собой как бы надстройку над спрингом 
+то есть ядром все таки является спринг
+
+[[Spring]]  ***это [[контейнер]] внедрения зависимостей*** ,
+которые работают на всех слоях приложения
+
+**inversion of controle** принцип разработки который определяет управление объектами. освобождает разработчика от управления , создания и вызова кода.
+
+спринг включает в себя:
+**Dependensy ingecten DI**  ***принцип*** как организовывать зависимости нашей системы
+**Dependensy ingecten DI** ***конкретный способ*** реализации этого принципа
+и также
+**inversion of controle** принцип разработки который определяет управление объектами. освобождает разработчика от управления , создания и вызова кода.
+
+когда спринг запускается в нем возникает контейнер(**Container inversion of control**l) который содержит определенный набор информации который хранится в блоке[[Contekst контекст нашего приложения]]  в котороь по сути создаются, инициализируются и выполняются [[БИН компоненты bean]] нашего приложения
+
+---
+
+# StringBuffer, StringBuilder стрингбилдер стрингбуфер
+
+﻿  Это изменяемые классы для стринга
+1   -----------
+2   Связи:[[java  джава]]
+3   Теги:  imutable StringBuffer,  StringBuilder 
+переменная стринг является imutable неизменяемой
+
+при конкатенации мы каждый раз **создаем** обект а **не изменяем**.
+
+Это очень сильно ограничивает ресурсы, поэтому были созданы изменяемые классы StringBuffer,  StringBuilder  длину и значение мы можем изменять с помощю определенных методов
+
+
+преимущество стринга проявляется в двух случаях
+-1 если надо работать с короткой(до **ста** символов) строкой
+-2 Из-за того что стринг *неизменяемый*  он является *потокобезопасным* 
+
+StringBuffer **потокобезопасный**
+StringBuilder **не** потокобезопасный
+
+---
+
+# Testing
+
+﻿ 1   -----------
+2   Связи: базы данных CRUD [[OOP ООП]]  [[mockito]]
+3   Теги: #junit_Testing [[integration tests]] user interface junit  test [[mocito]
+ 
+ 
+ 
+ пирамида тестирования Майкла Кона
+!testing.png
+
+1.[[Unit тесты Junit тесты]]тесты которые применяются во всех слоях приложения и тестируют наименьшую делимую  логику приложения класс или чаще всего метод легковесные, не занимают много ресурсов
+
+code cowerig покрытие тестами  % кода покрытого тестами
+
+CRUD не стоит усердствовать с тестами, тесты должны идти на уровне сервисов
+C create
+R read
+U update
+D delit
+
+
+2.[[integration tests]] тесты  обьединяют несколько компонентов ,  связь с базы данных 
+как работает приложения в целом (пишут тестировщики)
+
+3.UI user interface  [[модульные тесты]] проверяют работу пользовательского [[интерфейса]] сквозные проверяют всю логику приложения
+
+
+варианты разработок 
+	-1[[tdd]] test_driving_developing сначала пишутся тесты
+процесс тестирования начинается с user interface модульных тестов 
+
+Среды для тестирования junit  test, testNG
+junit проедставляет из себя класс в котором производится тестирование
+название совпадает с назв сервисного класса
+
+---
+
+# Unit тесты Junit тесты
+
+1   -----------
+2   Связи:[[Testing]] [[mockito]]
+3   Теги: [[Unit тесты Junit тесты]]
+хорошее покрытие около 70 процентов
+
+1 Тестирование белого ящика
+2 Тестирование черного ящика
+3 Тестирование серого ящика
+
+Unit тесты пишутся почти всегда с применением фреймворка(junit) и отвечают основным требованиям:
+- легко реализовать
+- читабельные, легко запускаются
+- проходят быстро
+- надежные, постоянные в своих результатах
+- должны иметь полный контроль над тестируемым кодом
+- изолированные (от других тестов)
+- когда падают, легко найти причину и место падения
+- поддерживаемые и повторяемые до тех пор пока не **поменялся** код
+
+---
+
+# dto обекты
+
+﻿
+1   -----------
+2   Связи: [[проэкт на spring bot]] [[Spring]]
+3   Теги:[[dto обекты]]
+
+фреймморк mabstracn
+
+https://www.baeldung.com/mapstruct
+
+для работы мабстракта с ломбоком нужны зависимости
+
+<dependency>
+    <groupId>org.mapstruct</groupId>
+    <artifactId>mapstruct</artifactId>
+    <version>1.5.5.Final</version>
+</dependency>
+
+
+выносятся в отдельные переменые версии мапстракта и ломбока и размещаются ниже версии идеи в помнике:
+
+<mapstruct.version>1.5.5.Final</mapstruct.version>
+<lombok.version>1.18.32</lombok.version>
+
+плагины:
+<plugin>
+    <groupId>org.apache.[[Maven]].plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.1</version>
+    <configuration>
+       <source>8</source>
+       <target>8</target>
+       <annotationProcessorPaths>
+          <path>
+             <groupId>org.projectlombok</groupId>
+             <artifactId>lombok</artifactId>
+             <version>${lombok.version}</version>
+          </path>
+          <path>
+             <groupId>org.projectlombok</groupId>
+             <artifactId>lombok-mapstruct-binding</artifactId>
+             <version>0.2.0</version>
+          </path>
+          <path>
+             <groupId>org.mapstruct</groupId>
+             <artifactId>mapstruct-processor</artifactId>
+             <version>${mapstruct.version}</version>
+          </path>
+       </annotationProcessorPaths>
+    </configuration>
+</plugin>
+### swagger
+для генерации автодукоментации по контроллерам используется фреймворк **свагер**
+
+<!--        [[Spring]] doc & Swagger support. URL: [[HTTP]]://localhost:8080/swagger-ui/index.html-->
+<dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+    <version>2.5.0</version>
+</dependency>
+
+
+
+ссылки на статьи по свагеру
+https://www.baeldung.com/spring-rest-openapi-documentation
+
+https://blog.skillfactory.ru/glossary/swagger/
+
+---
+
+# proksy прокси
+
+﻿1   -----------
+2   Связи:[[проэкт на spring bot]] [[Spring]] [[трансакции transaktion]]
+3   Теги:   [[proksy прокси]]
+
+
+**Аспекты** 
+статьи по аспектах
+https://habr.com/ru/articles/428548/
+
+https://for-each.dev/lessons/b/-[[Spring]]-aop-pointcut-tutorial
+
+ссылка на проэт с аспектами:
+https://github.com/IliaIliukovich/SpringBootAspectJDemo/
+
+---
+
+# repository Alexs
+
+1   -----------
+2   Связи: #java #Git_hub
+ 3   Теги:
+https://github.com/alex2808pl/pract-211123
+
+https://github.com/alex2808pl/pract-211123
+
+
+ на алгоритми 
+https://drive.google.com/drive/folders/1G9qBd5o8RGeP3zDKXFjk61dPWgErZfEQ?usp=sharing
+
+
+ https://github.com/alex2808pl/algorithm171023.git
+
+---
+
+# volatile
+
+1   -----------
+2   Связи: [[поток]]  [[многопоточность]] [[Collection коллекции]] [[java  джава]]
+3   Теги: [[синхронизация  Synchroniz]]  [[Collection коллекции]] [[volatile]]
+
+если два потока работают с каким - тоодним объектом или хотят к нему обратиться
+
+**volatile** ключевое слово используется в ситуации когда мы *хотим* объявить переменную, которая может быть *использована* несколькими потоками
+
+оно гарантирует что любое изменение такой переменной будут видны другим потокам сразу же после изменения значения этой переменной
+ ускоряется работа за счет того что не нужно блокировать доступ к данным другим потокам, так как они уже уведомлены об этом и могут оперировать этими данными
+
+---
+
+# БИН компоненты bean
+
+﻿
+1   -----------
+2   Связи: [[Spring]]   SOLID [[java  джава]]  [[Dependensy ingecten внедрение зависимости]] [[Contekst контекст нашего приложения]] [[конфигурационные файлы бины]] 
+3   Теги: [[проэкт на spring bot]] 
+
+БИН компоненты bean это компонент внедрения зависимостей,
+объект какого то класса
+
+
+[[конфигурационные файлы бины]] помечаются аннотацией  @**SpringBootApplication** 
+и находятся  в папке **resources**
+
+
+метод **main** присутствует в проэкте как точка входа и он единственный
+
+## работа с бинами
+###  XML бины 
+создаем ApplicationContext context = new ClassPathXmlApplicationContext("applicfnionContext.xml");
+а потом в папке ресурсес создаем файл applicfnionContext.xml
+и в нем пишем бины:
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="[[HTTP]]://www.springframework.org/schema/beans"  
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/[[Spring]]-beans.xsd">  
+  
+    <bean name="france" class="de.telran.springcontainerconfigexample.Country">  
+        <property name="name" value="France"/>  
+        <property name="code" value="FR"/>  
+        <property name="languale" value="French"/>  
+    </bean>  
+  
+    <bean name="myValidator" class="de.telran.springcontainerconfigexample.Validator">  
+        <property name="country" ref="france"/>  
+    </bean>  
+  
+</beans>
+<beans xmlns="http://www.springframework.org/schema/beans"  
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">  
+  
+    <bean name="france" class="de.telran.springcontainerconfigexample.Country">  
+        <property name="name" value="France"/>  
+        <property name="code" value="FR"/>  
+        <property name="languale" value="French"/>  
+    </bean>  
+  
+    <bean name="myValidator" class="de.telran.springcontainerconfigexample.Validator">  
+        <property name="country" ref="france"/>  
+    </bean>  
+</beans>           
+
+достаются бины из контекста  **спринг приложения** 
+ApplicationContext context = new ClassPathXmlApplicationContext("applicfnionContext.xml");  
+Country france = (Country) context.getBean("france");  
+System.out.println(france);  
+  
+Validator validator = (Validator) context.getBean("myValidator");  
+validator.validate();
+в **спринг_контексте** классы создаются в **единственном** экземпляре 
+такие объекты називаются **синглтонами** 
+
+#### xml конфигурация создает
+**инверсию** **зависимостей** 
+
+## джава конфиг
+
+додаем классу аннотацию @**Configuration**
+додаем методам аннотацию @**Bean**
+
+@Configuration  
+public class AppContext {  
+  
+//    @Bean  
+//    public Country france() {  
+//        Country country = new Country();  
+//        country.setName("France");  
+//        country.setCode("FR");  
+//        country.setLanguale("French");  
+//  
+//        return country;  
+//    }  
+//  
+//    @Bean(name = "myValidator")  
+//    public Validator validator() {  
+//        Validator validator = new Validator();  
+//        validator.setCountry(france());  
+//        return validator;  
+//    }
+если имя метода не совпадает топишем его в аннотации **@Bean(name = "myValidator")**  с указанием правильного имени метода
+например:
+@Bean(name = "myValidator")  
+public Validator validator() {  
+    Validator validator = new Validator();  
+    validator.setCountry(france());  
+    return validator;
+
+## автоконфигурация
+
+для автоматического связывания классов их помечают специальной аннотацией @**ComponentScan** при этом конфигурационный файл остается таккой же или тот же как в случае с **джава конфиг**
+@ComponentScan(**basePackages = "de.telran.springcontainerconfigexample.beans**")
+
+в аннотации **@ComponentScan** указывается конкретное место расположения бинов (**basePackages = "de.telran.springcontainerconfigexample.beans**")
+@PropertySource("classpath:application.properties") указывает путь к проперти которые находятся в aplication.properties
+
+в автоконфигурации джава сама ищет бины то есть классы которые помечаются  @**Component**   но эти классы нужно потом инициировать 
+можно создать пустой конструктор и в нем передать поля класса например:
+public class Country {  
+    private String name;  
+    private String code;  
+    private String languale;  
+  
+    public Country() {  
+        this.setName("France");  
+        this.setCode("FR");  
+        this.setLanguale("French");  
+    }
+**связывание бинов**
+чтобы связывать классы используют три способа:
+- связывание полей
+**@Autowired**  
+**private Country country**;
+
+- связывание через сеттер 
+производится с указанием бина **@Autowired** сеттерам , кроме того нужен пустой конструктор , например:
+
+@Autowired  
+public void setValidator(Validator validator) {  
+    this.validator = validator;  
+}  
+  
+@Autowired  
+public void setCountry(Country country) {  
+    this.country = country;  
+}
+
+- связывание через конструктор
+производится с указанием бина **@Autowired** конструктору, например:
+
+@Autowired  
+public UseBeans(Validator validator, Country country) {  
+    this.validator = validator;  
+    this.country = country;  
+}
+
+
+## настройки бинов
+
+настройки бинов(конкретные их значения - **Захардкодженные**) хранят в отдельном файле п папке ресурсед ->  **application.properties)** 
+
+в классе конструктор уже не нужен, а значение полей передаем так:
+@Value("S{**country.language**}") где **country.language** имя поля зазначенное в пропертях (настройки бинов(конкретные их значения - **Захардкодженные**) хранят в отдельном файле п папке ресурсед ->  **application.properties)
+
+---
+
+# Мои промпты
+
+﻿
+1   -----------
+2   Связи: [[Промт инженеринг]] [[GPT]]  сборщик проэкта [[Промпт для игры]] [[промпт для курсового проекта]] 
+3   Теги:
+
+1. давай пока будем устанавливать рабочую среду обойдемся без кода. итак у меня установлена ос линукс, среда разработки идея, Android studio,  LibGDX. мы можем приступить к разработке идеи игры. твой [[ответ]] должен быть конкретным и коротким
+2. Я начинающий програмист на Java. Прошу помощи в обучении программированию и одновременно в создании игры. при этом мы должны придерживатся правил написания кода. для начала давай примем план наших действий.
+3. отлично. давай набросаем каркас игры. Я хочу чтобы это была игра похожая на боевик, ро поражение врагам игок наносил танцуя. у тебя есть какие то идеи
+4. эта игра будет модулем большого проэкта, поэтому хотелось бы выстроить правилную структуру папок проэкта, чтобы добавлять в него связанние с этой игры в структуре большого проэкта
+5. помоги мне создать новый проэкт на мавене с привязкой к репозиторию. я уже работаю с гит хабом. Ос моего компютера линукс елементалию я заботаю  в идеешке,  ее настраивать  не надо
+**проьпт на игру**
+
+Я начинающий програмист на Java. Прошу помощи в обучении программированию и одновременно в создании игры. при этом мы должны придерживатся правил написания кода. для начала давай примем план наших действий.  есть проект в IntelliJ IDEA, связанный с репозиторием на GitHub
+
+---
+
+# Паттерны проэктирования
+
+https://refactoring.guru/ru/design-patterns/java
+1   -----------
+2   Связи:2   Связи:[[OOP ООП]] [[инкапсуляция ]]  [[Структура проэкта]]   [[Паттерны проэктирования]] [[Regular expressions регулярные выражения]] 
+
+[[наследование]]
+
+[[полиморфизм]] 
+3   Теги:   [[Паттерны проэктирования]]
+
+https://refactoring.guru/ru/design-patterns/java
+
+статья в википендии
+https://ru.wikipedia.org/wiki/Design_Patterns
+
+
+Книги: Робер Мартин "Чистый код", "Чистая арихитектура"
+Design Patterns https://ru.wikipedia.org/wiki/Design_Patterns
+Проект с примерами design patterns на java https://github.com/iluwatar/java-design-patterns
+
+---
+
+# Програмирование
+
+﻿[[java  джава]]
+linux
+
+---
+
+# Промпт для игры
+
+﻿
+1   -----------
+2   Связи: [[Мои промпты]] 
+3   Теги:
+
+
+  **написать промпт** 
+Я начинающий програмист на Javaи я хочу напписать правильный промпт для создания игры. никакого кода. будем писать лишь промпт. перед началом работы давай определимся будеш ли ты помнить все что мы пишем сначала проэкта, или создать какую то папку чтобы записывать запросы и ответы
+
+давай   работать поэтапно . ты сможеш потом читать и анализировать файлы, если я  буду записывать в файловую структуру.
+
+ твой [[ответ]] должен быть коротким и лаконичным
+
+--------------------------
+Я начинающий програмист на Java. Прошу помощи в обучении программированию и одновременно в создании игры. при этом мы должны придерживатся правил написания кода. для начала давай примем план наших действий.  итак у меня установлена ос линукс, среда разработки идея, Android studio,  LibGDX.  есть проект в IntelliJ IDEA, связанный с репозиторием на GitHub 
+я хочу создать игру пока для одного пользователя с возможностью переписать для многопользовательского вида.
+игра должна быть модулем для связанной цепочки игр  каждая из которых которых выдают поинт , который можна использовать в общем проэкте.
+
+
+Отличная идея! Давайте создадим каркас игры для боевика, где игрок наносит поражение врагам, танцуя. В этом каркасе мы создадим основные классы и структуры для игры:
+
+---
+
+# Промпти для візуалізації
+
+﻿1   -----------
+2   Связи:[[створення героя]], [[створення контенту]] ,  [[створення пісні]] , [[Промпти для візуалізації]]
+3   Теги: 
+
+1. "The Little Prince and the Train of Dreams"
+Fantasy illustration of a 4-year-old boy dressed like a little prince, standing in the middle of a magical room without clear boundaries. The space feels like a glowing dreamscape — part royal chamber, part magical laboratory filled with whimsical objects. In front of the boy, a beautiful enchanted train stands ready on shining rails, glowing with soft magical light. The boy is poised to give the signal for departure, his face full of excitement and wonder. The whole scene radiates anticipation of a magical journey. The train is the central focus. Warm colors, glowing atmosphere, high detail, dreamy fantasy style.
+
+2. ## 🐝🎓 **PROMPT для візуалізації в Kling / SDXL / Midjourney** Герой з сертифікатами.
+
+> A cosmic bee mage stands in a semi-transparent capsule suspended in the center of the Milky Way. Around him floats a gallery of glowing **holographic certificates**, inscribed with his name **Volodzmzr Shemchuk**, earned from magical coding universities. Each certificate emits light and bears titles like “Fundamentals of Java”, “Git for Distributed Software Development”, “Backend DE”, and “Foundations of Linux”.
+> 
+> The walls of the capsule flow with **lava code** – a translucent, molten stream of programming symbols glowing in deep red-orange, like digital magma.
+> 
+> The mage wears mystic armor formed by a swarm of nanobees, shaped in the ancient style of a Cossack-kharakternyk — a fusion of steppe tradition and alien tech. His stance is proud yet calm, as if preparing for a final cosmic war.
+> 
+> The scene glows with interstellar hues: cosmic blues, burning orange light from the code streams, and holographic neon cyan from the certificates.
+> 
+> The air is filled with floating code particles and drifting bee-shaped glyphs — silent witnesses of his long path through arcane tech knowledge.
+> 
+> Expression on his face: contemplative warrior, touched by pride and a shadow of ancient longing.
+
+---
+
+## ⚔️ Для ще більшого вайбу можеш додати:
+
+- **“inspired by Moebius, Frank Frazetta, and Giger”** — для стилю
+    
+- **“ultradetailed, 8k, cinematic lighting, deep shadows”** — для якості
+    
+- **“volumetric light beams coming from holograms”** — для драми
+
+---
+
+# Рефлексия
+
+﻿
+1   -----------
+2   Связи: [[java  джава]] [[инкапсуляция]] [[аннотация]]  [[работа с файлами]]
+3   Теги:темная сторона джавы [[рефлексия]]
+[[аннотация]] 
+(темная сторона джавы)
+напрямую нарушает принципы [[инкапсуляция]]
+
+получаем доступ к состоянию через специальный объект(внутри вирт машины)
+
+проверяем ссылку на тип данных
+### рефлексия 
+механизм исследования данных о программе во время ее выполнения.
+позволяет исследовать
+- поля
+-  методы
+- конструкторы класса
+
+- позволяет обрабатывать типы данных(которые будут отсутствовать при компиляции, но которые появляются при выполнении  )
+
+### используется 
+- для получения информации о состоянии классов
+- можно работать с классом, даже если он не был создан в начальном коде
+
+## методы
+    /*
+        getName() - возвращает имя и пакет класса
+        getSimpleName() - возвращает имя класса
+        getPackage() - возвращает имя пакета
+        getModifiers() - возвращает модификаторы класса
+        getSuperclass() - возвращает родительский класс
+        getInterfaces() - возвращает список интерфейсов, которые класс использует
+        getConstructors() - возвращает список конструкторов
+        getFields() - возвращает список публичных полей класса
+        geyDeclaredFields() - возвращает список всех полей класса
+        getMethods() - возвращает массив публичных методов класса
+        getDeclaredMethods() - возвращает массив всех методов
+
+         */
+
+---
+
+# Создание нового проэкта с нуля
+
+﻿
+1   -----------
+2   Связи: [[json]]  [[артефакт]]  [[сборщик проекта]] [[аннотация]] [[многомодульный проэкт]] [[Создание нового проэкта с нуля]]
+3   Теги:   [[многомодульный проэкт]] [[Создание нового проэкта с нуля]]
+
+Заходим в идею и создаем новый проэкт ( в даном случае на мавен архетипе)
+производим сборку проэкта :
+открываю справ вкладку [[Maven]] захожу в 
+TestMavenArchetype -> Lifecycle
+и здесь начинаю по порядку запускать вкладки. Clean  не со всеми запускается , можно иногда пропустить.
+остальные вкладки при запуске запускают предыдущие
+запуск производится в окошке возле зеленого треугольника
+
+если тесты не проходят их можно отключить аннотацией  **Dizable** 
+
+после операции **package**    мы получаем джарник - .jar файл в папке **target** 
+
+после запуска **verify** and **install** джарник будет установлен в  новую папку на **локальном** репозитории
+приблизительно так выглядит  Installing /home/volodymyr/myMavenProgects/TestMavenArchetype/pom.xml to /home/volodymyr/.m2/repository/com/TestMavenArchetype/1.0-SNAPSHOT/TestMavenArchetype-1.0-SNAPSHOT.pom
+
+практически выполняется операция копирования созданных файлов на локальном компе в локальный  **maven_репозиторий** 
+#### чаще всего запускают не по одной операции , а сразу 
+### mvn clean instal
+или два раза кликнуть по install
+
+для запуска джарника из командной строки  терминала заходим в папку **target**  например так:      cd /home/volodymyr/myMavenProgects/TestMavenArchetype/target
+и запускаем:         java -jar TestMavenArchetype-1.0-SNAPSHOT.jar
+если нет **манифест** файла то устанавливаем его
+
+### Отредактировать файл манифест
+захожу в папку **таргет**:  cd /home/volodymyr/myMavenProgects/TestMavenArchetype/target
+заходим в манифест:      nano MANIFEST.MF 
+
+!!!если ничего не видно то   nano META-INF/MANIFEST.MF
+
+
+
+
+
+### Пример полного процесса:
+
+1. Создайте файл `MANIFEST.MF`:
+    
+    sh
+    
+    Copy code
+    
+    `echo "Manifest-Version: 1.0" > MANIFEST.MF echo "Main-Class: com.example.Main" >> MANIFEST.MF`
+    
+2. Создайте новый JAR файл с обновленным манифестом: 
+ 
+    
+    sh
+    
+    Copy code
+    
+    `jar cfm TestMavenArchetype-1.0-SNAPSHOT.jar MANIFEST.MF -C . .`
+    
+3. Запустите новый JAR файл:
+    
+    sh
+    
+    Copy code
+    
+    `java -jar TestMavenArchetype-1.0-SNAPSHOT.jar`
+    
+
+Если вы используете Maven для сборки вашего проекта, вы можете указать главный класс в вашем `pom.xml`, чтобы Maven автоматически добавлял его в манифест при сборке JAR файла.
+
+Добавьте следующие строки в ваш `pom.xml`:
+
+xml
+
+Copy code
+
+`<build>     <plugins>         <plugin>             <groupId>org.apache.maven.plugins</groupId>             <artifactId>maven-jar-plugin</artifactId>             <version>3.2.0</version>             <configuration>                 <archive>                     <manifest>                         <addClasspath>true</addClasspath>                         <classpathPrefix>lib/</classpathPrefix>                         <mainClass>com.example.Main</mainClass>                     </manifest>                 </archive>             </configuration>         </plugin>     </plugins> </build>`
+
+Замените `com.example.Main` на ваш главный класс. Затем выполните команду сборки:
+
+sh
+
+Copy code
+
+`mvn clean package`
+
+После этого запустите ваш JAR файл:
+
+sh
+
+Copy code
+
+`java -jar target/TestMavenArchetype-1.0-SNAPSHOT.jar`
+
+4o
+
+---
+
+# Структура проэкта
+
+﻿
+1   -----------
+2   Связи: [[java  джава]] [[OOP ООП]]  [[наследование]] [[Serelisation]] [[модули приложения]]   [[Dependensy ingecten внедрение зависимости]] [[БИН компоненты bean]] [[Dependensy ingecten внедрение зависимости]]   [[Паттерны проэктирования]] 
+
+[[полиморфизм]] [[агрегация]] 
+[[композиция]]
+[[абстрактные_классы ]]
+[[интерфейсы]]  [[парралельные коллекции]] 
+3   Теги: [[рефлексия]]  [[Структура проэкта]]  
+[[аннотация]] 
+
+### принципы  методологического подхода
+DRY - Don't repeat yourself - не повторяйся
+
+SSOT - single source of truth - единый источник истины-
+практика структурирования информацинонных моделей и схем данных *(все фрагменты данных обрабатываются редактируются в **одном**  месте)*
+
+
+KISS - Keep it simple, stupid
+       Keep it stupid simple- (принцип ВМС США) 
+       *Простые системы будут работать лучше и надежнее сложных*
+
+
+SOLID
+- single responsibility principle (SRP) *Принцип единой ответственности* -- каждый метод должен выполнять только **одну** работу(действие)
+
+- open-close principle - *Принцип открытости(закрытости)* - Модули должны быть ***открыты*** для **расширения** и ***закрыты*** для **модификации** 
+
+- Liskov substitution principle (LSP)  *Принцип подстановки Барбара Лискофф* -  Методы которые используют ссылки на базовые классы должны иметь возможность использовать наследников базового класса (ссылки на дочерние классы) ничего не зная об их существовании
+
+
+- interface segregation principle *Принцип разделения [[интерфейса]]* -  нельзя заставлять програмиста который будет работать с вашим кодом использовать ненужные методы. 
+
+
+- dependency inversion principle *Принцип инверсии зависимостей* - Если в приложении несколько уровней модулей, то верхние модули не должны зависеть от нижних.
+
+YAGNI создавать какую то реальную функциональность в коде требуется только тогда, когда она действительно нужна.
+
+*NIX - системы (линукс, макОС) выполняется только одна операция.
+
+
+[[рефлексия]]
+[[аннотация]]
+
+
+### dto 
+**d**ata   
+**t**ransfer
+**o**bject
+
+### dao
+**d**ata   
+**a**csces
+**o**bject
+
+Сторуктура проэкта 
+!Pasted image 20240611164639.png
+
+---
+
+# абстрактные_классы
+
+﻿
+1   -----------
+2   Связи: [[java  джава]]  [[инкапсуляция ]]
+
+[[наследование]]
+
+[[полиморфизм]] [[агрегация]] 
+[[композиция]]
+#абстрактные_классы 
+#[[интерфейсы]]
+3   Теги:[[tdd]] UI user interface [[модульные тесты]] 
+
+
+[[инкапсуляция ]]
+
+[[наследование]]
+
+[[полиморфизм]]
+[[агрегация]] 
+[[композиция]]
+[[абстрактные_классы ]]
+Обработано/интерфейсы
+
+можно создавать абстрактные методы
+также можно создавать обычные методы
+класс наследующийся от абстрактного класса должен реализовать методы абстрактного класса
+
+---
+
+# агрегация
+
+﻿
+1   -----------
+2   Связи: [[инкапсуляция ]]
+
+[[наследование]]
+
+[[полиморфизм]] [[агрегация]] 
+[[композиция]]
+#[[абстрактные_классы]] 
+#[[интерфейсы]]
+[[агрегация]] 
+[[композиция]]
+3   Теги: [[OOP ООП]]
+
+[[агрегация ]] - когда в класс содержащий в себе отдельние классы (**[[композиция]]**) передается еще какой-то *независимый класс* извне через параметры конструктора
+
+---
+
+# аннотация
+
+﻿1   -----------
+2   Связи: [[java  джава]] [[инкапсуляция]]  [[Структура проэкта  ]] 
+3   Теги:темная сторона джавы [[рефлексия]]
+[[аннотация]] **метаданные**
+
+**аннотация** -Форма метаданных. Они представляют информацию о программе, не являясь при этом сами частью программы
+**метаданные** способ добавить информацию к исходному коду
+
+### применение
+- **Информация для компилятора**  могут использоваться компилятором для обнаружения ошибок и подавления предупреждений 
+- **обработка во время компиляции и развертывания** Программа может создавать код, XML файлы на основе аннотаций
+- **обработка во время выполнения** 
+
+
+для написания собственной аннотации и подключения библиотеки
+
+[[HTTP]]://hannesdorfmann.com/annotation-processing/annotationprocessing101/
+
+---
+
+# блокирующая_очередь
+
+﻿2   Связи: [[поток]]  [[многопоточность]] [[Collection коллекции]] [[java  джава]] [[блокирующая_очередь]] коллекции 
+3   Теги: [[синхронизация  Synchroniz]]  [[Collection коллекции]] [[volatile]]  # [[блокирующая_очередь]] blocking_queue коллекции
+
+blocking_queue это интерфейс 
+специальный механизм который находится внутри  
+
+**semafore**
+
+---
+
+# гит git hub
+
+1   -----------
+2   Связи: [[линукс linux]]  [[git hub repositoru гит хаб репозитори]]
+3   Теги: [[java  джава]] [[docker докер]] [[гит git hub]] 
+ [[Репозиторий repository java]] 
+
+
+
+Работа в команде
+презентация 
+https://docs.google.com/presentation/d/1vTmbVwh-gkdZ7oggI-C-6jWoSQQYinyKnn2QsEeFrF4/edit?usp=sharing
+
+---
+
+# инкапсуляция
+
+﻿
+1   -----------
+2   Связи:[[OOP ООП]] [[инкапсуляция ]]
+
+[[наследование]]
+
+[[полиморфизм]] 
+[[полиморфизм]] [[агрегация]] 
+[[композиция]]
+#[[абстрактные_классы]] 
+#[[интерфейсы]]
+3   Теги: [[инкапсуляция]]
+
+инкапсуляция это сокрытие
+
+класс это капсула для сохранения свойств и методов
+
+модификаторы доступа: 
+
+- publik
+- private  - getter, setter
+- protected
+
+---
+
+# интерфейсы
+
+﻿1   -----------
+2   Связи: [[java  джава]] [[инкапсуляция ]]
+
+[[наследование]]
+
+[[полиморфизм]] [[агрегация]] 
+[[композиция]]
+#[[абстрактные_классы]] 
+#интерфейсы
+3   Теги:[[tdd]] UI user interface [[модульные тесты]] [[OOP ООП]] 
+
+
+[[инкапсуляция ]]
+
+[[наследование]]
+
+[[полиморфизм]]
+[[агрегация]] 
+[[композиция]]
+[[абстрактные_классы ]]
+Обработано/интерфейсы
+
+Методы без реализации.
+из [[интерфейса]] нельзя сделать объект
+
+*унаследоваться* (extends) мы можем **только** от одного класса,
+а *имплементировать* можем **неограниченное** количество интерфейсов
+
+---
+
+# команди поиска
+
+﻿
+1   -----------
+2   Связи:[[JPA]], [[линукс linux]] 
+3   Теги:[[команди поиска]]
+**find -name "*.jpg"** але краще вказати шлях для пошуку 
+find /usr/include -name "*.c"  
+find /dev -type b знайде всі блочні устройства. це пошук по **типу** **type**
+ **ключ f** find /dev -type f знайде файли
+ **ключ d** find /dev -type d знайде директоріі
+ **ключ b** find /dev -type b знайде всі блочні устройства
+sudo find /home/ -user opanas -**знайде всі файли користувача(opanas)** в директорії /home
+
+## з знайденими файлами можна виконувати дії за допомогою команди exec
+
+ find root -name ".txt" -exec cp {} /home/woshe/Desktop/dir1 \;
+##  команда пошуку locate
+
+---
+
+# конфигурационные файлы бины
+
+﻿
+1   -----------
+2   Связи: [[Проэкт группы]] [[сборщик проекта]] [[аннотация]]   [[БИН компоненты bean]]
+3   Теги: [[конфигурационные файлы бины]]  [[БИН компоненты bean]]
+
+[[конфигурационные файлы бины]] помечаются аннотацией  @**SpringBootApplication** 
+и находятся  в папке **resources**
+
+
+метод **main** присутствует в проэкте как точка входа и он единственный
+
+## работа с бинами
+**подразумевает три типа конфигураций бинов** 
+
+
+##  XML конфигурация
+создаем ApplicationContext context = new ClassPathXmlApplicationContext("applicfnionContext.xml");
+а потом в папке ресурсес создаем файл applicfnionContext.xml
+и в нем пишем бины:
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="[[HTTP]]://www.springframework.org/schema/beans"  
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/[[Spring]]-beans.xsd">  
+  
+    <bean name="france" class="de.telran.springcontainerconfigexample.Country">  
+        <property name="name" value="France"/>  
+        <property name="code" value="FR"/>  
+        <property name="languale" value="French"/>  
+    </bean>  
+  
+    <bean name="myValidator" class="de.telran.springcontainerconfigexample.Validator">  
+        <property name="country" ref="france"/>  
+    </bean>  
+  
+</beans>
+<beans xmlns="http://www.springframework.org/schema/beans"  
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">  
+  
+    <bean name="france" class="de.telran.springcontainerconfigexample.Country">  
+        <property name="name" value="France"/>  
+        <property name="code" value="FR"/>  
+        <property name="languale" value="French"/>  
+    </bean>  
+  
+    <bean name="myValidator" class="de.telran.springcontainerconfigexample.Validator">  
+        <property name="country" ref="france"/>  
+    </bean>  
+</beans>           
+
+достаются бины из контекста  **спринг приложения** 
+ApplicationContext context = new ClassPathXmlApplicationContext("applicfnionContext.xml");  
+Country france = (Country) context.getBean("france");  
+System.out.println(france);  
+  
+Validator validator = (Validator) context.getBean("myValidator");  
+validator.validate();
+в **спринг_контексте** классы создаются в **единственном** экземпляре 
+такие объекты називаются **синглтонами** 
+
+#### xml конфигурация создает
+**инверсию** **зависимостей** 
+
+## джава конфигурация
+
+додаем классу аннотацию @**Configuration**
+додаем методам аннотацию @**Bean**
+
+@Configuration  
+public class AppContext {  
+  
+//    @Bean  
+//    public Country france() {  
+//        Country country = new Country();  
+//        country.setName("France");  
+//        country.setCode("FR");  
+//        country.setLanguale("French");  
+//  
+//        return country;  
+//    }  
+//  
+//    @Bean(name = "myValidator")  
+//    public Validator validator() {  
+//        Validator validator = new Validator();  
+//        validator.setCountry(france());  
+//        return validator;  
+//    }
+если имя метода не совпадает топишем его в аннотации **@Bean(name = "myValidator")**  с указанием правильного имени метода
+например:
+@Bean(name = "myValidator")  
+public Validator validator() {  
+    Validator validator = new Validator();  
+    validator.setCountry(france());  
+    return validator;
+
+## автоконфигурация
+
+для автоматического связывания классов их помечают специальной аннотацией @**ComponentScan** при этом конфигурационный файл остается таккой же или тот же как в случае с **джава конфиг**
+@ComponentScan(**basePackages = "de.telran.springcontainerconfigexample.beans**")
+
+в аннотации **@ComponentScan** указывается конкретное место расположения бинов (**basePackages = "de.telran.springcontainerconfigexample.beans**")
+@PropertySource("classpath:application.properties") указывает путь к проперти которые находятся в aplication.properties
+
+в автоконфигурации джава сама ищет бины то есть классы которые помечаются  @**Component**   но эти классы нужно потом инициировать 
+можно создать пустой конструктор и в нем передать поля класса например:
+public class Country {  
+    private String name;  
+    private String code;  
+    private String languale;  
+  
+    public Country() {  
+        this.setName("France");  
+        this.setCode("FR");  
+        this.setLanguale("French");  
+    }
+
+чтобы связывать классы используют три способа:
+- связывание полей
+**@Autowired**  
+**private Country country**;
+
+- связывание через сеттер
+
+- связывание через конструктор
+
+
+## настройки бинов
+
+настройки бинов(конкретные их значения - **Захардкодженные**) хранят в отдельном файле п папке ресурсед ->  **application.properties)** 
+
+в классе конструктор уже не нужен, а значение полей передаем так:
+@Value("S{**country.language**}") где **country.language** имя поля зазначенное в пропертях (настройки бинов(конкретные их значения - **Захардкодженные**) хранят в отдельном файле п папке ресурсед ->  **application.properties)
+
+жизненный цикл и взаимоотношения бинов определяет **спринг_контейнер**
+для совершения дополнительных операций с бинами 
+
+**инициализация** :
+@PostConstruct  
+public void init() {  
+    System.out.println("validator init method");  
+}
+
+**завершение работы бинов**
+@PreDestroy  
+public void finalActions() {  
+    System.out.println("validator clean up");  
+}
+
+чтобы закрыть работу класса нужно применять в **начале** вызова :
+Annotation**Config**ApplicationContext context = new AnnotationConfigApplicationContext(AppContext.class)
+и **закрывать**
+validator.validate();
+
+public class SpringContainerConfigExampleApplication {  
+  
+    public static void main(String[] args) {  
+       // SpringApplication.run(SpringContainerConfigExampleApplication.class, args);  
+        // ApplicationContext context = new ClassPathXmlApplicationContext("applicfnionContext.xml");        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppContext.class);  
+  
+        Country france = (Country) context.getBean("country");  
+        System.out.println(france);  
+  
+        Validator validator = (Validator) context.getBean("myValidator");  
+        validator.validate();  
+  
+        Validator validator1 = new Validator();  
+        validator1.validate();  
+  
+        Validator validator2 = (Validator) context.getBean("myValidator");  
+        System.out.println(validator == validator2);  
+  
+        context.close();  
+    }  
+  
+}
+
+## два бина одного типа 
+**нужно прописывать через джава конфигурацию**
+
+
+## scoup у бина
+
+бины содержатся в одном экземпляре в проэкте. 
+Это **сингелтоны**  **@Scope("singleton")**
+
+если возникает необходимость создания нескольких бинов,
+нужно использовать аннотацию  **@Scope("prototype")** . В этом случае бин будет создаваться *каждый раз заново*
+
+---
+
+# линукс linux
+
+1   -----------
+2   Связи: [[java  джава]] [[docker докер]] [[гит git hub]] [[работа с гитом]]  [[заначка]], [[проект на докере]] [[виндовс сервер]]  [[ОС реального часу]] [[джентельментські угоди]]  [[Права на файл]] [[процессы]]  [[хак chak]] [[команди лінукс, ключі лінукс]] [[утиліти лінукс]] 
+3   Теги: [[линукс linux]] [[питання до Івана]] [[интернет]]
+
+**glas dor** платформа по собесах
+
+
+перед линуксом був юникс. макКоси (називалась System 1)  це юніксопобібні системи
+#### vanila software
+это програмное обеспечение содержащее базовую функциональность и не модифицировано по сравнению с первоначальной формой
+
+ми працюватимеио на **alpain linux** 
+ядро цієї ОС займає 5 мегабайт
+
+ядро ОС управляє всіма модулями системи
+Модульне розділення винайшла компанія **AT&T
+**AT&T Services ** – компанія, що займається постачанням послуг в сфері інформаційних технологій, включаючи хмарні рішення, кібербезпеку, підтримку телекомунікаційних систем та друку. Вона активно працює в Північній території Австралії, забезпечуючи бізнеси ефективними рішеннями для їх технічних потреб та має більше 40 років досвіду в даній сфері
+
+прорив 1972  Кена Томпсона та Денніса Рітчі написали мову **С**
+
+ОС бувають серверні і такі які можна поставити на будь-яку кінечну машину(ОС для персональних компів)
+
+**DOS** -Disk Operation System одна з найперших ОС
+**IBM PS**  - перший компютер Біла Гейтса
+
+ОС які працюють на телефонах 
+- віндовс мобайл
+- линукс(андроид)
+- блекбері
+- синлбері(сіменси)
+
+1974 -  перший сучасний компютер Apple 1
+1980 - Apple 2
+
+1984  - бестселлер Makintosh 128K
+положив початок серіі **System (1 -8**  (Стів Джобс)далі почалися **Mac OS 9** і дальше
+після виходу цього макінтоша який вже був морально застарілим вийшла ОС Віндовс 1.0(Біл Гейтс)
+
+Біографію Стіва Джобса написав Уолт Райзексен
+
+2001 - **Mac OS 10**  (**ЧИТА**)  проривна
+
+2007 - **Mac OS 10.5**  (**Леопард**)
+2007 - **Mac OS 10.7**  (**Ліон)
+2020 - **Mac OS 11 (Big sur)**  на чипе М1(це процессор) який дозволив злізти з голки **INTell** 
+
+## Становлення **лінуксу**
+ОС **CNU**
+Gnu's is not Unix
+Річард Метью Столлман філософія базується на створенні безкоштовного програмного забезпечення
+
+компанія **at&t** айті енд ті 
+в 1970 там працювало два коника  
+Кеннест Томпсон
+Вуттші МакАлістаєр Рітчі 
+аби могли бавитися написали свою мову **С** розробили ОС **Юнікс** 
+вони розробили командні оболонки 
+
+1990-1991 Линукс Торвальд приступив до створення Линуксу
+ядро Линуксу було остаточно створено в 1995 році
+налічує 48 команд
+потім він же створив **GIT**
+
+---
+
+# логирование
+
+﻿1   -----------
+2   Связи:[[проэкт на spring bot]] [[Spring]] [[трансакции transaktion]]  [[proksy прокси]]
+3   Теги:  [[логирование]]
+
+зависимости надо щелкнуть мышкой по ним чтоб появились
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>[[Spring]]-boot-starter-web</artifactId>
+    <exclusions>
+       <exclusion>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-logging</artifactId>
+       </exclusion>
+    </exclusions>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <exclusions>
+       <exclusion>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-logging</artifactId>
+       </exclusion>
+    </exclusions>
+</dependency>
+
+
+для апликатыор
+
+logging.level.root=debug 
+
+для ресурсед
+
+
+
+Аппендеры для applikation.properties:
+
+https://logging.apache.org/log4j/2.x/
+https://www.baeldung.com/spring-boot-logback-log4j2
+https://www.callicoder.com/spring-boot-log4j-2-example/
+
+### Почему важно логировать эти классы:
+
+- **Контроллеры и сервисы** обеспечивают видимость работы приложения и помогают отслеживать пользовательские запросы и бизнес-логику.
+- **Репозитории** предоставляют информацию о запросах к базе данных и могут помочь в диагностике проблем с производительностью или ошибками в запросах.
+- **Исключения и обработчики ошибок** помогают в отслеживании и устранении проблем, которые могут возникать в приложении.
+- **Конфигурационные классы** и **утилиты** помогают в диагностике проблем конфигурации и выполнения.
+для коня: 
+применить логирование с умом. лишнего не надо, а только там где может быстрее всего понадобиться.
+
+---
+
+# миграции подключение к h2 консоли  подключение к mySQL-серверу
+
+Введите команду для подключения к MySQL серверу. Используйте ваш логин и пароль MySQL:
+
+mysql -u root -p
+
+USE url_shortener_db;
+Затем выполните удаление таблиц:
+DROP TABLE IF EXISTS DATABASECHANGELOG;
+DROP TABLE IF EXISTS DATABASECHANGELOGLOCK;
+
+очистить состояние Liquibase и позволить ему заново применить изменения,
+USE url_shortener_db;
+DROP TABLE IF EXISTS DATABASECHANGELOG;
+DROP TABLE IF EXISTS DATABASECHANGELOGLOCK;
+ 
+## подключение к h2 консоли 
+
+етот класс позволяет подключится к консоли h2 из приложения. 
+package de.telran.urlshortener;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class H2ConsoleApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(H2ConsoleApplication.class, args);
+    }
+}
+
+dropdb имя_вашей_базы_данных
+
+---
+
+# многомодульный проэкт
+
+﻿
+1   -----------
+2   Связи: [[json]]  [[артефакт]]  [[сборщик проекта]] [[аннотация]] [[многомодульный проэкт]] [[Создание нового проэкта с нуля]]
+3   Теги:   [[многомодульный проэкт]] [[Создание нового проэкта с нуля]]
+
+
+#### [[многомодульный проэкт]]  
+в многомодульном проэкте основной проэкт (родидельский ) не генерирует джарника а генерирует **pom**  
+**jar** генерируют дочерние проэкты
+**дочерние_модули** наследуют все свойства и зависимости родительского 
+
+если открыть **помник** дочернего модуля там будет указано что он унаследовался
+отдельные модули можно рассматривать как отдельные проэкты
+в **депенденси** указываются от каких проэктов зависит данный проэкт(**зависимости**)
+
+
+
+
+по Postman проэкт возможно
+https://docs.google.com/document/d/1Xn41eFhdYAJVYzRucsNwpbLJ5lNxdvpfx__SZf5DwXA/edit#heading=h.e2bcw3kuo1da
+
+ZoomCopyFile:/home/volodymyr/.zoom/data/confres/f02d2b47451a597320c3e2c1edfc78ee0f2401e074ee8d060123265009ad6123/312db357-81c3-4c50-aa51-3505cd144293.png
+
+## депенденси для поддержки xml формата
+
+<!--               XML REST data format-->
+       <dependency>
+          <groupId>com.fasterxml.jackson.dataformat</groupId>
+          <artifactId>jackson-dataformat-xml</artifactId>
+       </dependency>
+
+
+
+## конфиг для постмана
+
+# XML-[[json]] format for REST config [[HTTP]]://web.app?format=json
+[[Spring]].mvc.contentnegotiation.favor-parameter=true
+
+
+# Идемпотентный метод
+
+https://developer.mozilla.org/ru/docs/Glossary/Idempotent
+
+## Illia
+https://github.com/IliaIliukovich/libraryApp
+
+---
+
+# многопоточность
+
+﻿
+[](https://www.notion.so/zoom_custom_url=1&zoom_im_wrapper_url=1&originalUrl=https://greenbeanbookspdx.indielite.org/book/9781492025795&isInsertLink=0&originalText=https://greenbeanbookspdx.indielite.org/book/9781492025795&seq=2)[https://greenbeanbookspdx.indielite.org/book/9781492025795](https://greenbeanbookspdx.indielite.org/book/9781492025795)
+
+[](https://www.notion.so/zoom_custom_url=1&zoom_im_wrapper_url=1&originalUrl=https://greenbeanbookspdx.indielite.org/book/9781492025795&isInsertLink=0&originalText=https://greenbeanbookspdx.indielite.org/book/9781492025795&seq=2)[https://greenbeanbookspdx.indielite.org/book/9781492025795](https://greenbeanbookspdx.indielite.org/book/9781492025795) 
+
+
+Conkurenci
+1   -----------
+2   Связи:[[java  джава]] [[многопоточность]] базе данных [[поток]] [[синхронизация  Synchroniz]] Date [[Collection коллекции]] [[Phaser]] [[парралельные коллекции]]
+3   Теги: планировщик процессов многоядерные процессоры [[поток]] процесс  #способы_создания_потоков blocking_queue  [[Phaser]]  [[ парралельные коллекции]] 
+многопоточность нужна для распаралеливания потоков, не нужно ждать выполнения предыдущей инструкции как в однопоточном режиме
+
+  ##**недостатки:**
+  -  состояие **гонки**  *concurent_Colision*  когда несколько потоков работают с одними и теми же данными
+ - **dedlog** логическая коллизия когда потоки взаимно блокируются
+ - правильная организация логических потоков
+ - 
+
+
+
+
+планировщик процессов распределяет выполнение процессов в процессоре. работает за счет увеличения частоты процессора. Это длилось до определенного времени.
+сейчас используются многоядерные процессоры 
+[[поток]] наименьшая единица обработки информации исполнение которой может быть назначено ядром операционной системы .это легкий процесс. **потоки** запускаются внутри **процесса** 
+
+**[[поток]]** в джаве имеет четыре состояния 
+- NEW - новый поток создан, обэявлен но **не** запущен
+- RUNNING - состояниу после запуска потока выполняет свою работу
+- WAITING  может иметь три разновидности:  
+         - **blockt** поток вынужден ждать каких-то данных
+         - ***waiting*** ожидает окончания работы другого потока
+         - **teimwaiting** ожидает только определенное время, потом завершает работу
+-  DEAD состояние после завершения или возникновения какой-то ошибки
+
+процесс некая программа которая выполняется в данное время и все что для этого необходимо. [[процессы]] между собой **независим**
+
+класс Thread
+
+#способы_создания_потоков  
+## [[парралельные коллекции]]
+
+[[ парралельные коллекции]]
+
+---
+
+# модули приложения
+
+1   -----------
+2   Связи: [[java  джава]] [[OOP ООП]]  [[наследование]] [[Serelisation]] [[модули приложения]]
+
+[[полиморфизм]] [[агрегация]] 
+[[композиция]]
+[[абстрактные_классы ]]
+[[интерфейсы]]  [[парралельные коллекции]] [[Структура проэкта]]
+3   Теги:
+
+принципы взаимодействия между модулями приложения
+
+---
+
+# модульные тесты
+
+﻿
+1   -----------
+2   Связи: :[[Testing]] [[Unit тесты Junit тесты]]  junit  test [[mockito]]
+3   Теги:
+
+---
+
+# мой докер проект на локальном компе
+
+﻿
+1   -----------
+2   Связи:[[docker докер]] [[мой докер проект на локальном компе]], [[проект на докере]] , [[проэкт на spring bot]] 
+3   Теги: [[мой докер проект на локальном компе]]
+
+проверить контейнеры
+**Посмотреть**  созданные контейнеры на компе можно: 
+**docker ps -a**
+docker ps -a
+
+Чтобы зайти в существующий [[контейнер]], используйте команду `docker exec`:
+
+**docker exec -it container_ubuntu_test /bin/bash**
+
+**удалить** контейнер:
+**docker stop** 1ec06079f954 остановить
+docker stop
+или 
+sudo docker stop 
+**docker rm** abcdef123456 удалить
+docker rm
+# работа с имиджами
+- проверить имиджи 
+docker images
+- удалить имиджи 
+docker rmi ( дальше индекс:542d84f1f3aa)
+
+# подготовка к запуску докера
+1. создаю докер файл Dockerfile в котором приложение собирается прямо в контейнере. Это дольше по времени но зато позволит запускать контейнеры на любой машине , и не нужно будет собирать проект на локальной машине. 
+2. мне нужно запустить два контейнера (для базы данных и приложения), Для етого надо использовать **docker-compose.yml** 
+3. создается файл .**dockerignore** 
+
+# сборка и запуск Docker контейнеров на моем проекте : 
+### перед запуском на локальном компютере отключить mysql  :
+
+sudo systemctl stop mysql    **важно!!!!!!!!!!!!**
+
+*или* 
+sudo service mysql stop
+
+*проверить что никто не занимает порт*
+sudo lsof -i :3306
+
+- **Выполняю команду для сборки Docker-образа**:
+docker-compose build
+- **Запускаю контейнеры с помощью Docker Compose:**
+docker-compose up
+*Если возникли проблемы, попробуйте удалить существующие контейнеры и создать их заново:*
+**удалить все контейнеры** 
+docker-compose down -v
+**создать заново**
+docker-compose up --build
+
+   **Удалить все образы**
+sudo docker rmi $(sudo docker images -q)
+
+- **Проверяю, что контейнеры запущены и работают**:
+docker ps
+- **Останавливаю контейнеры:**
+docker-compose down
+
+Если вы обнаружите, что **MySQL сервер уже** работает на вашем компьютере, вы можете остановить его, если он не нужен:
+
+sudo service mysql stop
+
+или
+
+sudo systemctl stop mysql
+
+# запустить обратно mysql: 
+
+sudo service mysql start
+или
+sudo systemctl start mysql
+
+
+
+# почистить за собой
+
+ChatGPT
+
+Чтобы почистить Docker-среду после выполнения всех операций, следуйте этим шагам:
+
+### 1. **Остановить и удалить все контейнеры**
+
+Сначала остановите все запущенные контейнеры:
+
+`sudo docker stop $(sudo docker ps -q)`
+sudo docker stop $(sudo docker ps -q)
+
+лучше так :
+
+- **Останавливаю контейнеры:**
+docker-compose down
+Затем **удалите** все контейнеры, включая остановленные:
+
+`sudo docker rm $(sudo docker ps -a -q)`
+sudo docker rm $(sudo docker ps -a -q)
+
+### 2. **Удалить все образы**
+
+Удалите все Docker-образы с вашей системы:
+
+`sudo docker rmi $(sudo docker images -q)`
+
+sudo docker rmi $(sudo docker images -q)
+
+### 3. **Удалить неиспользуемые данные**
+
+Для удаления всех неиспользуемых данных, включая остановленные контейнеры, неиспользуемые образы, сети и 
+
+`sudo docker system prune -a --volumes`
+sudo docker system prune -a --volumes
+
+Команда `--volumes` также удаляет все неиспользуемые тома, освобождая больше места на диске.
+### 4. **Проверка текущего состояния Docker**
+
+После выполнения всех вышеуказанных команд можно проверить, что ничего не осталось:
+
+- **Проверка контейнеров:**
+    `sudo docker ps -a`
+sudo docker ps -a
+    
+    Вывод должен быть пустым, если все контейнеры были удалены.
+    
+- **Проверка образов:**
+    
+    `sudo docker images`
+    sudo docker images
+    
+    Вывод также должен быть пустым.
+
+---
+
+# наследование
+
+﻿
+1   -----------
+2   Связи:[[OOP ООП]] [[инкапсуляция ]]  [[Структура проэкта]]   [[Паттерны проэктирования]]
+
+[[наследование
+
+[[полиморфизм]] [[агрегация]] 
+[[композиция]]
+#[[абстрактные_классы]] 
+#[[интерфейсы]]
+3   Теги:
+для переиспользования кода
+ 
+**extends** не можем унаследоваться от нескольких классов
+
+при вызове конструктора сначала выывается конструктор роительского класса **super**
+а потом расширяется полями данного класса
+
+
+**наследование** позволяет переиспользовать код
+создаем иерархию классов которые обладают своими уникальными свойствами и методами, при этом каждый наследуемый класс перенимает свойства и методы родительского класса
+
+---
+
+# парралельные коллекции
+
+﻿
+1   -----------
+2   Связи: коллекции  [[java  джава]]   [[синхронизация  Synchroniz]] [[CopyOnWriteArrayList , ArrayList]] 
+3   Теги: [[синхронизация  Synchroniz]]  [[пулы потоков]]  [[парралельные коллекции]] 
+
+можно работать в многопоточности с обычными коллекции **обернув** их в блок [[синхронизация  Synchroniz]] 
+
+### cписок коллекций для работы в многопоточности 
+
+ArrayBlockingQueue
+ConcurrentHashMap
+ConcurrentLinkedDeque
+ConcurrentLinkedQueue
+ConcurrentSkipListMap
+ConcurrentSkipListSet
+CopyOnWriteArrayList
+CopyOnWriteArraySet
+DelayQueue
+LinkedBlockingDeque
+LinkedBlockingQueue
+PriorityBlockingQueue
+SynchronousQueue
+BlockingQueue
+
+
+## [[пулы потоков]] 
+
+
+[[пулы потоков]]
+
+Статья 
+https://java-online.ru/concurrent-collections.xhtml
+
+---
+
+# полиморфизм
+
+﻿
+1   -----------
+2   Связи:[[OOP ООП]] [[инкапсуляция ]]  [[Структура проэкта]]   [[Паттерны проэктирования]]
+
+[[наследование
+
+[[полиморфизм]] [[агрегация]] 
+[[композиция]]
+#[[абстрактные_классы]] 
+#[[интерфейсы]]
+3   Теги:
+
+**Полиморфизм** позволяет одному и тому же фрагменту кода работать с *разными* типами данных
+[[Паттерны проэктирования]] в основном построены на принципе полиморфизма хотя без наследования и инкапсуляции тоже не обошлось
+https://refactoring.guru/ru/design-patterns/java
+**Параметрический**  истинный
+**переопределение методов**
+
+
+**ad-hoc**  Мнимый
+это полиморфизм который происходит за счет **перезагрузки методов**
+**приведение типов** тоже мнимый полиморфизм *когда явно дочерний класс преобразовывается к родительскому*
+
+---
+
+# поток
+
+﻿#способы_создания_потоков 
+#способы_создания_потоков 
+1   -----------
+ Связи:[[многопоточность]] лямбда-выражений  [[многопоточность]] #Date #java  [[синхронизация  Synchroniz]] [[Phaser]] коллекции
+3   Теги: #способы_создания_потоков ExecutorService  Callable` и `Future` `Runnable` лямбда-выражений;  [[блокирующая_очередь]] blocking_queue классы синхронизаторы  [[Phaser]] 
+
+
+## методы синхронизации потока 2  классы синхронизаторы
+method **stop** сейчас не используется, вскоре его вообще не будет
+*method* **[[interrupt]]**   остановить поток с помощью флага **isInterupted**  и вызова **.[[interrupt]]()** :
+поток майн приостанавливаетя вызовом .**join()**
+###  .**join()** дожидается (собирает) потоков после их выполнения
+### альтернатива джоину **countDown** 
+когда счетчик реагирует на какой то тип событий( например после команд 
+- На старт
+- внимание
+- марш
+) происходит одновременный запуск потоков потому что счетчик **countDown** обнулился
+
+**countDown** запускается методом .**await** 
+
+### **сайтлинг_баръер**(циклический баръер) **cyclicBarrier** способ приостановки потоков для запуска в какое то определенное нами время 
+помимо этого в момент ожидания  группы потоков опционально может быть запущено еще какое то действие
+
+разница с *join* состоит в том, что джоин обязательно должен дождаться выполнения всех указанных потоков а  **cyclicBarrier** **сайтлинг_баръер**(циклический баръер) ограничивает количество потоков до нашей потребности. Столько сколько нам нужно.
+пример запуска
+CyclicBarrier cyclicBarrier = new CyclicBarrier(3, () ->  
+        System.out.println("Все потоки достигли нашего баръера и выполняется действие после этого момента"));
+    **заппускается** методом .await
+    cyclicBarrier.await();
+### exchenger 
+способ взаимодействия между потоками является той точкой где происходит **обмен_данных** между двумя потоками в определенный момент кода. 
+выовом метода .**excheng**  мы дожидаемся второй поток для взаимодействия с ним когда второй метод тоже в этой точке вызовет метод .**exchenge** 
+
+### [[Phaser]] 
+[[Phaser]]  один из методов синхронизации потока 
+
+
+
+
+
+
+## В Java существует два вида потоков 
+- **пользовательские** которые мы создаем . Иногда их называют *основными* потоками выполнения кода
+- потоки **демоны** потоки существующие в фоновом режиме например гарбач коллектор.
+
+
+В Java существует несколько способов создания и использования потоков . Вот основные способы:
+
+### 1. Реализация [[интерфейса ]] `Runnable` 
+
+Вы можете создать поток, реализуя интерфейс `Runnable`. Это позволяет вашему классу выполнять задачи в отдельном потоке без необходимости наследования от класса `Thread`.
+
+java
+
+Copy code
+
+`class MyRunnable implements Runnable {     @Override     public void run() {         System.out.println("Thread is running");     } }  public class Main {     public static void main(String[] args) {         MyRunnable myRunnable = new MyRunnable();         Thread thread = new Thread(myRunnable);         thread.start();     } }`
+
+### 2. [[наследование]] от класса `Thread`
+
+Вы можете создать поток, наследуя от класса `Thread`. Это позволяет вашему классу иметь собственный метод `run()`, который будет выполнен в отдельном потоке.
+
+java
+
+Copy code
+
+`class MyThread extends Thread {     @Override     public void run() {         System.out.println("Thread is running");     } }  public class Main {     public static void main(String[] args) {         MyThread myThread = new MyThread();         myThread.start();     } }`
+
+### 3. Использование лямбда-выражений
+
+С введением лямбда-выражений в Java 8, создание потоков стало проще. Вы можете использовать лямбда-выражения для создания экземпляров `Runnable`.
+
+java
+
+Copy code
+
+`public class Main {     public static void main(String[] args) {         Runnable runnable = () -> System.out.println("Thread is running");         Thread thread = new Thread(runnable);         thread.start();     } }`
+
+### 4. Использование [[интерфейса]] `Callable` и `Future`
+
+Если вам нужно, чтобы поток возвращал результат или бросал исключение, вы можете использовать [[интерфейсы]] `Callable` и `Future`.
+
+java
+
+Copy code
+
+`import java.util.concurrent.Callable; import java.util.concurrent.ExecutionException; import java.util.concurrent.ExecutorService; import java.util.concurrent.Executors; import java.util.concurrent.Future;  public class Main {     public static void main(String[] args) {         ExecutorService executor = Executors.newSingleThreadExecutor();         Callable<String> callable = () -> {             return "Thread is running";         };          Future<String> future = executor.submit(callable);         try {             String result = future.get();             System.out.println(result);         } catch (InterruptedException | ExecutionException e) {             e.printStackTrace();         } finally {             executor.shutdown();         }     } }`
+
+### 5. Использование ExecutorService
+
+`ExecutorService` из пакета `java.util.concurrent` предоставляет более гибкие и мощные механизмы для управления потоками.
+
+java
+
+Copy code
+
+`import java.util.concurrent.ExecutorService; import java.util.concurrent.Executors;  public class Main {     public static void main(String[] args) {         ExecutorService executor = Executors.newFixedThreadPool(3);          Runnable task1 = () -> System.out.println("Task 1");         Runnable task2 = () -> System.out.println("Task 2");         Runnable task3 = () -> System.out.println("Task 3");          executor.submit(task1);         executor.submit(task2);         executor.submit(task3);          executor.shutdown();     } }`
+
+Каждый из этих способов имеет свои преимущества и может использоваться в зависимости от конкретной задачи.
+
+4o
+
+---
+
+# проэкт на spring bot
+
+﻿
+1   -----------
+2   Связи:[[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]] 
+[[Репозиторий repository java]] [[подключение баз данных]]  [[конфигурационные файлы бины]] [[тестирование проэкта]] [[трансакции transaktion]]
+3   Теги: 
+[[Репозиторий repository java]]  [[БИН компоненты bean]]
+
+проэкт должен иметь несколько взаимосвязанных слоев
+
+[[контроллеры методы контроллера]] 
+
+
+[[Репозиторий repository java]] 
+
+###  java SE
+До спринг бута мы изучали **java se**
+
+### Java EE
+потребуется для разработки веб-приложений
+**[[Spring]]** это альтернатива Java EE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Проэкт с Ильей
+https://github.com/IliaIliukovich/libraryApp
+**copy**
+https://github.com/IliaIliukovich/libraryApp
+
+https://github.com/IliaIliukovich/libraryApp.git   код проэкта
+
+https://github.com/IliaIliukovich/libraryApp.git
+
+
+## Проэкт с Александром
+
+https://github.com/alex2808pl/shop-211123mbe
+
+**copy**
+https://github.com/alex2808pl/shop-211123mbe
+
+https://github.com/alex2808pl/shop-211123mbe.git код проэкта
+
+тот самый проэкт в другой группе
+
+https://github.com/alex2808pl/shop-online.git
+
+---
+
+# работа с гитом
+
+1   -----------
+2   Связи: [[java  джава]] [[docker докер]] [[гит git hub]] [[заначка]]
+3   Теги: [[линукс linux]]   [[работа с гитом]] 
+
+##  Eсть два подхода к разработке :
+### Git test floy
+в разработке учавствуют три ветки
+- основная
+- запасная
+- тестовая
+
+### Git floy
+в разработке учавствуют две ветки
+- основная
+- тестовая
+
+
+для мерджа  или ребейса 
+git pull origin main
+
+выдает кучу ошибок и три команды, вводим какую надо (ребейс, мердж)
+ git config pull.rebase false 
+ потом 
+ git pull origin main
+ нас забрасывает в редактор кода VI(ви ай) хотя меня забросило в nano, где мы должни построчно писать коммиты
+#### для начала работы в VI
+нажимаем **i** (ай) это мы переходим в режим редактирования
+
+
+
+### для выхода без сохранения 
+ctrl + z
+
+после сделанных изменений делаем
+git push
+____________________________________________________
+
+Есть принудительный способ, при котором все изменения в главной ветке исчезают, остаются **только** мои, заколоченые с двух ног
+git push 
+_______________________________________________________
+посмотреть все ветки на проекте
+git branch
+cоздать ветку и тут же в нее переключиться
+git checkout -b shemchuk/added_new_text
+
+посмотреть какие разделы есть df 
+а вот так я создал файл у себя в проэкте в идее
+df >> wasya
+## pull request (пулл реквест) это *предложение* для изменений
+
+
+  
+
+---
+
+### git add
+
+Переносит изменения из рабочего каталога в раздел проиндексированных файлов. В этом разделе можно подготовить снимок состояния, прежде чем сделать коммит изменений в официальную историю.
+
+#### Учебные руководства по теме
+
+[Сохранение изменений: git add](https://www.atlassian.com/ru/git/tutorials/saving-changes)
+
+[Изучение Git с помощью Bitbucket Cloud: копирование репозитория Git и добавление файлов](https://www.atlassian.com/ru/git/tutorials/learn-git-with-bitbucket-cloud#copy-and-add-files)
+
+[Использование веток: git merge](https://www.atlassian.com/ru/git/tutorials/using-branches/git-merge)
+
+[Проверка репозитория: git status](https://www.atlassian.com/ru/git/tutorials/inspecting-a-repository)
+
+### git branch
+
+Эта команда выступает универсальным инструментом администрирования веток. С ее помощью можно создавать изолированные среды разработки в одном репозитории.
+
+#### Учебные руководства по теме
+
+[Использование веток: git branch](https://www.atlassian.com/ru/git/tutorials/using-branches)
+
+[Использование веток: git checkout](https://www.atlassian.com/ru/git/tutorials/using-branches/git-checkout)
+
+[Использование веток: git merge](https://www.atlassian.com/ru/git/tutorials/using-branches/git-merge)
+
+[Изучение Git с помощью Bitbucket Cloud: слияние файла с помощью команды git branch](https://www.atlassian.com/ru/git/tutorials/learn-git-with-bitbucket-cloud#git-branch-to-merge)
+
+### Git checkout
+
+С командой git checkout можно не только получать старые коммиты и прежние версии файлов, но и осуществлять навигацию по существующим веткам. В сочетании с базовыми командами Git она позволяет сосредоточиться на определенном направлении разработки.
+
+#### Учебные руководства по теме
+
+[Использование веток: git checkout](https://www.atlassian.com/ru/git/tutorials/using-branches/git-checkout)
+
+[Отмена изменений: git checkout](https://www.atlassian.com/ru/git/tutorials/undoing-changes)
+
+[Сравнение рабочих процессов: рабочий процесс Git-flow](https://www.atlassian.com/ru/git/tutorials/comparing-workflows/gitflow-workflow)
+
+### Git clean
+
+Удаляет неотслеживаемые файлы из рабочего каталога. Это логический аналог команды git reset, которая (обычно) работает только с отслеживаемыми файлами.
+
+#### Учебные руководства по теме
+
+[Отмена изменений: git clean](https://www.atlassian.com/ru/git/tutorials/undoing-changes/git-clean)
+
+### git clone
+
+Создает копию существующего репозитория Git. Клонирование — самый распространенный способ, с помощью которого разработчики могут получить рабочую копию центрального репозитория.
+
+#### Учебные руководства по теме
+
+[Git LFS](https://www.atlassian.com/ru/git/tutorials/git-lfs)
+
+[Сравнение рабочих процессов: рабочий процесс с форками](https://www.atlassian.com/ru/git/tutorials/comparing-workflows/forking-workflow)
+
+[Настройка репозитория: git clone](https://www.atlassian.com/ru/git/tutorials/setting-up-a-repository/git-clone)
+
+### Git commit
+
+Получает проиндексированный снимок состояния и выполняет его коммит в историю проекта. Эта команда в сочетании с командой git add определяет классический рабочий процесс для всех пользователей Git.
+
+#### Учебные руководства по теме
+
+[Использование веток: git merge](https://www.atlassian.com/ru/git/tutorials/using-branches/git-merge)
+
+[Переписывание истории: git commit --amend](https://www.atlassian.com/ru/git/tutorials/rewriting-history)
+
+[Изучение Git с помощью Bitbucket Cloud: копирование репозитория Git и добавление файлов](https://www.atlassian.com/ru/git/tutorials/learn-git-with-bitbucket-cloud#copy-and-add-files)
+
+[Сохранение изменений: git add](https://www.atlassian.com/ru/git/tutorials/saving-changes)
+
+### git commit --amend
+
+Команда git commit с флагом --amend позволяет внести изменения в последний коммит. Она может оказаться полезной, если вы забыли проиндексировать файл или не указали важную информацию в комментарии к коммиту.
+
+#### Учебные руководства по теме
+
+[Переписывание истории: git commit --amend](https://www.atlassian.com/ru/git/tutorials/rewriting-history)
+
+### git config
+
+Удобный способ для настройки параметров конфигурации в инсталляции Git. Обычно эту команду используют сразу после установки Git на новую машину разработчика.
+
+#### Учебные руководства по теме
+
+[Настройка репозитория: git config](https://www.atlassian.com/ru/git/tutorials/setting-up-a-repository/git-config)
+
+[Git LFS](https://www.atlassian.com/ru/git/tutorials/git-lfs)
+
+[Установка Git: установка Git в Mac OS X](https://www.atlassian.com/ru/git/tutorials/install-git#mac-os-x)
+
+[Установка Git: установка Git в Linux](https://www.atlassian.com/ru/git/tutorials/install-git#linux)
+
+### git fetch
+
+С помощью команды извлечения можно загрузить ветку из другого репозитория вместе со всеми связанными с ней коммитами и файлами, однако при этом изменения не будут интегрированы в локальный репозиторий. Благодаря этому вы сможете проверить изменения перед слиянием с проектом.
+
+#### Учебные руководства по теме
+
+[Синхронизация: git fetch](https://www.atlassian.com/ru/git/tutorials/syncing/git-fetch)
+
+[Ссылки и журнал ссылок: спецификации ссылок](https://www.atlassian.com/ru/git/tutorials/refs-and-the-reflog#refspecs)
+
+[Синхронизация: git pull](https://www.atlassian.com/ru/git/tutorials/syncing/git-pull)
+
+### git init
+
+Инициализирует новый репозиторий Git. Если вы хотите использовать в проекте контроль версий, эту команду следует изучить раньше остальных.
+
+#### Учебные руководства по теме
+
+[Настройка репозитория: git init](https://www.atlassian.com/ru/git/tutorials/setting-up-a-repository/git-init)
+
+### git log
+
+Позволяет изучить предыдущие версии проекта. Эта команда имеет несколько параметров форматирования, с помощью которых можно отобразить снимки состояния после выполнения коммитов.
+
+#### Учебные руководства по теме
+
+[Проверка репозитория: git log](https://www.atlassian.com/ru/git/tutorials/inspecting-a-repository#git-log)
+
+[Расширенный журнал Git: фильтрация истории коммитов](https://www.atlassian.com/ru/git/tutorials/git-log#filtering-the-commit-history)
+
+[Расширенный журнал Git: форматирование выходных данных команды git log](https://www.atlassian.com/ru/git/tutorials/git-log#formatting-log-output)
+
+[Расширенные учебные руководства по Git: обзор](https://www.atlassian.com/ru/git/tutorials/advanced-overview)
+
+### Git merge
+
+Эффективный способ интеграции изменений из разошедшихся веток. После разветвления истории проекта командой git branch можно использовать команду git merge, чтобы объединить отдельные ветки.
+
+#### Учебные руководства по теме
+
+[Сравнение слияния и перебазирования: пошаговый разбор рабочего процесса](https://www.atlassian.com/ru/git/tutorials/merging-vs-rebasing#workflow-walkthrough)
+
+[Использование веток: git merge](https://www.atlassian.com/ru/git/tutorials/using-branches/git-merge)
+
+[Сравнение рабочих процессов: рабочий процесс Git-flow](https://www.atlassian.com/ru/git/tutorials/comparing-workflows/gitflow-workflow)
+
+[Сравнение слияния и перебазирования: обзор основных идей](https://www.atlassian.com/ru/git/tutorials/merging-vs-rebasing#conceptual-overview)
+
+### git pull
+
+Команда git pull — это автоматизированная версия команды git fetch. Она загружает ветку из удаленного репозитория и сразу же объединяет ее с текущей веткой. Эта команда представляет собой git-эквивалент команды svn update.
+
+#### Учебные руководства по теме
+
+[Синхронизация: git pull](https://www.atlassian.com/ru/git/tutorials/syncing/git-pull)
+
+[Сравнение рабочих процессов: централизованный рабочий процесс](https://www.atlassian.com/ru/git/tutorials/comparing-workflows)
+
+[Git LFS](https://www.atlassian.com/ru/git/tutorials/git-lfs)
+
+[Сравнение рабочих процессов: рабочий процесс с форками](https://www.atlassian.com/ru/git/tutorials/comparing-workflows/forking-workflow)
+
+### git push
+
+Команда git push противоположна команде извлечения (с некоторыми оговорками). С ее помощью можно перенести локальную ветку в другой репозиторий и без труда опубликовать поступивший код. Эта команда похожа на svn commit с тем исключением, что она отправляет не один набор изменений, а серию коммитов.
+
+#### Учебные руководства по теме
+
+[Синхронизация: git push](https://www.atlassian.com/ru/git/tutorials/syncing/git-push)
+
+[Ссылки и журнал ссылок: спецификации ссылок](https://www.atlassian.com/ru/git/tutorials/refs-and-the-reflog#refspecs)
+
+[Сравнение рабочих процессов: рабочий процесс Git-flow](https://www.atlassian.com/ru/git/tutorials/comparing-workflows/gitflow-workflow)
+
+[Git LFS](https://www.atlassian.com/ru/git/tutorials/git-lfs)
+
+### git rebase
+
+С помощью команды перебазирования можно переместить ветки и избежать ненужных коммитов слияния. Полученную линейную историю зачастую намного легче понять и изучить.
+
+#### Учебные руководства по теме
+
+[Сравнение слияния и перебазирования: пошаговый разбор рабочего процесса](https://www.atlassian.com/ru/git/tutorials/merging-vs-rebasing#workflow-walkthrough)
+
+[Переписывание истории: git rebase -i](https://www.atlassian.com/ru/git/tutorials/rewriting-history#git-rebase-i)
+
+[Сравнение слияния и перебазирования: обзор основных идей](https://www.atlassian.com/ru/git/tutorials/merging-vs-rebasing#conceptual-overview)
+
+[Переписывание истории: git rebase](https://www.atlassian.com/ru/git/tutorials/rewriting-history/git-rebase)
+
+### git rebase -i
+
+С помощью флага -i можно запустить перебазирование в интерактивном режиме. При этом сохраняются все преимущества обычного перебазирования и появляется возможность добавлять, редактировать или удалять коммиты по ходу операции.
+
+#### Учебные руководства по теме
+
+[Переписывание истории: git rebase -i](https://www.atlassian.com/ru/git/tutorials/rewriting-history#git-rebase-i)
+
+### git reflog
+
+Git отслеживает изменения в конце веток с помощью механизма журналов ссылок (reflog). Он позволяет вернуться к наборам изменений, даже если на них не ссылается никакая ветка или тег.
+
+#### Учебные руководства по теме
+
+[Переписывание истории: git reflog](https://www.atlassian.com/ru/git/tutorials/rewriting-history/git-reflog)
+
+### git remote
+
+Удобный инструмент для администрирования удаленных подключений. С его помощью вместо полного URL-адреса в командах fetch, pull и push можно использовать более удобное сокращение.
+
+#### Учебные руководства по теме
+
+[Синхронизация: git remote](https://www.atlassian.com/ru/git/tutorials/syncing)
+
+### git reset
+
+Отменяет изменения в файлах в рабочем каталоге. Эта команда сброса позволяет очистить или полностью удалить изменения, которые не были отправлены в публичный репозиторий.
+
+#### Учебные руководства по теме
+
+[Отмена изменений: git reset](https://www.atlassian.com/ru/git/tutorials/undoing-changes/git-reset)
+
+[Команды reset, checkout и revert: операции с коммитами](https://www.atlassian.com/ru/git/tutorials/resetting-checking-out-and-reverting#commit-level-operations)
+
+[Команды reset, checkout и revert: операции с файлами](https://www.atlassian.com/ru/git/tutorials/resetting-checking-out-and-reverting#file-level-operations)
+
+[Отмена изменений: git clean](https://www.atlassian.com/ru/git/tutorials/undoing-changes/git-clean)
+
+### git revert
+
+Отменяет коммит снимка состояния. Если вы обнаружили ошибочный коммит, его можно легко и безопасно удалить из базы кода с помощью команды git revert.
+
+#### Учебные руководства по теме
+
+[Отмена изменений: git revert](https://www.atlassian.com/ru/git/tutorials/undoing-changes/git-revert)
+
+[Команды reset, checkout и revert: операции с коммитами](https://www.atlassian.com/ru/git/tutorials/resetting-checking-out-and-reverting#commit-level-operations)
+
+[Команды reset, checkout и revert: краткое описание](https://www.atlassian.com/ru/git/tutorials/resetting-checking-out-and-reverting)
+
+### git status
+
+Показывает состояние рабочего каталога и проиндексированного снимка состояния. Эту команду можно выполнять в сочетании с git add и git commit, чтобы узнать, что именно будет включено в следующий снимок.
+
+---
+
+# работа с файлами
+
+1   -----------
+2   Связи: [[java  джава]]
+3   Теги:
+
+---
+
+# рекомендованная литература от Ильи
+
+1   -----------
+2   Связи: [[java  джава]] [[Мой проект индивидуальный]]
+3   Теги:
+
+
+https://www.watsons.ua/
+
+https://www.watsons.ua/
+
+---
+
+# сборщик проекта
+
+1   -----------
+2   Связи:[[ gradle]]   [[maven]]  [[java  джава]]    [[json]]  [[конфигурационные файлы бины]]
+3   Теги:[[ gradle]]  [[сборщик проекта]]  [[maven]]
+
+
+надо пробовать
+вроде только зайти на сайт [https://gradle.org/releases/](https://gradle.org/releases/) 
+
+установить  [https://gradle.org/install/](https://gradle.org/install/)
+
+---
+
+# сильні дієслова starke werbung
+
+﻿
+1   -----------
+2   Связи: [[Verben дієслово]]
+3   Теги: сильні дієслова starke werbung
+
+Сильні дієслова в німецькій мові – це ті, що змінюють кореневу голосну при відмінюванні (наприклад, у претериті чи партиципі II). Вони поділяються на кілька груп залежно від способу зміни кореневої голосної. Ось кілька прикладів сильних дієслів:
+
+# Сильні дієслова в німецькій мові
+
+Сильні дієслова утворюють форми минулого часу (Präteritum) і партиципу II (Partizip II) через зміну кореневої голосної. Вони мають власну систему відмінювання, яку важливо знати для правильного використання.
+
+## Таблиця сильних дієслів за групами
+
+### Група 1: e → a → o
+| **Дієслово** | **Переклад** | **Präsens** | **Präteritum** | **Partizip II** | **Особливості** |
+|--------------|--------------|--------------|----------------|-----------------|-----------------|
+| geben        | давати       | ich **gebe** | ich **gab**    | ich habe **gegeben** | - |
+| nehmen       | брати        | ich **nehme**| ich **nahm**   | ich habe **genommen**| - |
+| essen        | їсти         | ich **esse** | ich **aß**     | ich habe **gegessen**| - |
+
+### Група 2: i → a → u
+| **Дієслово** | **Переклад** | **Präsens** | **Präteritum** | **Partizip II** | **Особливості** |
+|--------------|--------------|--------------|----------------|-----------------|-----------------|
+| singen       | співати      | ich **singe**| ich **sang**   | ich habe **gesungen**| - |
+| springen     | стрибати     | ich **springe**| ich **sprang** | ich bin **gesprungen**| Використовується з **sein** |
+| trinken      | пити         | ich **trinke**| ich **trank**  | ich habe **getrunken**| - |
+
+### Група 3: e → a → e
+| **Дієслово** | **Переклад** | **Präsens** | **Präteritum** | **Partizip II** | **Особливості** |
+|--------------|--------------|--------------|----------------|-----------------|-----------------|
+| lesen        | читати       | ich **lese** | ich **las**    | ich habe **gelesen**| - |
+| sehen        | бачити       | ich **sehe** | ich **sah**    | ich habe **gesehen**| - |
+
+### Група 4: a → u → a
+| **Дієслово** | **Переклад** | **Präsens** | **Präteritum** | **Partizip II** | **Особливості** |
+|--------------|--------------|--------------|----------------|-----------------|-----------------|
+| fahren       | їхати        | ich **fahre**| ich **fuhr**   | ich bin **gefahren**| Використовується з **sein** |
+| tragen       | нести        | ich **trage**| ich **trug**   | ich habe **getragen**| - |
+
+### Група 5: ei → ie → ie
+| **Дієслово** | **Переклад** | **Präsens** | **Präteritum** | **Partizip II** | **Особливості** |
+|--------------|--------------|--------------|----------------|-----------------|-----------------|
+| bleiben      | залишатися   | ich **bleibe**| ich **blieb** | ich bin **geblieben**| Використовується з **sein** |
+| schreiben    | писати       | ich **schreibe**| ich **schrieb**| ich habe **geschrieben**| - |
+
+### Інші приклади
+| **Дієслово** | **Переклад** | **Präsens** | **Präteritum** | **Partizip II** | **Особливості** |
+|--------------|--------------|--------------|----------------|-----------------|-----------------|
+| sein         | бути         | ich **bin** | ich **war**    | ich bin **gewesen**| Нерегулярне |
+| werden       | ставати      | ich **werde**| ich **wurde**  | ich bin **geworden**| Нерегулярне |
+| kommen       | приходити    | ich **komme**| ich **kam**    | ich bin **gekommen**| Використовується з **sein** |
+
+---
+
+Вивчення сильних дієслів є важливим для розуміння граматики німецької мови, адже вони використовуються у багатьох повсякденних ситуаціях.
+
+
+Сильних дієслів у німецькій мові доволі багато, і вони часто використовуються, тому їх важливо запам'ятовувати.
+
+---
+
+# синхронизация  Synchroniz
+
+﻿
+1   -----------
+2   Связи: [[поток]]  [[многопоточность]] [[Collection коллекции]] [[java  джава]]  [[пулы потоков]]  [[парралельные коллекции]]
+3   Теги: [[синхронизация  Synchroniz]]  [[Collection коллекции]] [[volatile]]  # [[блокирующая_очередь]]blocking_queue  [[пулы потоков]]
+
+ ##### три варианта синхронизации данных между разными потоками   
+
+1. **Атомики** специальный класс в [[java  джава]] 
+Аттомарные типы создание классов /AtomicInteger, AtomicLong, AtomicReferance
+Атомарные операции проводятся за один шаг процессора и не будут прерваны
+Атомарные операции гарантируют неделимость выполнения отдельных над переменными
+Атомарные операции позволяют производить неделимые операции **только** с одним **шагом** кода (инкременты, декременты *вынесенные в отдельный блок кода*)
+ когда несколько операций нужна синхронизация 
+ 2. Используя **модификатор** доступа
+## методы остановки потока 2  
+method **stop** сейчас не используется, вскоре его вообще не будет
+*method* **[[interrupt]]**   остановить [[поток]] с помощью флага **isInterupted**  и вызова **.[[interrupt]]()** :
+поток майн приостанавливаетя вызовом .**join()**
+
+
+    public static void main(String[] args) throws InterruptedException {  
+        Runnable task = () -> {  
+            while (!Thread.currentThread().isInterrupted()) {  // здесь поставлен
+                System.out.println("Working ...");  
+                for (int i = 0; i < 10_000_000; i++) {  
+                                    }  
+  
+                // выполняем какой то код  
+            }  
+            System.out.println("Thread finished");  
+        }
+
+        Thread thread = new Thread(task);  
+        thread.start();  
+        Thread.sleep(100);  
+        thread.interrupt();  //здесь вызывается
+    }  
+}
+
+3. Используя оператор **synchronised**
+
+вся синхронизация построена на **концепции** использования **монитора** - которого иногда считают  объектом который используется для блокировки.
+теория **концепции** более верна:  
+она предполагает что все объекты джава имеют свой монитор который *условно* состоит из четырех полей 
+
+1. **logt** - переменная типа булеан которая показывает захвачен или нет объект
+2. **own** - которая является типом *tread* сюда записывается имя потока который захватил монитор
+3. **set** **blockt** попадают потоки которые хотят но не могут захватить монитор стоят в очереди
+4. **set** **waitt**            (вейт)  ожидание
+
+ни один поток не может два раза попасть в множества блок или вейт потому что это *сеты* 
+
+## В джаве существует два термина и понятия **концепции** блокировки 
+
+1. **Монитор**  более высокоуровневый механизм синхронизации, с одной стотроны использует возможности *мютекса* при этом имеет более расширенные *возможности *   
+- ожидать уведомления завершения потоков
+- уведомлять потоки 
+
+
+
+
+2. **мютекс** **mutex**  это низкоуровневый механизм синхронизации который прозволяет только одному потоку выполнять свой код
+Мютекс имеет всего два состояния (потому и считается низкоуровневым)
+-а      **свободен**
+-б      **занят**
+потому к нему нет прямого механизма доступа и им руководит толко джава_машина 
+
+## методы   wait and notify
+
+3. **set** **blockt** попадают потоки которые хотят но не могут захватить монитор стоят в очереди
+4. **set** **waitt**            (вейт)  ожидание
+
+**notify** - уведомление о готовности отдать
+
+#### синхронизаторы -
+!Pasted image 20240609112007.png
+
+---
+
+# создание телеграмм бота
+
+﻿
+1   -----------
+2   Связи: [[OOP ООП]] 
+3   Теги:[[проэкт на spring bot]] 
+
+
+
+класс этого бота насдледудуется от **TelegramLongPollingBot** :
+public class MyFirstTelegramBot extends TelegramLongPollingBot 
+чтобы сгенерировать **токен** переходим в телеграмм и находим через поисковую строку **BotFather** 
+вводим сообщение и разбуживаем бота. Он выдает менюшку что он делать может
+для создания нового бота кликаем **newbot** 
+после введения *уникального* имени для нашего бота выдается менюшка с нужными параметрами
+ 
+**имя телеграмм бота** -  opanas42442_jru_bot
+**токен** - 7433592234:AAGfehL66xPWsuLQ6SZYhPSRX4EHJEedJSI
+
+---
+
+# тестирование проэкта
+
+﻿
+1   -----------
+2   Связи:[[Репозиторий repository java]] [[подключение баз данных]]  [[конфигурационные файлы бины]] [[тестирование проэкта]] 
+[[проэкт на spring bot]]  [[Unit тесты Junit тесты]]
+3   Теги: [[Unit тесты Junit тесты]]
+## springData
+используется для [[Spring]]
+
+
+## [[JPA]] tests 
+это тесты к слоям репозитория
+
+---
+
+# типы данных java
+
+﻿
+1   -----------
+2   Связи:[[java  джава]] 
+3   Теги: типы данных 
+#### примитивные
+1. boolean  - true/false
+2. byte числа от  **- 128 до 127**
+3. short  числа от  **-32_768 до 32_767** 
+4. int  числа от  **-2_147_483_648 до 2_147_483_647**
+5. long числа от числа от
+6. float  дробовые числа до **7** знаков после комы
+7. double  дробовые числа до **15** знаков после комы
+8. char сохраняет 1 символ
+### ссылочные
+
+---
+
+# трансакции transaktion
+
+﻿
+1   -----------
+2   Связи:[[проэкт на spring bot]] [[Spring]] [[proksy прокси]] 
+3   Теги:  [[трансакции transaktion]] 
+
+статьи о трансакциях
+
+https://github.com/iluwatar/java-design-patterns/tree/master/proxy/src/main/java/com/iluwatar/proxy
+
+https://struchkov.dev/blog/ru/transaction-jdbc-and-[[Spring]]-boot/
+
+https://struchkov.dev/blog/ru/transactional-isolation-levels/
+
+---
+
+# управление проэктами PM BOK
+
+1   -----------
+2   Связи :  [[IT management]]  [[проэкт группы]]  [[Daily Scrum]] [[Agile планирование Scrum Plaining]]  [[Мой проект индивидуальный]] [[многомодульный проэкт]]
+
+3   Теги:  [[управление проэктами PM BOK]] 
+
+
+Это инструкции по управлению проэктом (*управление проэктами PM BOK*)
+## 5 cтадий проэкта 
+- инициация  -  conception
+-    скоп- качество- бюджет    Definition & Planning
+-       Lauch or Execution
+-     Perfomance & Control
+-     Project Close
+ соблюдаются *без привязки* к длительности проэкта
+
+https://docs.google.com/spreadsheets/d/1C3anGwlquP8YiouPEa9P03IJ-QJ2FeRjFHKk5Y_wZpw/edit#gid=312005060
+
+---
+
+# фул стек разработка
+
+﻿
+
+1   -----------
+2   Связи:[[HTTP]] сервер  клиент [[запрос]] [[ответ]] [[проэкт на spring bot]]  
+[[Репозиторий repository java]]  [[GET методы]]  [[POST методы]]  [[PUT методы]]  [[PATCH методы]] [[DELIT методы]] 
+3   Теги: thymeliaf  [[фул стек разработка]]
+
+
+**Thymeliaf** фреймворк для разработки фронтенд части
+
+
+зависимости 
+<!--		Thymeleaf template-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>[[Spring]]-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+		<!--		Tools for web development-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+
+
+шаблоны должны находится в папке templates *into* recoursed
+
+application.properties:
+# Live reload settings
+spring.devtools.livereload.enabled=true
+spring.thymeleaf.cache=false
+spring.thymeleaf.prefix=file:src/main/resources/templates/
+spring.web.resources.static-locations=file:src/main/resources/static/
+spring.web.resources.cache.period=0
+
+
+
+## проэкт на таймлифе 
+
+https://github.com/IliaIliukovich/employeeWeb
+
+---
+

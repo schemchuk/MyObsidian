@@ -232,9 +232,8 @@ class KnowledgeValidator:
             html += '    <div class="success">✅ No errors found!</div>\n'
 
         html += f"""
-    <h2>⚠️ Warnings ({} total)</h2>
+    <h2>⚠️ Warnings ({len(self.warnings)} total)</h2>
 """
-        .format(len(self.warnings))
 
         if self.warnings:
             for warning in self.warnings[:50]:
@@ -308,3 +307,4 @@ class KnowledgeValidator:
 if __name__ == "__main__":
     validator = KnowledgeValidator()
     validator.run()
+                  

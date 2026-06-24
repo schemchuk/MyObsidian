@@ -1,0 +1,609 @@
+{
+  "category": "other",
+  "count": 38,
+  "items": [
+    {
+      "id": "README",
+      "title": "README",
+      "category": "other",
+      "tags": [
+        "general"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "#\u0000 \u0000M\u0000y\u0000O\u0000b\u0000s\u0000i\u0000d\u0000i\u0000a\u0000n\u0000\n\u0000\n\u0000...",
+      "url": "/api/knowledge/other/README"
+    },
+    {
+      "id": "DeutshclandTicket  проъздний",
+      "title": "DeutshclandTicket  проъздний",
+      "category": "other",
+      "tags": [
+        "kundigen",
+        "vertrag",
+        "verwalten",
+        "вибрати",
+        "abos"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:\n3   Теги:\n\nяк анулювати: **kundigen Vertrag**\n\nProfil -> abos verwalten -> Deutshcland Ticket 49 -> Abo anzeigen ->\n-> Kundigung (вибрати причину вибираю Ohhe angabe) -> Ohh...",
+      "url": "/api/knowledge/other/DeutshclandTicket  проъздний"
+    },
+    {
+      "id": "GPT",
+      "title": "GPT",
+      "category": "other",
+      "tags": [
+        "дипл",
+        "основана",
+        "гугл",
+        "вместо",
+        "паттернах"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[сервисы AI]]\n3   Теги: [[Промт инженеринг]] \n\n\nЯзыковая модель основана на статических паттернах\nимитация разговора с человеком \n\n**deepl**  Дипл   исползовать вместо гугл...",
+      "url": "/api/knowledge/other/GPT"
+    },
+    {
+      "id": "Legacy code(устаревший код)",
+      "title": "Legacy code(устаревший код)",
+      "category": "other",
+      "tags": [
+        "code",
+        "устаревший",
+        "legacy",
+        "теги",
+        "связи"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n\n\n1   -----------\n2   Связи:\n3   Теги:Legacy code устаревший код...",
+      "url": "/api/knowledge/other/Legacy code(устаревший код)"
+    },
+    {
+      "id": "Liquibase  Ликибейс",
+      "title": "Liquibase  Ликибейс",
+      "category": "other",
+      "tags": [],
+      "status": "published",
+      "created": "",
+      "updated": "",
+      "summary": "---\ntitle: \"--- Liquibase ------\"\ncategory: \"networking\"\ntags: ['projects', 'boot', 'aharmaz', 'проэкт', 'группы']\nstatus: \"published\"\ncreated: \"2026-03-24\"\nupdated: \"2026-03-24\"\nai-processed: false\ns...",
+      "url": "/api/knowledge/other/Liquibase  Ликибейс"
+    },
+    {
+      "id": "ObjectMapper",
+      "title": "ObjectMapper",
+      "category": "other",
+      "tags": [
+        "теги",
+        "связи",
+        "json"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[json]]\n3   Теги:...",
+      "url": "/api/knowledge/other/ObjectMapper"
+    },
+    {
+      "id": "Phaser",
+      "title": "Phaser",
+      "category": "other",
+      "tags": [
+        "способов",
+        "поток",
+        "phaser",
+        "свободу",
+        "синхронизации"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[многопоточность]] [[поток]]\n3   Теги:[[Phaser]]\n\nодин из способов синхронизации потока который позволяет\n- разделять циклы синхронизации\n- дает свободу участия потоков в с...",
+      "url": "/api/knowledge/other/Phaser"
+    },
+    {
+      "id": "Verben дієслово",
+      "title": "Verben дієслово",
+      "category": "other",
+      "tags": [
+        "deutsch",
+        "слабкі",
+        "дієслово",
+        "starke",
+        "werbung"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[deutsch]] [[сильні дієслова starke werbung]] [[слабкі дієслова 1 групи schwache werbung]]\n3   Теги:  [[Verben дієслово]]...",
+      "url": "/api/knowledge/other/Verben дієслово"
+    },
+    {
+      "id": "Xexeditor і антивіруси",
+      "title": "Xexeditor і антивіруси",
+      "category": "other",
+      "tags": [],
+      "status": "published",
+      "created": "",
+      "updated": "",
+      "summary": "  ----------\n2 Звязки : [[попереднє використання msfvenom . генерація корисної нагрузки]] ,[[створення корисного навантаження (корисної нагрузки) з допомогою Msvenom]] , [[Генерація корисної нагрузки ...",
+      "url": "/api/knowledge/other/Xexeditor і антивіруси"
+    },
+    {
+      "id": "deutsch mit",
+      "title": "deutsch mit",
+      "category": "other",
+      "tags": [
+        "singular",
+        "tanzt",
+        "unterricht",
+        "hausaufgabe",
+        "telefoniere"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[unterricht 3   Numbers Hausaufgabe]] \n3   Теги: singular plural\n\nich telefoniere\ndu telefonierst\ner telefoniert\nwir telefonieren\nihr telefonierst\nsie telefonieren\n tanzt...",
+      "url": "/api/knowledge/other/deutsch mit"
+    },
+    {
+      "id": "deutsch",
+      "title": "deutsch",
+      "category": "other",
+      "tags": [
+        "unterricht",
+        "deutsch",
+        "hausaufgabe",
+        "numbers",
+        "personalpronomen"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[Personalpronomen Особові займенники]] [[unterricht 3   Numbers Hausaufgabe]] [[Verben дієслово]]\n3   Теги:[[deutsch]]...",
+      "url": "/api/knowledge/other/deutsch"
+    },
+    {
+      "id": "integration tests",
+      "title": "integration tests",
+      "category": "other",
+      "tags": [
+        "testing",
+        "связи",
+        "теги"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:[[Testing]] \n3   Теги:...",
+      "url": "/api/knowledge/other/integration tests"
+    },
+    {
+      "id": "interrupt",
+      "title": "interrupt",
+      "category": "other",
+      "tags": [
+        "interruptedexception",
+        "runnable",
+        "string",
+        "public",
+        "поток"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: #[[поток]]  [[поток ]] \n3   Теги: [[многопоточность ]]\n\n    public static void main(String[] args) throws InterruptedException {  \n        Runnable task = () -> {  \n      ...",
+      "url": "/api/knowledge/other/interrupt"
+    },
+    {
+      "id": "jacson",
+      "title": "jacson",
+      "category": "other",
+      "tags": [
+        "работает",
+        "библиотека",
+        "jsonignorepropertis",
+        "аннотация",
+        "xmlmapper"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿для работы с XML используется библиотека XMLMapper\nдля работы с [[json]]  используется библиотека [[ObjectMapper]]\n\n@jsonIgnorePropertis [[аннотация]] работает с [[json]] and XML\n\n\n\n1   -----------\n2...",
+      "url": "/api/knowledge/other/jacson"
+    },
+    {
+      "id": "json",
+      "title": "json",
+      "category": "other",
+      "tags": [
+        "mongodb",
+        "restcontroller",
+        "связи",
+        "теги"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿restController\n\n\n\n\n1   -----------\n2   Связи: MongoDB\n3   Теги:...",
+      "url": "/api/knowledge/other/json"
+    },
+    {
+      "id": "sequryty секюрити",
+      "title": "sequryty секюрити",
+      "category": "other",
+      "tags": [
+        "секюрити",
+        "проект",
+        "индивидуальный",
+        "теги",
+        "sequryty"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:[[Мой проект индивидуальный]]\n3   Теги: [[sequryty секюрити]]...",
+      "url": "/api/knowledge/other/sequryty секюрити"
+    },
+    {
+      "id": "tdd",
+      "title": "tdd",
+      "category": "other",
+      "tags": [
+        "связи",
+        "теги"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:[[tdd]]\n3   Теги:...",
+      "url": "/api/knowledge/other/tdd"
+    },
+    {
+      "id": "thema 9 Endlich Freizeit!",
+      "title": "thema 9 Endlich Freizeit!",
+      "category": "other",
+      "tags": [
+        "machst",
+        "frei",
+        "personalpronomen",
+        "reise",
+        "endlich"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[Personalpronomen Особові займенники]]\n3   Теги: Endlich Freizeit\n\nwas machst du in Freizeit.\nin der Freizeit reise ich gern\nFrei...",
+      "url": "/api/knowledge/other/thema 9 Endlich Freizeit!"
+    },
+    {
+      "id": "unterricht 3   Numbers Hausaufgabe",
+      "title": "unterricht 3   Numbers Hausaufgabe",
+      "category": "other",
+      "tags": [
+        "erganzen",
+        "mein",
+        "sein",
+        "hier",
+        "hast"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:\n3   Теги: ich bin , du hast, er mochte;\n\n-------Sein- Erganzen Sie----\nHerr Schneider: Guten Tag, wie ist Ihr Name?\nFrau Mistererek: Mein Name ist Misterek.\nHerr Schneider...",
+      "url": "/api/knowledge/other/unterricht 3   Numbers Hausaufgabe"
+    },
+    {
+      "id": "Запись с Linkedin",
+      "title": "Запись с Linkedin",
+      "category": "other",
+      "tags": [
+        "https",
+        "vimeo",
+        "связи",
+        "теги"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:\n3   Теги:\n\n\n[https://vimeo.com/915635075/b81972388a](https://vimeo.com/915635075/b81972388a \"https://vimeo.com/915635075/b81972388a\")...",
+      "url": "/api/knowledge/other/Запись с Linkedin"
+    },
+    {
+      "id": "Промпт инженеринг",
+      "title": "Промпт инженеринг",
+      "category": "other",
+      "tags": [
+        "запросов",
+        "написать",
+        "сейчас",
+        "создание",
+        "промпт"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:[[GPT]]\n3   Теги:\n\nПромпт  создание коротких четких запросов\n\n[[Промт инженеринг]] сейчас исп. большие компании\n\n\nкак создать промпт \n\n1. Задача - необходимо написать задачу ...",
+      "url": "/api/knowledge/other/Промпт инженеринг"
+    },
+    {
+      "id": "Промт инженеринг",
+      "title": "Промт инженеринг",
+      "category": "other",
+      "tags": [
+        "промпты",
+        "сборщик",
+        "теги",
+        "проекта",
+        "связи"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:[[ GPT]] [[Мои промпты]]  [[сборщик проекта]]\n\n\n3   Теги:  [[Мои промпты]]...",
+      "url": "/api/knowledge/other/Промт инженеринг"
+    },
+    {
+      "id": "Проэкт группы",
+      "title": "Проэкт группы",
+      "category": "other",
+      "tags": [
+        "management",
+        "edit",
+        "группы",
+        "проэкт",
+        "spreadsheets"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[IT management]] \n3   Теги: [[IT management]] [[Проэкт группы]]\n\nссылка на проэкт \nhttps://docs.google.com/spreadsheets/d/1C3anGwlquP8YiouPEa9P03IJ-QJ2FeRjFHKk5Y_wZpw/edit#...",
+      "url": "/api/knowledge/other/Проэкт группы"
+    },
+    {
+      "id": "артефакт",
+      "title": "артефакт",
+      "category": "other",
+      "tags": [
+        "теги",
+        "проекта",
+        "связи",
+        "сборщик"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи: [[сборщик проекта]]\n3   Теги:...",
+      "url": "/api/knowledge/other/артефакт"
+    },
+    {
+      "id": "вразливість Windows--- Bluekeep and EnternalBlue",
+      "title": "вразливість Windows--- Bluekeep and EnternalBlue",
+      "category": "other",
+      "tags": [],
+      "status": "published",
+      "created": "",
+      "updated": "",
+      "summary": "---\ntitle: \"вразливість Windows--- Bluekeep and EnternalBlue\"\ncategory: \"pentesting\"\ntags: ['blue', 'експлойт', 'eternalblue', 'вразливість', 'attack']\nstatus: \"published\"\ncreated: \"2026-03-24\"\nupdate...",
+      "url": "/api/knowledge/other/вразливість Windows--- Bluekeep and EnternalBlue"
+    },
+    {
+      "id": "генератор зображення",
+      "title": "генератор зображення",
+      "category": "other",
+      "tags": [
+        "искусственный",
+        "картинки",
+        "рисовать",
+        "теги",
+        "интелект"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: искусственный интелект \n3   Теги: ии искусственный интелект рисовать картинки \n\n###  SD3 medium...",
+      "url": "/api/knowledge/other/генератор зображення"
+    },
+    {
+      "id": "джентельментські угоди",
+      "title": "джентельментські угоди",
+      "category": "other",
+      "tags": [
+        "береться",
+        "дописуємо",
+        "подвійні",
+        "лапки",
+        "завжди"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:\n3   Теги:[[джентельментські угоди]]\n\n1.  текстове значення , яке ми записуємо або дописуємо кудись в файл  командою **echo**  завжди береться в подвійні лапки **\"    \"**\n\t**...",
+      "url": "/api/knowledge/other/джентельментські угоди"
+    },
+    {
+      "id": "информация для входа",
+      "title": "информация для входа",
+      "category": "other",
+      "tags": [
+        "ваше",
+        "следующие",
+        "данные",
+        "входа",
+        "использовать"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[Мой проект индивидуальный]]\n3   Теги: информация для входа\n\n\n### 3. Ключевая информация для входа\n\nТеперь вы можете использовать следующие данные для входа в ваше прилож...",
+      "url": "/api/knowledge/other/информация для входа"
+    },
+    {
+      "id": "номера масок до 30",
+      "title": "номера масок до 30",
+      "category": "other",
+      "tags": [
+        "general"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "|   |   |   |\n|---|---|---|\n|`/10`|`255.192.0.0`|`11111111.11000000.00000000.00000000`|\n\n|   |   |   |\n|---|---|---|\n|`/11`|`255.224.0.0`|`11111111.11100000.00000000.00000000`|\n\n|   |   |   |\n|---|---...",
+      "url": "/api/knowledge/other/номера масок до 30"
+    },
+    {
+      "id": "ответ",
+      "title": "ответ",
+      "category": "other",
+      "tags": [
+        "которая",
+        "клиент",
+        "некий",
+        "отвечать",
+        "сервер"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи:[[HTTP]] сервер  клиент [[запрос]] [[ответ]]\n3   Теги:\n\nсервер программа которая может получить [[запрос]] и отправить **ответ** // В качестве **сервера** выступает некий  ...",
+      "url": "/api/knowledge/other/ответ"
+    },
+    {
+      "id": "подключение баз данных",
+      "title": "подключение баз данных",
+      "category": "other",
+      "tags": [],
+      "status": "published",
+      "created": "",
+      "updated": "",
+      "summary": "---\ntitle: \"------- ---\"\ncategory: \"networking\"\ntags: ['клиент', 'подключение', 'проэкт', 'репозиторий', 'создание']\nstatus: \"published\"\ncreated: \"2026-03-24\"\nupdated: \"2026-03-24\"\nai-processed: false...",
+      "url": "/api/knowledge/other/подключение баз данных"
+    },
+    {
+      "id": "пулы потоков",
+      "title": "пулы потоков",
+      "category": "other",
+      "tags": [
+        "пулы",
+        "синхронизация",
+        "synchroniz",
+        "стрингбуфер",
+        "выполнения"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: [[поток]]   [[синхронизация  Synchroniz]] [[многопоточность]] [[StringBuffer, StringBuilder стрингбилдер стрингбуфер]]\n3   Теги: [[пулы потоков]] потокобезопасный\n\n[[пулы ...",
+      "url": "/api/knowledge/other/пулы потоков"
+    },
+    {
+      "id": "сервисы AI",
+      "title": "сервисы AI",
+      "category": "other",
+      "tags": [
+        "инфу",
+        "графах",
+        "применяется",
+        "нейроны",
+        "обучения"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n\n\nосновы \n\nнейросети имитируют работу мозга, построены на графах(нейроны и связи между ними)\n\n\n *дата сет* временной ряд дают инфу **равними** промежутками\n применяется в обученнии нейросети\nдата се...",
+      "url": "/api/knowledge/other/сервисы AI"
+    },
+    {
+      "id": "слабкі дієслова 1 групи schwache werbung",
+      "title": "слабкі дієслова 1 групи schwache werbung",
+      "category": "other",
+      "tags": [
+        "переклад",
+        "слабкі",
+        "партицип",
+        "дієслово",
+        "starke"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи: [[Verben дієслово]]  ]\n3   Теги: [[сильні дієслова starke werbung]] слабкі дієслова 3 групи schwache werbung  [[слабкі дієслова 2 групи schwache werbung]]\n\n| **Дієслово**  ...",
+      "url": "/api/knowledge/other/слабкі дієслова 1 групи schwache werbung"
+    },
+    {
+      "id": "слабкі дієслова 2 групи schwache werbung",
+      "title": "Слабкі дієслова в німецькій мові 2 група",
+      "category": "other",
+      "tags": [
+        "слабкі",
+        "дієслово",
+        "starke",
+        "werbung",
+        "verben"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи: [[Verben дієслово]]  \n3   Теги: [[сильні дієслова starke werbung]]  , [[слабкі дієслова 1 групи schwache werbung]], [[слабкі дієслова 2 групи schwache werbung]], слабкі діє...",
+      "url": "/api/knowledge/other/слабкі дієслова 2 групи schwache werbung"
+    },
+    {
+      "id": "сложность оценки алгоритмов",
+      "title": "сложность оценки алгоритмов",
+      "category": "other",
+      "tags": [
+        "используя",
+        "сложности",
+        "избранное",
+        "есть",
+        "базовые"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿\n1   -----------\n2   Связи: коллекции \n3   Теги:\n\n\nКамянецкий. Избранное, [1/13/23 1:57 AM]\n🔶 Пять столпов асимптотической оценки сложности простых алгоритмов\n\nЕсть базовые правила того, как подходит...",
+      "url": "/api/knowledge/other/сложность оценки алгоритмов"
+    },
+    {
+      "id": "создание связей",
+      "title": "создание связей",
+      "category": "other",
+      "tags": [
+        "private",
+        "onetoone",
+        "подключение",
+        "cart",
+        "users"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "1   -----------\n2   Связи:[[подключение баз данных]] \n3   Теги:  [[создание связей]]\n\n## связь один к одному\n  код в классе Cart\n  @OneToOne  \n@JoinColumn(name = \"UserID\", referencedColumnName = \"**us...",
+      "url": "/api/knowledge/other/создание связей"
+    },
+    {
+      "id": "створення контенту",
+      "title": "створення контенту",
+      "category": "other",
+      "tags": [
+        "теги",
+        "героя",
+        "связи",
+        "створення"
+      ],
+      "status": "published",
+      "created": "2026-03-24",
+      "updated": "2026-03-24",
+      "summary": "﻿1   -----------\n2   Связи: [[створення героя ]],  \n3   Теги:...",
+      "url": "/api/knowledge/other/створення контенту"
+    }
+  ]
+}
