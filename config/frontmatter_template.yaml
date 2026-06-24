@@ -1,0 +1,43 @@
+# Шаблон YAML Front Matter для нових файлів Obsidian
+
+---
+# (Обов'язково) Назва статті
+title: "Приклад назви"
+
+# (Обов'язково) Категорія знання
+# Можливі: networking, pentesting, java_spring, linux, other
+category: "other"
+
+# (Обов'язково) Теги для пошуку та організації (мін 3)
+tags:
+  - tag1
+  - tag2
+  - tag3
+
+# Статус файлу
+# Можливі: draft, published, archived, needs-review
+status: "published"
+
+# Дата створення (автоматично)
+created: "2026-06-24"
+
+# Дата останнього оновлення (автоматично)
+updated: "2026-06-24"
+
+# Чи був обробляти AI для поліпшення?
+ai-processed: false
+
+# Джерело:
+# - manual: створено вручну
+# - ai-generated: згенеровано Claude
+# - imported: імпортовано звідки-то
+# - claude: додано через Claude webhook
+source: "manual"
+
+# Якість контенту (1-5)
+quality: 3
+
+# Пов'язані файли
+related-files: []
+
+---

@@ -1,0 +1,55 @@
+name: Process Claude Knowledge Input
+
+on:
+  repository_dispatch:
+    types: [claude_knowledge_input]
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Process knowledge input
+        run: |
+          python3 scripts/claude_integration.py '${{ toJSON(github.event.client_payload) }}'
+
+      - name: Commit new knowledge
+        run: |
+          git config user.name "Claude[bot]"
+          git config user.email "claude[bot]@anthropic.com"
+
+          git add Входящие/
+          if ! git diff --cached --quiet; then
+            git commit -m "feat: claude added new knowledge [source: claude-webhook]"
+            git push
+          fi
+
+      - name: Notify
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: 1,
+              body: '✅ Claude додав нове знання! Перевір папку `Входящие/` і переміст файли до основної папки.'
+            })
+
+        # Optional: trigger validation
+      - name: Validate
+        run: |
+          python3 scripts/validate_knowledge.py

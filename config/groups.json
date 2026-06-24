@@ -1,0 +1,57 @@
+{
+  "groups": {
+    "networking": {
+      "name": "Мережні технології",
+      "description": "VLAN, маршрутизація, протоколи, конфіги",
+      "keywords": [
+        "vlan", "ospf", "dhcp", "routing", "маршрут", "rip", "stp", "nat",
+        "mac фільтр", "acl", "netbox", "комутатор", "маршрутизатор",
+        "мережев", "сітьов", "підмереж", "subnet", "iproute", "spanning",
+        "протокол ospf", "протокол rip", "статична маршрутизац"
+      ],
+      "color": "#1976d2"
+    },
+    "pentesting": {
+      "name": "Пентестинг & безпека",
+      "description": "Експлойти, сканування, OSINT, вразливості",
+      "keywords": [
+        "metasploit", "nmap", "exploit", "вразливост", "сканув",
+        "payload", "msfvenom", "meterpreter", "eternal", "bluekeep",
+        "routersploit", "osint", "злом", "пентест", "veil", "thefatrat",
+        "nessus", "searchsploit", "msfconsole", "брандмауер", "корисна нагрузк"
+      ],
+      "color": "#d32f2f"
+    },
+    "java_spring": {
+      "name": "Java & Spring",
+      "description": "Рамфреймворк, OOP, Hibernate, Maven, Gradle",
+      "keywords": [
+        "java", "spring", "hibernate", "hymbernate", "jpa", "maven",
+        "gradle", "oop", "ооп", "scrum", "agile", "kanban", "backlog",
+        "waterfol", "junit", "mockito", "тестирован", "liquibase",
+        "rest запрос", "http метод", "контроллер", "репозитори java",
+        "dto", "serializ", "sereliz", "наследован", "полиморфизм",
+        "инкапсуляц", "абстрактн", "интерфейс"
+      ],
+      "color": "#f57c00"
+    },
+    "linux": {
+      "name": "Linux & DevOps",
+      "description": "Bash, Docker, SSH, системні команди",
+      "keywords": [
+        "linux", "лінукс", "bash", "systemctl", "sudo", "права",
+        "користувач", "процес", "каталог", "змінна середовища",
+        "аліас", "ssh", "друк на linux", "утиліт", "запис дозапис",
+        "робота з файлами", "робота з процесами", "chmod", "chown",
+        "docker", "контейнер"
+      ],
+      "color": "#388e3c"
+    },
+    "other": {
+      "name": "Інше",
+      "description": "Знання, що не відносяться до основних категорій",
+      "keywords": [],
+      "color": "#9c27b0"
+    }
+  }
+}

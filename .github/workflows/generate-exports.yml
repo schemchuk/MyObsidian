@@ -1,0 +1,55 @@
+name: Generate Knowledge Exports
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.md'
+      - 'scripts/multi_format_export.py'
+    paths-ignore:
+      - 'nlm-sources/**'
+      - 'claude-sources/**'
+      - 'api-sources/**'
+      - 'graph-sources/**'
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+
+      - name: Generate exports
+        run: |
+          python3 scripts/multi_format_export.py
+
+      - name: Commit updated exports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Додай експорти
+          git add nlm-sources/ claude-sources/ api-sources/ graph-sources/ 2>/dev/null || true
+
+          # Перевір чи є змінилось
+          if ! git diff --cached --quiet; then
+            git commit -m "auto: regenerate knowledge exports [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
